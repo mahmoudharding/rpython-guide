@@ -1,0 +1,18 @@
+---
+title: Preface
+editor: source
+---
+
+:::::: image-row
+::::: columns
+::: {.column width="50%"}
+![](images/r-logo.png){width="85%"}
+:::
+
+::: {.column width="50%"}
+![](images/python-logo.png){width="65%"}
+:::
+:::::
+::::::
+
+This resource is intended for students in *Introduction to R and Python for Data Science*. It provides materials and guidance to support understanding the grading rubrics, coding style, and project milestones.

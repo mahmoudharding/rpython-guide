@@ -1,0 +1,242 @@
+[
+  {
+    "objectID": "milestones.html",
+    "href": "milestones.html",
+    "title": "Final Project Milestones",
+    "section": "",
+    "text": "Final Project Milestones",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-1",
+    "href": "milestones.html#milestone-1",
+    "title": "Final Project Milestones",
+    "section": "Milestone 1",
+    "text": "Milestone 1\nIn this milestone, you will identify a dataset, demonstrate that it satisfies the project requirements, and create a datasheet documenting the variables, structure, and context of the dataset.\n\nDataset Approval Request\nThe Dataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nDataset Approval\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThe dataset meets all requirements and all required submission elements are present. Dataset approved.\n\n\n[e]\n0.75\n9.25\nOne or more minor issues must be addressed before the dataset can be approved. Dataset not yet approved.\n\n\n[m]\n2.0\n8.0\nSome requirements are unmet, unclear, or insufficiently documented. Revision is required before the dataset can be approved. Dataset not yet approved.\n\n\n[M]\n5.0\n5.0\nSeveral requirements are unmet or unclear. Significant revision or selection of an alternate dataset may be required. Dataset not yet approved.\n\n\n[S]\n8.0\n2.0\nMany requirements are unmet or violated. The dataset is not viable in its current form and should be replaced. Dataset not yet approved.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present. Dataset not yet approved.\n\n\n\n\n\n\nContent Tags\n\nDataset Structure & Size Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-FTYPE]\nFile type issue.\n\n\n[D-FSIZE]\nFile size issue.\n\n\n[D-RANGE]\nThe dataset does not meet the 500–10,000 row requirement.\n\n\n[D-VAR]\nThe dataset does not include at least 10 variables.\n\n\n[D-CAT]\nFewer than 2 categorical variables are present.\n\n\n[D-NUM]\nFewer than 2 numerical variables are present.\n\n\n\n\n\n\nDataset Suitability Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-TS]\nThe dataset is primarily time-series data.\n\n\n[D-REP]\nThe dataset contains repeated measurements of the same subject.\n\n\n[D-PII]\nPersonally identifiable information (PII) is present in the dataset.\n\n\n[D-OVR]\nThe dataset is overly common or has extensive publicly available analyses.\n\n\n[D-AN]\nThe dataset is unlikely to support meaningful analysis using the methods covered in this course.\n\n\n\n\n\n\nDataset Access & Documentation Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-UO]\nThe unit of observation is unclear or incorrectly described.\n\n\n[D-LINK]\nThe dataset link is missing, broken, or requires a personal login.\n\n\n\n\n\n\nDataset Justification & Research Question Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[J-FIT]\nThe justification does not clearly explain why the dataset fits the project goals.\n\n\n[J-REQ]\nThe justification does not explain how the dataset meets the project requirements.\n\n\n[J-RQ]\nExample research questions are missing or unclear.\n\n\n\n\n\n\n\n\nDatasheet\nThe Datasheet is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nDatasheet\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThe datasheet fully meets all requirements, addresses all specified criteria, and is well organized and clearly written.\n\n\n[e]\n0.75\n9.25\nThe datasheet is complete and clear, with only minor issues related to presentation, organization, or precision.\n\n\n[m]\n2.0\n8.0\nThe datasheet is generally complete and understandable, but some information is missing, unclear, or insufficiently documented.\n\n\n[M]\n5.0\n5.0\nSeveral required elements are missing, incomplete, or unclear. Meaningful revision is required.\n\n\n[S]\n8.0\n2.0\nMany required elements are missing or unclear; the datasheet does not meaningfully document the dataset.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\n\nDatasheet Completeness Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-MISS]\nOne or more variables are missing required documentation elements.\n\n\n[DS-PART]\nVariable descriptions are present but lack sufficient detail or clarity.\n\n\n[DS-SRC]\nDataset source is missing or unclear.\n\n\n\n\n\n\nDatasheet Variable Documentation Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-FNAME]\nThe filename does not adhere to snake_case.\n\n\n[DS-VNAME]\nOne or more variable names do not adhere to snake_case.\n\n\n[DS-DESC]\nA variable description does not clearly explain the meaning or context of the variable.\n\n\n[DS-TYPE]\nThe data type used to store a variable is missing or incorrect.\n\n\n[DS-UNIT]\nThe unit of measurement is missing or unclear where one is needed.\n\n\n[DS-VAL]\nPossible values, categories, or coding schemes are missing or unclear.\n\n\n\n\n\n\nDatasheet Organization & Clarity Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-ORG]\nThe organization of the datasheet makes it difficult to follow.\n\n\n[DS-WRITE]\nWriting is unclear, imprecise, or difficult to interpret.\n\n\n[DS-CONTEXT]\nThe datasheet does not provide sufficient context to understand the dataset and its variables.\n\n\n[DS-FMT]\nFormatting distracts from clarity (e.g., unnecessary bolding, headings, or spacing).\n\n\n[DS-PH]\nPlaceholder or instructional text was not removed.\n\n\n\n\n\n\nDatasheet Submission Format Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-PDF]\nThe datasheet was not submitted as a PDF.\n\n\n[REQ-UP]\nThe file was not uploaded correctly to Moodle.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#grading",
+    "href": "milestones.html#grading",
+    "title": "Final Project Milestones",
+    "section": "Grading",
+    "text": "Grading\nDataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nSubmission Compliance\n\n\nContent Tags",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#grading-1",
+    "href": "milestones.html#grading-1",
+    "title": "Final Project Milestones",
+    "section": "Grading",
+    "text": "Grading\nDataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nSubmission Compliance\n\n\nContent Tags",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-2",
+    "href": "milestones.html#milestone-2",
+    "title": "Final Project Milestones",
+    "section": "Milestone 2",
+    "text": "Milestone 2\n\nData Dive Using R and Python\nIn these milestones, you will use R and Python to explore your dataset, identify patterns and potential issues, and develop insights that will support your final project analysis.\nSee Programming Assignments for grading criteria.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-3",
+    "href": "milestones.html#milestone-3",
+    "title": "Final Project Milestones",
+    "section": "Milestone 3",
+    "text": "Milestone 3\nIn this milestone, you will develop research questions, create an analysis plan, and set up the notebook that will serve as the foundation for your final project analysis.\n\nResearch Questions\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\nSubmission Compliance\n\n\nContent Tags\n\n\n\nAnalysis Notebook Setup\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\nSubmission Compliance\n\n\nContent Tags",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-4",
+    "href": "milestones.html#milestone-4",
+    "title": "Final Project Milestones",
+    "section": "Milestone 4",
+    "text": "Milestone 4\n\nData Analysis & Storytelling (25 Points)\n\nSeverity Scale for 3-Point Components\n\n\nSeverity Scale for 2-Point Components\n\n\nContent Tags",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Purpose\nThis resource is intended for students in Introduction to R and Python for Data Science. It provides materials and guidance to support success throughout the course, including information about grading rubrics, coding style expectations, assignment requirements, and project milestones.\nThe guide is designed to help students understand how coursework will be evaluated and how to develop clear, readable, and well-documented code in both R and Python. It also outlines expectations for visualizations, written interpretations, and project milestones.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "rproj.html",
+    "href": "rproj.html",
+    "title": "R Project Folder",
+    "section": "",
+    "text": "Setting up Your RProject Folder\nFollow these steps to:\nNote: Following these steps helps avoid file path errors and follows best practices from Martin Chan’s RStudio Projects and Working Directories: A Beginner’s Guide.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>R Project Folder</span>"
+    ]
+  },
+  {
+    "objectID": "rproj.html#setting-up-your-rproject-folder",
+    "href": "rproj.html#setting-up-your-rproject-folder",
+    "title": "R Project Folder",
+    "section": "",
+    "text": "Create an Rproject folder named dsc201.\nCreate a data folder inside the RProject folder.\nDownload a dataset the us_farmers_markets.csv into the data folder.\nDownload the ds201_001-002_a00.Rmd RMarkdown file into the RProject folder.\n\n\n\nStep 1: Create a new RStudio project\n\nOpen RStudio.\nGo to File → New Project…\n\n\n\n\n\nSelect New Directory → New Project.\n\n\n\n\n\nSelect New Project.\n\n\n\n\n\nIn Directory name:, enter dsc201 (all lowercase)\nIn Create project as subdirectory of:, select Browse, then choose a location on your computer (e.g., Documents, Desktop, etc).\n\n\n\n\n\nClick Create Project.\n\nNote: Opening the dsc201.Rproj file will automatically set your working directory to the project’s root folder.\n\n\nStep 2: Create the data folder\nImportant: Name the folder data (all lowercase).\n\nIn RStudio’s Files pane (bottom right), click the New Folder icon.\n\n\n\n\n\nIn Please enter the new folder name, enter data.\nClick OK.\n\nImportant: Name the folder data (all lowercase). Using all lowercase avoids issues on operating systems where Data and data are treated as different folders.\n\n\nStep 3: Download the us_farmers_markets.csv data file\n\nDownload the us_farmers_markets.csv dataset from the course Moodle page.\nLocate it in your browser’s Downloads folder then move it manually into your dsc201/data RProject folder.\nConfirm the file is in the right place by checking in RStudio’s Files pane. You should see it in data/us_farmers_markets.csv.\n\n\n\n\n\n\nStep 4: Download the .Rmd file\n\nDownload the dsc201_001_a00.Rmd RMarkdown file from the course Moodle page.\nLocate it in your browser’s Downloads folder then move it to your dsc201 RProject folder (the root folder, not inside data).\nConfirm the file is in the right place by checking in RStudio’s Files pane. You should see it in dsc201/ds201_001_a00.Rmd.\n\n\n\n\n\n\nStep 5: Always open the .Rproj file\n\nIn your computer’s file explorer, double-click dsc201.Rproj to start each session. This ensures your working directory and relative paths work correctly.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>R Project Folder</span>"
+    ]
+  },
+  {
+    "objectID": "knitting.html",
+    "href": "knitting.html",
+    "title": "Knitting to PDF",
+    "section": "",
+    "text": "Knitting Assignment 00\nIn RStudio, knitting is the process of taking a source document written in R Markdown (.Rmd) and combining the text, code, and code output into a single rendered file, such as HTML, PDF, or Word. When a document is knitted, RStudio runs all code chunks, captures their output (e.g., tables, plots, and summaries), and integrates the results with the written text.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knitting to PDF</span>"
+    ]
+  },
+  {
+    "objectID": "knitting.html#knitting-to-pdf",
+    "href": "knitting.html#knitting-to-pdf",
+    "title": "Knitting to PDF",
+    "section": "Knitting to PDF",
+    "text": "Knitting to PDF\n\nUsing the YAML Header\nTo knit directly to PDF by default, specify PDF output in the YAML header at the top of your document.\n\n\n\n\n\nUsing the Knit Menu\nTo manually knit a document to PDF:\n\nClick the Knit button in RStudio.\nSelect Knit to PDF from the drop-down menu.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knitting to PDF</span>"
+    ]
+  },
+  {
+    "objectID": "knitting.html#common-knitting-errors",
+    "href": "knitting.html#common-knitting-errors",
+    "title": "Knitting to PDF",
+    "section": "Common Knitting Errors",
+    "text": "Common Knitting Errors\n\nMissing knitr\nIf you see the following message when attempting to knit\n\nRequired package ‘knitr’ is missing. Would you like to install it?\n\nthe knitr package has not yet been installed on your computer.\nClick Yes and RStudio will automatically install knitr and any required dependencies. Once installation is complete, knitting should begin again automatically.\nIf the document knits successfully, no further action is required.\n\n\nMissing LaTeX\nIf you instead see an error similar to the one below:\n\n\n\n\n\n\nWarning\n\n\n\nError: LaTeX failed to compile RMarkdown.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. In addition: Warning message: In system2(…, stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) : ‘“pdflatex”’ not found\nExecution halted No LaTeX installation detected (LaTeX is required to create PDF output). You should install a LaTeX distribution for your platform: https://www.latex-project.org/get/\n\n\nyour computer does not have a LaTeX distribution installed. To create PDF files from R Markdown, you must install a LaTeX distribution such as TinyTeX.\nProceed to the instructions below.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knitting to PDF</span>"
+    ]
+  },
+  {
+    "objectID": "knitting.html#installing-tinytex-for-pdf-output",
+    "href": "knitting.html#installing-tinytex-for-pdf-output",
+    "title": "Knitting to PDF",
+    "section": "Installing TinyTeX for PDF Output",
+    "text": "Installing TinyTeX for PDF Output\nTo knit R Markdown documents to PDF, your computer needs a LaTeX installation. We recommend TinyTeX because it is lightweight, easy to install, and integrates well with RStudio.\n\nTinyTeX vs. tinytex\n\nTinyTeX\nTinyTeX is a lightweight LaTeX distribution used to compile R Markdown documents into PDF files. It performs the actual PDF creation process.\n\n\ntinytex\ntinytex is an R package that installs and manages TinyTeX from within RStudio.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knitting to PDF</span>"
+    ]
+  },
+  {
+    "objectID": "knitting.html#steps-to-set-up-tinytex",
+    "href": "knitting.html#steps-to-set-up-tinytex",
+    "title": "Knitting to PDF",
+    "section": "Steps to Set Up TinyTeX",
+    "text": "Steps to Set Up TinyTeX\n\nStep 1: Install the tinytex Package\n\nOpen RStudio.\nIn the Console, run:\n\ninstall.packages(\"tinytex\")\nNote: This installs the tinytex package, which manages the TinyTeX installation.\n\n\nStep 2: Install TinyTeX\n\nIn the Console, run:\n\ntinytex::install_tinytex()\nNote: This command downloads and installs TinyTeX on your computer and may take several minutes.\n\n\nStep 3: Verify the Installation\n\nIn the Console, run:\n\ntinytex::tinytex_root()\nIf the command returns a file path, TinyTeX has been installed successfully.\nExample paths:\n\nmacOS/Linux: \"/usr/local/texlive/...\"\nWindows: \"C:\\\\Users\\\\YourName\\\\AppData\\\\Roaming\\\\TinyTeX\\\\...\"\n\n\n\nStep 4: Knit to PDF\n\nOpen your .Rmd file in RStudio.\nVerify that the YAML header specifies PDF output:\n\n---\ntitle: \"Your Title\"\nauthor: \"Your Name\"\noutput: pdf_document\n---\n\nClick Knit.\nSelect Knit to PDF if prompted.\n\nRStudio will now use TinyTeX to generate a PDF version of your document.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Knitting to PDF</span>"
+    ]
+  },
+  {
+    "objectID": "tags.html",
+    "href": "tags.html",
+    "title": "Tag System Overview",
+    "section": "",
+    "text": "Purpose\nThis section explains the tag system used in grading and feedback for activity assignments, programming assignments, and final project milestones.\nThe goal of this system is to provide transparent, consistent, and instructional feedback that helps you understand how your work was evaluated and how to improve.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Tag System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "tags.html#tag-system-overview",
+    "href": "tags.html#tag-system-overview",
+    "title": "Tag System Overview",
+    "section": "Tag System Overview",
+    "text": "Tag System Overview\nAssignment comments may include two kinds of tags:\n\nSeverity tags describe how serious the issue is and determine the point deduction.\nContent tags describe what kind of issue occurred.\n\nTags appear at the start of comments in this format:\n[SEVERITY][CONTENT-TAG]\nFor example:\n[S][CODE-REQ]\nThis means the response has a major issue related to the code that was submitted to answer the question.\n\nSeverity Tags\nSeverity tags indicate the overall impact of an issue on correctness or completion. The severity tag determines the point deduction.\nMultiple content tags may apply to a response, but only one severity level is assigned.\n\n\nContent Tags\nContent tags identify issues related to the completeness, correctness, clarity, interpretation, organization, or communication of a response.\nThe specific content tags available differ by assignment type.\n\n\nMultiple Tags and One Deduction\nMultiple tags may apply to the same response. However, deductions reflect the overall severity of the issue rather than treating each tag as a separate deduction.\nContent tags identify the specific issues present, while the severity tag determines the point deduction.\nFor example, consider the following question:\n\nCalculate the average calories for each restaurant and identify the restaurant with the highest average calories.\n\nA student submits:\nms2022 |&gt; \n  count(restaurant)\nPossible tags:\n[S][CODE-REQ][CODE-RESULT][REQ-INCOMP].\n\n[S] because most required elements are missing or incorrect.\n[CODE-REQ] because the required computation is missing.\n[CODE-RESULT] because the result does not support the analysis requested.\n[REQ-INCOMP] because the question was not fully answered.\n\nAlthough multiple content tags apply, the response receives one severity level based on the overall quality of the answer.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Tag System Overview</span>"
+    ]
+  },
+  {
+    "objectID": "moodle.html",
+    "href": "moodle.html",
+    "title": "Activity Assignments",
+    "section": "",
+    "text": "Grading\nActivity assignments are worth 5 points total. Points are awarded based on submission timeliness and submission compliance.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Activity Assignments</span>"
+    ]
+  },
+  {
+    "objectID": "moodle.html#grading",
+    "href": "moodle.html#grading",
+    "title": "Activity Assignments",
+    "section": "",
+    "text": "1 point for submission timeliness.\n4 points for submission requirements, which include completing all parts of the activity, following formatting requirements, and submitting all required components.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Activity Assignments</span>"
+    ]
+  },
+  {
+    "objectID": "moodle.html#severity-tags",
+    "href": "moodle.html#severity-tags",
+    "title": "Activity Assignments",
+    "section": "Severity Tags",
+    "text": "Severity Tags\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n1.0\nSubmitted on time\n\n\n[T-L1]\n0.625\n0.375\nSubmitted 1 day late\n\n\n[T-L2]\n0.775\n0.225\nSubmitted 2 days late\n\n\n[T-N]\n1.0\n0.0\nSubmitted more than 2 days late or not submitted\n\n\n\n\n\n\nSubmission Compliance\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C-M]\n0.0\n4.0\nSubmission requirements met\n\n\n[C-C]\n0.5\n3.5\nRequired component missing\n\n\n[C-S]\n2.0\n2.0\nRequired section missing\n\n\n[C-F]\n3.0\n1.0\nIncorrect submission format\n\n\n[C-N]\n4.0\n0.0\nNot submitted",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Activity Assignments</span>"
+    ]
+  },
+  {
+    "objectID": "moodle.html#content-tags",
+    "href": "moodle.html#content-tags",
+    "title": "Activity Assignments",
+    "section": "Content Tags",
+    "text": "Content Tags\n\nAssignment Compliance\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-INCOMP]\nRequired part of the question was not answered.\n\n\n[REQ-REF]\nRequired reference or citation is missing.\n\n\n[REQ-MISS]\nRequired element is missing.\n\n\n\n\n\n\nWriting & Communication\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[WR-FLOW]\nResponse lists disconnected observations instead of explaining ideas in sentences.\n\n\n[WR-FMT]\nExcessive bolding, unnecessary headings, or inconsistent spacing distracts from readability.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Activity Assignments</span>"
+    ]
+  },
+  {
+    "objectID": "programming.html",
+    "href": "programming.html",
+    "title": "Programming Assignments",
+    "section": "",
+    "text": "Grading\nProgramming assignments are worth 15 points total. Points are awarded based on participation and completion of the assignment questions.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Programming Assignments</span>"
+    ]
+  },
+  {
+    "objectID": "programming.html#grading",
+    "href": "programming.html#grading",
+    "title": "Programming Assignments",
+    "section": "",
+    "text": "Participation [5 Points]\n\n4 points for submission timeliness.\n1 point for submission compliance, which includes following formatting requirements and submitting all required components.\n\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n4.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n2.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.0\n1.0\nSubmitted 2 days late\n\n\n[T-N]\n5.0\n0.0\nSubmitted more than 2 days late or not submitted\n\n\n\n\n\n\nSubmission Compliance\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C-M]\n0.0\n1.0\nSubmission requirements met\n\n\n[C-N]\n0.0625\n0.9375\nName missing or incorrect\n\n\n[C-D]\n0.0625\n0.9375\nDate missing or incorrect\n\n\n[C-S]\n0.0625\n0.9375\nSection missing\n\n\n[C-F]\n1.0\n0.0\nIncorrect submission format\n\n\n\n\n\n\n\nQuestions [10 Points]\n\n1 point per question for a total of 10 questions.\n\nProgramming assignments include code-based questions and may also include written-response questions. Unless otherwise specified, written responses must:\n\nbe written in third person,\nuse proper grammar, punctuation, and spelling, and\nbe formatted using standard font (e.g., no excessive bolding or italics).\n\n\n\nSeverity Tags\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n1.0\nThe response correctly addresses the question and meets all requirements.\n\n\n[e]\n0.0625\n0.9375\nThe work is correct, with issues limited to presentation or precision.\n\n\n[m]\n0.125\n0.875\nThe core idea is correct, but some details are missing or unclear.\n\n\n[M]\n0.25\n0.75\nA key element is missing or incorrect.\n\n\n[MJ]\n0.50\n0.50\nThe main idea or a required element is missing or incorrect.\n\n\n[S]\n0.75\n0.25\nAn attempt was made, but most elements are missing or incorrect.\n\n\n[X]\n1.00\n0.00\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\n\nAssignment Compliance\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-INC]\nIncorrect assignment submitted.\n\n\n[REQ-FMT]\nNotebook or file structure was altered, or an incorrect format was submitted.\n\n\n\n\n\n\nQuestion Compliance\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-INCOMP]\nRequired part of the question was not answered.\n\n\n[REQ-REF]\nRequired reference or citation is missing.\n\n\n[REQ-VIS]\nThe visualization requirement was not met or properly followed.\n\n\n\n\n\n\nCode & Output\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[CODE-ERR]\nCode produces a syntax or runtime error and does not execute successfully.\n\n\n[CODE-PH]\nPlaceholder or instructional comment was not removed (e.g., # YOUR CODE GOES HERE).\n\n\n[CODE-FMT]\nComments and/or code run off the page or are not formatted for readability.\n\n\n[CODE-STYLE]\nCode works but does not follow required style or structure.\n\n\n[CODE-OUT]\nEntire datasets or unnecessary output are displayed when only summary output was needed.\n\n\n[CODE-MISS]\nRequired output is missing, hidden, truncated, or difficult to read.\n\n\n[CODE-REQ]\nRequired code, computation, or logic is missing.\n\n\n[CODE-RESULT]\nCode runs without errors, but the output does not answer the question or support the analysis.\n\n\n[CODE-EXTRA]\nExtra code is included that does not contribute to the analysis.\n\n\n\n\n\n\nVisualizations\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[VIS-CLAR]\nVisualization is cluttered, overcrowded, or difficult to interpret visually.\n\n\n[VIS-HIST]\nHistogram construction misrepresents continuous data.\n\n\n[VIS-CHOICE]\nThe visualization type is not appropriate for the structure or type of data being displayed (e.g., using a scatterplot or box plot for discrete categorical data, or using a bar chart for continuous numerical data).\n\n\n[VIS-LAB]\nThe visualization is not labeled clearly or appropriately (e.g., axis labels, titles).\n\n\n\n\n\n\nWriting & Communication\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[WR-3P]\nUses first-person language instead of third-person (e.g., “I think the graph shows…”).\n\n\n[WR-OBJ]\nUses subjective or informal language instead of objective description (e.g., “This graph is really good and interesting.”).\n\n\n[WR-FLOW]\nResponse lists disconnected observations instead of explaining ideas in sentences or paragraphs.\n\n\n[WR-FMT]\nExcessive bolding, unnecessary headings, or inconsistent spacing distracts from readability.\n\n\n[WR-PH]\nInstructional text such as “Replace this text with your answer” was not removed.\n\n\n[WR-REQ]\nA required written response is missing.\n\n\n[WR-CODE]\nReferences commands or functions in the written interpretation (e.g., “I used group_by() to calculate the averages.”).\n\n\n[WR-QNUM]\nIncludes question numbers in the written response (e.g., “Question 3:” included directly in the written interpretation).\n\n\n\n\n\n\nInterpretation & Reasoning\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[INT-REQ]\nA required explanation or interpretation component is missing.\n\n\n[INT-DESC]\nOutput is reported but not interpreted (e.g., “The mean age is 42.3.” with no explanation of what the value means in context).\n\n\n[INT-VAL]\nInterpretation lacks specific numerical values (e.g., “One group was higher than the other” without reporting numerical values).\n\n\n[INT-CTX]\nResults are not explained in context or why they matter.\n\n\n[INT-REL]\nVariables are discussed without explaining their relationship (e.g., mentions two variables separately without explaining how they relate).\n\n\n[INT-INF]\nInterprets information that is not shown in the output (e.g., claims a trend or relationship that is not supported by the displayed output).\n\n\n[INT-COR]\nUses correlation without verifying that it is an appropriate measure of the relationship.\n\n\n[INT-CA]\nUses causal language such as affects, impacts, or causes (e.g., “More exercise causes higher happiness levels”) based only on exploratory analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Programming Assignments</span>"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to R and Python for Data Science",
+    "section": "",
+    "text": "This resource is intended for students in Introduction to R and Python for Data Science. It provides materials and guidance to support understanding the grading rubrics, coding style, and project milestones.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  }
+]

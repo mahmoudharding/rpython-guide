@@ -1,0 +1,70 @@
+---
+title: "Tag System Overview"
+editor: source
+---
+
+## Purpose
+
+This section explains the tag system used in grading and feedback for activity assignments, programming assignments, and final project milestones.
+
+The goal of this system is to provide transparent, consistent, and instructional feedback that helps you understand how your work was evaluated and how to improve.
+
+## Tag System Overview
+
+Assignment comments may include two kinds of tags:
+
+- **Severity tags** describe how serious the issue is and determine the point deduction.
+- **Content tags** describe what kind of issue occurred.
+
+Tags appear at the start of comments in this format:
+
+`[SEVERITY][CONTENT-TAG]`
+
+For example:
+
+`[S][CODE-REQ]`
+
+This means the response has a major issue related to the code that was submitted to answer the question.
+
+### Severity Tags
+
+Severity tags indicate the overall impact of an issue on correctness or completion. The severity tag determines the point deduction.
+
+Multiple content tags may apply to a response, but only one severity level is assigned.
+
+### Content Tags
+
+Content tags identify issues related to the completeness, correctness, clarity, interpretation, organization, or communication of a response.
+
+The specific content tags available differ by assignment type.
+
+### Multiple Tags and One Deduction
+
+Multiple tags may apply to the same response. However, deductions reflect the overall severity of the issue rather than treating each tag as a separate deduction.
+
+Content tags identify the specific issues present, while the severity tag determines the point deduction.
+
+For example, consider the following question:
+
+> Calculate the average calories for each restaurant and identify the restaurant with the highest average calories.
+
+A student submits:
+
+```r
+ms2022 |> 
+  count(restaurant)
+```
+
+Possible tags:
+
+`[S][CODE-REQ][CODE-RESULT][REQ-INCOMP]`.
+
+- `[S]` because most required elements are missing or incorrect.
+
+- `[CODE-REQ]` because the required computation is missing.
+
+- `[CODE-RESULT]` because the result does not support the analysis requested.
+
+- `[REQ-INCOMP]` because the question was not fully answered.
+
+Although multiple content tags apply, the response receives one severity level based on the overall quality of the answer.

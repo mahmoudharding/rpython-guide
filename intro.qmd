@@ -1,0 +1,10 @@
+---
+title: Introduction
+editor: source
+---
+
+## Purpose
+
+This resource is intended for students in *Introduction to R and Python for Data Science*. It provides materials and guidance to support success throughout the course, including information about grading rubrics, coding style expectations, assignment requirements, and project milestones.
+
+The guide is designed to help students understand how coursework will be evaluated and how to develop clear, readable, and well-documented code in both R and Python. It also outlines expectations for visualizations, written interpretations, and project milestones.

@@ -1,0 +1,104 @@
+---
+title: Knitting
+---
+
+## Knitting Assignment 00
+
+In RStudio, knitting is the process of taking a source document written in R Markdown (`.Rmd`) and combining the text, code, and code outputs into a single rendered file, such as HTML, PDF, or Word. When you knit, RStudio runs all the embedded code chunks in the document, captures their results (e.g., tables, plots, and summaries), and integrates them with your written text.
+
+### Knitting to a PDF
+
+To knit directly to a PDF by default, specify this in the YAML header at the top of your document:
+
+::: text-center
+![](images/knit-yaml.png){width="75%" height="75%"}
+:::
+
+To manually knit to PDF click the Knit button and select **Knit to PDF** from the drop down menu.
+
+### `knitr` Errors
+
+If you try to knit and see this message:
+
+::: text-center
+![](images/knit-menu.png){width="75%" height="75%"}
+:::
+
+Required package 'knitr' is missing. Would you like to install it?
+
+It means the `knitr` package (needed to knit documents) is not yet installed on your computer.
+
+Click **“Yes”** and RStudio will automatically install knitr along with any other packages knitting needs. Once installation finishes, knitting will begin again automatically. If your document knits successfully, you’re all set. If instead you see an error related to LaTeX similar to the one below:
+
+```         
+Error: LaTeX failed to compile RMarkdown.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. In addition: Warning message: In system2(..., stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) : '"pdflatex"' not found 
+  
+Execution halted No LaTeX installation detected (LaTeX is required to create PDF output). You should install a LaTeX distribution for your platform: https://www.latex-project.org/get/
+```
+
+then proceed to the instructions for **Installing TinyTex for PDF Output**.
+
+### Installing TinyTex for PDF Output
+
+To knit RMarkdown documents to PDF, your computer needs a LaTeX installation. We recommend TinyTeX because it is lightweight and integrates well with RStudio and RMarkdown.
+
+#### TinyTex
+
+TinyTeX is a lightweight LaTeX distribution used to compile R Markdown files into PDFs. It is the software that does the actual work of creating the PDF when you knit your document.
+
+#### `tinytex`
+
+`tinytex` is an R package that helps install and manage TinyTeX within RStudio. It simplifies the setup process and helps ensure that PDF knitting works correctly.
+
+#### Steps to Set Up TinyTeX
+
+##### Step 1. Install the `tinytex` R package
+
+1.  Open RStudio.
+
+2.  In the **Console**, type the following command and press **Enter**:
+
+``` r
+install.packages("tinytex")
+```
+
+**Note:** This installs the `tinytex` package, which manages the TinyTeX installation.
+
+##### Step 2: Install the TinyTeX LaTeX distribution
+
+3.  After installing the `tinytex` package, run the following command in the **Console**:
+
+``` r
+tinytex::install_tinytex()
+```
+
+**Note:** This command downloads and installs TinyTeX on your computer and may take several minutes.
+
+##### Step 3: Verify the installation
+
+4.  Run the following command in the **Console**:
+
+``` r
+tinytex::tinytex_root()
+```
+
+If the command returns a file path, TinyTeX is installed correctly. The exact path will vary by operating system. For example:
+
+- macOS/Linux: `"/usr/local/texlive/..."`
+- Windows: `"C:\\Users\\YourName\\AppData\\Roaming\\TinyTeX\\..."`
+
+##### Step 4: Render an R Markdown document to PDF
+
+5.  Open your `.Rmd` file in RStudio.
+
+6.  Make sure the YAML header specifies PDF output:
+
+``` yaml
+---
+title: "Your Title"
+author: "Your Name"
+output: pdf_document
+---
+```
+
+7.  Click **Knit** in RStudio and select **Knit to PDF**.

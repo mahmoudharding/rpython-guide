@@ -1,0 +1,45 @@
+/* Shared styling for bibliography entries */
+
+.csl-entry {
+  margin-bottom: 0.75rem;
+}
+
+/* Shared styling for images */
+
+.image-row {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* Shared styling for code */
+
+pre code {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Shared styling for all rubric tables */
+
+.custom-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.custom-table thead {
+  background-color: #eeeeee;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: break-word;
+}
+
+h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}

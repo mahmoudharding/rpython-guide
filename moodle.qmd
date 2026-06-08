@@ -1,0 +1,62 @@
+---
+title: Activity Assignments
+editor: source
+---
+
+## Grading
+
+Activity assignments are worth 5 points total. Points are awarded based on submission timeliness and submission compliance.
+
+- **1 point** for submission timeliness.
+
+- **4 points** for submission requirements, which include completing all parts of the activity, following formatting requirements, and submitting all required components.
+
+## Severity Tags
+
+### Submission Timeliness
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[T-ON]` | 0.0  | 1.0 | Submitted on time |
+| `[T-L1]` | 0.625  | 0.375 | Submitted 1 day late |
+| `[T-L2]` | 0.775 | 0.225 | Submitted 2 days late |
+| `[T-N]` | 1.0 | 0.0 | Submitted more than 2 days late or not submitted |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+### Submission Compliance
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C-M]` | 0.0 | 4.0 | Submission requirements met |
+| `[C-C]` | 0.5 | 3.5 | Required component missing |
+| `[C-S]` | 2.0 | 2.0 | Required section missing |
+| `[C-F]` | 3.0 | 1.0 | Incorrect submission format |
+| `[C-N]` | 4.0 | 0.0 | Not submitted |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+## Content Tags
+
+### Assignment Compliance
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[REQ-INCOMP]` | Required part of the question was not answered. |
+| `[REQ-REF]` | Required reference or citation is missing. |
+| `[REQ-MISS]` | Required element is missing. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+### Writing & Communication
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[WR-FLOW]` | Response lists disconnected observations instead of explaining ideas in sentences. |
+| `[WR-FMT]` | Excessive bolding, unnecessary headings, or inconsistent spacing distracts from readability. |
+: {tbl-colwidths="[20,80]"}
+:::

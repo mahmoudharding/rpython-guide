@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: Introduction to R and Python for Data Science
+  subtitle: A Student Guide for Grading, Coding Style, and Project Milestones  
+  author: Mahmoud Harding
+  chapters: 
+    - index.qmd
+    - intro.qmd
+    - rproj.qmd
+    - knitting.qmd
+    - tags.qmd
+    - moodle.qmd
+    - programming.qmd
+    - milestones.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    toc-depth: 5
+  pdf:
+    documentclass: scrreprt
+
+date: today
+    
+number-sections: false

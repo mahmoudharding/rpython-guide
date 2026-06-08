@@ -1,0 +1,218 @@
+---
+title: Final Project Milestones
+editor: source
+---
+
+# Final Project Milestones
+
+## Milestone 1
+
+In this milestone, you will identify a dataset, demonstrate that it satisfies the project requirements, and create a datasheet documenting the variables, structure, and context of the dataset.
+
+### Dataset Approval Request
+
+The Dataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval. 
+
+Detailed submission instructions are available in Moodle.
+
+#### Submission Timeliness
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[T-ON]` | 0.0 | 5.0 | Submitted on time |
+| `[T-L1]` | 2.0 | 3.0 | Submitted 1 day late |
+| `[T-L2]` | 3.5 | 1.5 | Submitted 2 days late |
+| `[T-L3]` | 4.0 | 1.0 | Submitted more than 2 days late |
+| `[T-N]` | 5.0 | 0.0 | Not submitted |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+#### Dataset Approval
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C]` | 0.0 | 10.0 | The dataset meets all requirements and all required submission elements are present. **Dataset approved.** |
+| `[e]` | 0.75 | 9.25 | One or more minor issues must be addressed before the dataset can be approved. **Dataset not yet approved.** |
+| `[m]` | 2.0 | 8.0 | Some requirements are unmet, unclear, or insufficiently documented. Revision is required before the dataset can be approved. **Dataset not yet approved.** |
+| `[M]` | 5.0 | 5.0 | Several requirements are unmet or unclear. Significant revision or selection of an alternate dataset may be required. **Dataset not yet approved.** |
+| `[S]` | 8.0 | 2.0 | Many requirements are unmet or violated. The dataset is not viable in its current form and should be replaced. **Dataset not yet approved.** |
+| `[X]` | 10.0 | 0.0 | Missing or required work is not present. **Dataset not yet approved.** |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+#### Content Tags
+
+##### Dataset Structure & Size Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[D-FTYPE]` | File type issue. |
+| `[D-FSIZE]` | File size issue. |
+| `[D-RANGE]` | The dataset does not meet the 500–10,000 row requirement. |
+| `[D-VAR]` | The dataset does not include at least 10 variables. |
+| `[D-CAT]` | Fewer than 2 categorical variables are present. |
+| `[D-NUM]` | Fewer than 2 numerical variables are present. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Dataset Suitability Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[D-TS]` | The dataset is primarily time-series data. |
+| `[D-REP]` | The dataset contains repeated measurements of the same subject. |
+| `[D-PII]` | Personally identifiable information (PII) is present in the dataset. |
+| `[D-OVR]` | The dataset is overly common or has extensive publicly available analyses. |
+| `[D-AN]` | The dataset is unlikely to support meaningful analysis using the methods covered in this course. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Dataset Access & Documentation Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[D-UO]` | The unit of observation is unclear or incorrectly described. |
+| `[D-LINK]` | The dataset link is missing, broken, or requires a personal login. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Dataset Justification & Research Question Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[J-FIT]` | The justification does not clearly explain why the dataset fits the project goals. |
+| `[J-REQ]` | The justification does not explain how the dataset meets the project requirements. |
+| `[J-RQ]` | Example research questions are missing or unclear. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+### Datasheet
+
+The Datasheet is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.
+
+Detailed submission instructions are available in Moodle.
+
+#### Submission Timeliness
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[T-ON]` | 0.0 | 5.0 | Submitted on time |
+| `[T-L1]` | 2.0 | 3.0 | Submitted 1 day late |
+| `[T-L2]` | 3.5 | 1.5 | Submitted 2 days late |
+| `[T-L3]` | 4.0 | 1.0 | Submitted more than 2 days late |
+| `[T-N]` | 5.0 | 0.0 | Not submitted |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+#### Datasheet
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C]` | 0.0 | 10.0 | The datasheet fully meets all requirements, addresses all specified criteria, and is well organized and clearly written. |
+| `[e]` | 0.75 | 9.25 | The datasheet is complete and clear, with only minor issues related to presentation, organization, or precision. |
+| `[m]` | 2.0 | 8.0 | The datasheet is generally complete and understandable, but some information is missing, unclear, or insufficiently documented. |
+| `[M]` | 5.0 | 5.0 | Several required elements are missing, incomplete, or unclear. Meaningful revision is required. |
+| `[S]` | 8.0 | 2.0 | Many required elements are missing or unclear; the datasheet does not meaningfully document the dataset. |
+| `[X]` | 10.0 | 0.0 | Missing or required work is not present. |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+#### Content Tags
+
+##### Datasheet Completeness Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[DS-MISS]` | One or more variables are missing required documentation elements. |
+| `[DS-PART]` | Variable descriptions are present but lack sufficient detail or clarity. |
+| `[DS-SRC]` | Dataset source is missing or unclear. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Datasheet Variable Documentation Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[DS-FNAME]` | The filename does not adhere to snake_case. |
+| `[DS-VNAME]` | One or more variable names do not adhere to snake_case. |
+| `[DS-DESC]` | A variable description does not clearly explain the meaning or context of the variable. |
+| `[DS-TYPE]` | The data type used to store a variable is missing or incorrect. |
+| `[DS-UNIT]` | The unit of measurement is missing or unclear where one is needed. |
+| `[DS-VAL]` | Possible values, categories, or coding schemes are missing or unclear. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Datasheet Organization & Clarity Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[DS-ORG]` | The organization of the datasheet makes it difficult to follow. |
+| `[DS-WRITE]` | Writing is unclear, imprecise, or difficult to interpret. |
+| `[DS-CONTEXT]` | The datasheet does not provide sufficient context to understand the dataset and its variables. |
+| `[DS-FMT]` | Formatting distracts from clarity (e.g., unnecessary bolding, headings, or spacing). |
+| `[DS-PH]` | Placeholder or instructional text was not removed. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Datasheet Submission Format Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[REQ-PDF]` | The datasheet was not submitted as a PDF. |
+| `[REQ-UP]` | The file was not uploaded correctly to Moodle. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+## Milestone 2
+
+### Data Dive Using R and Python
+
+In these milestones, you will use R and Python to explore your dataset, identify patterns and potential issues, and develop insights that will support your final project analysis.
+
+See [Programming Assignments](grading-rubric.html#programming-assignments) for grading criteria.
+
+## Milestone 3
+
+In this milestone, you will develop research questions, create an analysis plan, and set up the notebook that will serve as the foundation for your final project analysis. 
+
+### Research Questions
+
+Detailed submission instructions are available in Moodle.
+
+#### Submission Timeliness
+
+#### Submission Compliance
+
+#### Content Tags
+
+### Analysis Notebook Setup
+
+Detailed submission instructions are available in Moodle.
+
+#### Submission Timeliness
+
+#### Submission Compliance
+
+#### Content Tags
+
+## Milestone 4
+
+### Data Analysis & Storytelling (25 Points)
+
+#### Severity Scale for 3-Point Components
+
+#### Severity Scale for 2-Point Components
+
+#### Content Tags
