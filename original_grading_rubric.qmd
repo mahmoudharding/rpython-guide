@@ -1,0 +1,258 @@
+---
+title: "Grading Rubric"
+---
+
+# Grading Rubric
+
+## Purpose
+
+This section explains how grading works for both Moodle activities and Gradescope programming assignments. It defines the the rubric structure, tag system used in comments, and point deductions.
+
+The goal of this system is to provide transparent, consistent, and instructional feedback that helps students improve.
+
+## Tag System Overview
+
+Assignment comments consist of two kinds of tags:
+
+- Severity tags describe how serious the issue is and determine the point deduction.
+
+- Content tags describe what kind of issue occurred.
+
+Tags appear at the start of comments in this format:
+
+`[SEVERITY][CONTENT-TAG]`
+
+### Severity Tags
+
+Severity tags indicate the overall impact of an issue on correctness and determine the point deduction. Multiple content tags may apply to a response, but only one severity level is assigned.
+
+### Content Tags
+
+Content tags identify issues related to the completeness, correctness, clarity, interpretation, organization, or communication of a response. The specific content tags available differ between Moodle activity assignments and programming assignments.
+
+## Moodle Activity Assignments
+
+Activity assignments are worth 5 points total. Points are awarded based on submission timeliness and compliance.
+
+- **1 point** for submission timeliness (i.e., when the assignment is submitted)
+
+- **4 points** for submission compliance, which includes completing all required elements, formatting, and structural elements.
+
+### Submission Timeliness
+
+::: custom-table
+| Severity Tag | Points Deducted | Points Earned | Explanation           |
+|--------------|-----------------|---------------|-----------------------|
+| `[S-ON]`     | 0.0             | 1.0           | Submitted on time     |
+| `[S-L1]`     | 0.625           | 0.375         | Submitted 1 day late  |
+| `[S-L2]`     | 0.775           | 0.225         | Submitted 2 days late |
+| `[S-N]`      | 1.0             | 0.0           | Not submitted         |
+:::
+
+### Submission Compliance
+
+::: custom-table
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|------------------|------------------|-------------------|------------------|
+| `[C-S]` | 0.0 | 4.0 | Complete and compliant submission |
+| `[A-C]` | 0.5 | 3.5 | Required component missing |
+| `[A-S]` | 2.0 | 2.0 | Required section missing |
+| `[A-FNS]`. | 4.0 | 0.0 | Incorrect submission format or not submitted |
+:::
+
+### Content Tags
+
+#### Assignment Compliance
+
+::: custom-table
+| Tag            | Explanation                                     |
+|----------------|-------------------------------------------------|
+| `[REQ-INCOMP]` | Required part of the question was not answered. |
+| `[REQ-REF]`    | Required reference or citation is missing.      |
+| `[REQ-MISS]`   | Required element is missing.                    |
+:::
+
+#### Writing & Communication
+
+::: custom-table
+| Tag | Explanation |
+|------------------------------------|------------------------------------|
+| `[WR-FLOW]` | Response lists disconnected observations instead of explaining ideas in sentences. |
+| `[WR-FMT]` | Excessive bolding, unnecessary headings, or inconsistent spacing distracts from readability. |
+:::
+
+## Programming Assignments
+
+Programming assignments are worth 15 points total. Of these, 5 points are allocated to participation, which consists of:
+
+- **1 point** for submission compliance, which includes required formatting and structural elements.
+
+- **4 points** for submission timeliness (when the assignment is submitted).
+
+The remaining 10 points are allocated to the completion of the questions in the assignment.
+
+- **1 point** per question for a total of 10 questions.
+
+Programming assignments include code-based questions and may also include written-response questions. Unless otherwise specified, written responses must:
+
+- be written in third person,
+
+- use proper grammar, punctuation, and spelling, and
+
+- be formatted using standard font (e.g., no excessive bolding or italics).
+
+Compliance issues are assessed separately from content quality and do not reflect the correctness of your analysis or code.
+
+### Participation
+
+#### Submission Timeliness
+
+::: custom-table
+| Severity Tag | Points Deducted | Points Earned | Explanation           |
+|--------------|-----------------|---------------|-----------------------|
+| `[S-ON]`     | 0.0             | 4.0           | Submitted on time     |
+| `[S-L1]`     | 2.0             | 2.0           | Submitted 1 day late  |
+| `[S-L2]`     | 3.0             | 1.0           | Submitted 2 days late |
+| `[S-N]`      | 5.0             | 0.0           | Not submitted         |
+:::
+
+#### Submission Compliance
+
+::: custom-table
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|------------------|-------------------|------------------|------------------|
+| `[C-S]` | 0.0 | 1.0 | Submission formatting requirements met. |
+| `[P-N]` | 0.0625 | 0.9375 | Name missing or incorrect. |
+| `[P-D]` | 0.0625 | 0.9375 | Date missing or incorrect. |
+| `[P-S]` | 0.0625 | 0.9375 | Required section missing. |
+| `[P-F]` | 0.0625 | 0.9375 | Required format not followed. |
+| `[P-M]` | 0.125 | 0.875 | Multiple submission compliance issues. |
+| `[P-SIG]` | 0.25 | 0.75 | Significant submission compliance issues. |
+:::
+
+### Questions
+
+Each question is worth 1 point. The severity tag determines how many points are deducted. Severity levels describe how much an issue affects correctness, not how much effort you put into it.
+
+#### Severity Tags
+
+::: custom-table
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|------------------|-------------------|------------------|------------------|
+| `[C]` | 0.0 | 1.0 | The response correctly addresses the question and meets all requirements. |
+| `[e]` | 0.0625 | 0.9375 | The work is correct, with issues limited to presentation or precision. |
+| `[m]` | 0.125 | 0.875 | The core idea is correct, but some details are missing or unclear. |
+| `[M]` | 0.25 | 0.75 | A key element is missing or incorrect. |
+| `[MJ]` | 0.50 | 0.50 | The main idea or a required element is missing or incorrect. |
+| `[S]` | 0.75 | 0.25 | An attempt was made, but most elements are missing or incorrect. |
+| `[X]` | 1.00 | 0.00 | Missing or required work is not present. |
+:::
+
+#### Additional Guidance for Severity Tags
+
+Multiple tags may apply to the same response. However, deductions should reflect the overall severity of the issue rather than treating each tag as a separate deduction. Content tags identify the types of issues present, while the severity tag determines the appropriate point deduction.
+
+For example, consider the following question:
+
+> Calculate the average calories for each restaurant and identify the restaurant with the highest average calories.
+
+A student submits:
+
+``` r
+ms2022 |> 
+  count(restaurant)
+```
+
+Possible tags: `[S-M][CODE-REQ][CODE-RESULT][REQ-INCOMP]`
+
+- `[S-M]` because the code is missing multiple required elements to answer the question.
+
+- `[CODE-REQ]` because the required computation (calculating average calories) is missing.
+
+- `[CODE-RESULT]` because the result does not support the analysis requested in the question.
+
+- `[REQ-INCOMP]` because the question was not fully answered.
+
+Although multiple tags apply, the student should receive a single severity level based on the overall quality of the response. The tags identify the specific issues that need improvement, while the severity level determines the point deduction.
+
+### Content Tags
+
+#### Assignment
+
+::: custom-table
+| Tag | Explanation |
+|------------------------------------|------------------------------------|
+| `[REQ-INC]` | Incorrect assignment submitted. |
+| `[REQ-FMT]` | Notebook or file structure was altered, or an incorrect format was submitted. |
+:::
+
+#### Question
+
+::: custom-table
+| Tag | Explanation |
+|-----------------------------------------|-------------------------------|
+| `[REQ-INCOMP]` | Required part of the question was not answered. |
+| `[REQ-REF]` | Required reference or citation is missing. |
+| `[REQ-VIS]` | The visualization requirement was not met or properly followed. |
+:::
+
+#### Code & Output
+
+::: custom-table
+| Tag | Explanation |
+|-------------------|-----------------------------------------------------|
+| `[CODE-ERR]` | Code produces a syntax or runtime error and does not execute successfully. |
+| `[CODE-PH]` | Placeholder or instructional comment was not removed (e.g., `# YOUR CODE GOES HERE`). |
+| `[CODE-FMT]`. | Comments and/or code run off the page or are not formatted for readability. |
+| `[CODE-STYLE]` | Code works but does not follow required style or structure. |
+| `[CODE-OUT]` | Entire datasets or unnecessary output are displayed when only summary output was needed. |
+| `[CODE-MISS]` | Required output is missing, hidden, truncated, or difficult to read. |
+| `[CODE-REQ]` | Required code, computation, or logic is missing. |
+| `[CODE-RESULT]` | Code runs without errors, but the result does not support the analysis. |
+| `[CODE-EXTRA]` | Extra code is included that does not contribute to the analysis. |
+:::
+
+#### Visualizations
+
+::: custom-table
+| Tag | Explanation |
+|----------------------------------------|--------------------------------|
+| `[VIS-CLAR]` | Visualization is cluttered, overcrowded, or difficult to interpret visually. |
+| `[VIS-HIST]` | Histogram construction misrepresents continuous data. |
+| `[VIS-CHOICE]` | The visualization type is not appropriate for the structure or type of data being displayed (e.g., using a scatterplot or box plot for discrete categorical data, or using a bar chart for continuous numerical data). |
+| `[VIS-LAB]` | The visualization is not labeled clearly or appropriately (e.g., axis labels, titles). |
+:::
+
+#### Writing & Communication
+
+::: custom-table
+| Tag | Explanation |
+|--------------------------------------|----------------------------------|
+| `[WR-3P]` | Uses first-person language instead of third-person (e.g., “I think the graph shows…”). |
+| `[WR-OBJ]` | Uses subjective or informal language instead of objective description (e.g., “This graph is really good and interesting.”). |
+| `[WR-FLOW]` | Response lists disconnected observations instead of explaining ideas in sentences or paragraphs. |
+| `[WR-FMT]` | Excessive bolding, unnecessary headings, or inconsistent spacing distracts from readability. |
+| `[WR-PH]` | Instructional text such as “Replace this text with your answer” was not removed. |
+| `[WR-REQ]` | A required explanation or interpretation component is missing. |
+| `[WR-CODE]`. | References commands or functions in the written interpretation (e.g., “I used `group_by()` to calculate the averages.”). |
+| `[WR-QNUM]` | Includes question numbers in the written response (e.g., “Question 3:” included directly in the written interpretation). |
+:::
+
+#### Interpretation & Reasoning
+
+::: custom-table
+| Tag | Explanation |
+|-------------------------------------|-----------------------------------|
+| `[INT-REQ]` | A required explanation or interpretation component is missing. |
+| `[INT-DESC]` | Output is reported but not interpreted (e.g., “The mean age is 42.3.” with no explanation of what the value means in context). |
+| `[INT-VAL]` | Interpretation lacks specific numerical values (e.g., “One group was higher than the other” without reporting numerical values). |
+| `[INT-CTX]` | Results are not explained in context or why they matter. |
+| `[INT-REL]` | Variables are discussed without explaining their relationship (e.g., mentions two variables separately without explaining how they relate). |
+| `[INT-INF]` | Interprets information that is not shown in the output (e.g., claims a trend or relationship that is not supported by the displayed output). |
+| `[INT-COR]` | Uses correlation simply because both variables are numerical without considering whether correlation appropriately describes the relationship. |
+| `[INT-CA]` | Uses causal language such as *affects*, *impacts*, or *causes* (e.g., “More exercise causes higher happiness levels”) based only on exploratory analysis. |
+:::
+
+## Common Errors to Avoid
+
+## FAQ

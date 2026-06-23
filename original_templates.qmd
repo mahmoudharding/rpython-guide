@@ -1,0 +1,274 @@
+---
+title: Milestone Templates
+editor: source
+---
+
+## Milestone 1: Finding a Dataset
+
+### Dataset Approval Request Template
+
+::: {.callout-note}
+A copy of this template can be found [here](https://docs.google.com/document/d/1Az9RWUKFe68S-jbBoNqpfjAKR_EuacyUT3PnAFMc6sI/edit?tab=t.0). Create your own copy and complete it before submitting.
+:::
+
+**Name:** 
+
+**Section:** 
+
+**Course:** Introduction to R and Python for Data Science
+
+**Date:** 
+
+**Dataset Description**
+
+Provide a brief description of the dataset.
+
+**Dataset Name:** The name of the CSV file.
+
+**Link:** Provide a direct link to the website where the dataset can be accessed or downloaded. The link should work without requiring a personal login whenever possible.
+
+**Dataset Dimensions**
+
+Number of observations (rows):
+
+Number of variables (columns):
+
+**Unit of Observation**
+
+Describe what each row in the dataset represents.
+
+**Numerical Variable Names and Descriptions**
+
+::: {.custom-table}
+| Name | Description |
+|------|-------------|
+| <br> |  |
+| <br> |  |
+| <br> |  |
+: {tbl-colwidths="[20,80]"}
+:::
+
+**Categorical Variable Names and Descriptions**
+
+::: {.custom-table}
+| Name | Description |
+|------|-------------|
+| <br> |  |
+| <br> |  |
+| <br> |  |
+: {tbl-colwidths="[20,80]"}
+:::
+
+**Potential Research Questions and Descriptions**
+
+List 2–3 research questions that could be investigated using this dataset.
+
+1.
+2.
+3.
+
+**Justification**
+
+Explain why this dataset is appropriate for the project.
+
+### Datasheet Template
+
+::: {.callout-note}
+A copy of this template can be found [here](https://docs.google.com/document/d/1-R2ZNy_uzcWJyzzptzo_EefJbUd91Cr3PECABm1RNVc/edit?tab=t.0). Create your own copy and complete it before submitting.
+:::
+
+**Name**
+
+The name of the CSV file
+
+**Example**
+
+> `colleges.csv`
+
+**Description**
+
+**Instructions:** Write a brief description of your dataset (3-5 sentences). Your description should:
+
+- Explain what the dataset is about  
+- Identify the data source  
+- Summarize the types of information included  
+- Clearly state the unit of observation (what one row represents)
+
+**Example**
+
+> This dataset describes every active university, college, community college, and trade school included in the U.S. Department of Education’s institutional database. It includes institutional characteristics, student outcomes, financial measures, and demographic indicators, with each row representing a single postsecondary institution.
+
+**Source**
+
+**Instructions:** Provide the name of the source and a direct link to the webpage or repository where the dataset was obtained. The link should allow someone else to locate the same dataset.
+
+**Example**
+
+> **Source:** U.S. Department of Education. College Scorecard dataset. <br><br> **Link:** [https://collegescorecard.ed.gov/data/](https://collegescorecard.ed.gov/data/)
+
+**Variables**
+
+**Instructions:** Complete the variables table for your dataset. Each row in the table should describe one variable (column) in the dataset.
+
+For each variable, provide the following:
+
+- **Variable name:** The exact column name as it appears in the dataset.  
+
+- **Description:** A brief explanation of what the variable represents.  
+
+- **Type:** Indicate whether the variable is Cat. (categorical) or Num. (numerical).
+
+- **Units:** The units of measurement for the variable (e.g., students, dollars, years). If the variable is categorical, write N/A.
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Description | Type | Units |
+| ---- | ----------- | ---- | ----- |
+| `OPEID` | Official identification number for the institution | Cat. | N/A |
+| `name` | Name of college or institution | Cat. | N/A |
+| `city` | City in which the institution is located | Cat. | N/A |
+| `state` | State in which the institution is located | Cat. | N/A |
+| `region` | U.S. geographic region of the institution | Cat. | N/A |
+| `median_debt` | Median student loan amount upon entering repayment | Num. | USD (thousands) |
+| `default_rate` | % of borrowers in default on student loans | Num. | % |
+| `highest_degree` | Highest degree awarded (Certificate, Associates, Bachelors, Graduate) | Cat. | N/A |
+| `ownership` | Control of institution (Public, Private nonprofit, Private for-profit) | Cat. | N/A |
+| `locale` | Surrounding locale (Large City, Small City, Suburb, Town, Rural) | Cat. | N/A |
+| `hbcu` | Indicator for historically Black colleges and universities | Cat. | N/A |
+| `admit_rate` | % of applicants offered admission | Num. | % |
+| `SAT_avg` | Average equivalent SAT score of admitted students | Num. | SAT points |
+| `online_only` | Indicator for institutions offering only online instruction | Cat. | N/A |
+| `enrollment` | Number of enrolled undergraduate or certificate-seeking students | Num. | Students |
+| `net_price` | Average cost of attendance minus average financial aid | Num. | USD (thousands) |
+| `avg_cost` | Average total cost of attendance | Num. | USD (thousands) |
+| `net_tuition` | Net tuition revenue per student | Num. | USD (thousands) |
+| `ed_spending_per_student` | Instructional expenditures per student | Num. | USD (thousands) |
+| `avg_faculty_salary` | Average faculty salary | Num. | USD (thousands) |
+| `pct_PELL` | % of undergraduates receiving a PELL grant | Num. | % |
+| `pct_fed_loan` | % of undergraduates receiving federal student loans | Num. | % |
+| `grad_rate` | Graduation rate within 150% of normal time | Num. | % |
+| `pct_firstgen` | % of students who are first-generation college students | Num. | % |
+| `med_fam_income` | Median family income of students | Num. | USD (thousands) |
+| `med_alum_earnings` | Median earnings 10 years after entry | Num. | USD (thousands) |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+**Notes**
+
+**Instructions:** Use this section to record any important information that helps someone correctly understand or use the dataset. *Not every variable needs a note*; include a note only when additional information is needed to interpret the variable correctly.
+
+**Example**
+
+> - `highest_degree`: Highest degree awarded at the institution. *Categories:* `Certificate`, `Associate’s`, `Bachelor’s`, `Graduate`.  
+> <br>
+> - `ownership`: Control of the institution. *Categories:* `Public`, `Private nonprofit`, `Private for-profit`.  
+> <br>
+> - `locale`: Locale surrounding the institution. *Categories:* `Large City,` `Small City`, `Suburb`, Town, Rural.  
+> <br>
+> - `hbcu`: Indicator for whether the institution is a historically Black college or university. *Categories:* `No`, `Yes`.  
+> <br>
+> - `online_only`: Indicator for whether the institution offers only distance (online) classes. *Categories:* `No`, `Yes`.  
+> <br>
+> - `grad_rate`: Graduation rate within 150% of normal time refers to the percentage of students who complete their degree within one and a half times the standard program length. For example, for a four-year degree program, this includes students who graduate within six years.
+
+## Milestone 2: Data Dive
+
+### Data Dive Using R
+
+
+### Data Dive Using Python
+
+
+## Milestone 3: Analysis Plan
+
+### Developing Research Questions
+
+### Analysis Plan Notebook Setup
+
+**Introduction**
+
+**Example**
+
+> This project explores trends in restaurant menu items using nutritional information collected from several national restaurant chains. The goal of the analysis is to identify patterns in menu item calories and investigate how calorie counts vary across different restaurants and menu categories. Understanding these patterns may provide insight into differences in restaurant offerings and nutritional content.
+
+**Dataset Description**
+
+**Example**
+
+> This dataset contains nutritional information for menu items offered by several restaurant chains. The data was collected to provide consumers with information about the nutritional content of restaurant meals. <br><br> Each row in the dataset represents a single menu item. The dataset contains 9,569 observations. No observations have been removed at this stage of the analysis. <br><br> The variables most relevant to this project include the restaurant name, menu category, and calorie count. These variables will be used to investigate differences in nutritional content across restaurants and menu item types. <br><br> **Source:** MenuStat REseteraunt Nutrition Database.<br> **Link:** <https://www.menustat.org/uploads/1/4/1/6/141624194/ms_annual_data_2022.xls> 
+
+**Variable Documentation**
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Type | Description |
+|------|------|-------------|
+| `matched_2021` | Cat. | Indicator for whether the menu item was also present in the 2021 MenuStat dataset (`1` = yes, `0` = no) |
+| `new_item_2022` | Cat. | Indicator for whether the menu item is new in the 2022 dataset (`1` = yes, `0` = no) |
+| `menu_item_id` | Cat. | Unique identifier for the menu item |
+| `food_category` | Cat. | Category of food or beverage item |
+| `restaurant` | Cat. | Name of the restaurant chain |
+| `item_name` | Cat. | Name of the menu item |
+| `item_description` | Cat. | Description of the menu item |
+| `serving_size` | Num. | Serving size amount |
+| `serving_size_text` | Cat. | Serving size as reported by the restaurant |
+| `serving_size_unit` | Cat. | Unit of measurement for the serving size (e.g., oz, g, mL) |
+| `serving_size_household` | Cat. | Household serving size description (e.g., 1 sandwich, 1 slice) |
+| `calories` | Num. | Energy content (kilocalories) |
+| `total_fat` | Num. | Total fat (grams) |
+| `saturated_fat` | Num. | Saturated fat (grams) |
+| `trans_fat` | Num. | Trans fat (grams) |
+| `cholesterol` | Num. | Cholesterol (milligrams) |
+| `sodium` | Num. | Sodium (milligrams) |
+| `carbohydrates` | Num. | Total carbohydrates (grams) |
+| `dietary_fiber` | Num. | Dietary fiber (grams) |
+| `sugar` | Num. | Total sugar (grams) |
+| `protein` | Num. | Protein (grams) |
+| `potassium` | Num. | Potassium (milligrams) |
+: {tbl-colwidths="[15,10,75]"}
+:::
+> **Note:** The variables `notes`, `calories_text`, `total_fat_text`, `saturated_fat_text`, `trans_fat_text`, `cholesterol_text`, `sodium_text`, `carbohydrates_text`, `dietary_fiber_text`, `sugar_text`, and `protein_text` were excluded because they contain only missing values in the 2022 dataset.
+
+**Research Question 1**
+
+**Question**
+
+> How does the average calorie content of menu items vary across restaurants?
+
+**Variables Used**
+
+List the variables that will be used to answer this research question and briefly describe their role in the analysis.
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Role in Analysis |
+| ---- | ---------------- |
+| `restaurant` | Grouping variable used to compare restaurants |
+| `calories` | Numerical variable used to measure calorie content |
+: {tbl-colwidths="[25,75]"}
+:::
+
+**Planned Analysis**
+
+**Example**
+
+> To answer this question, I will compare the average calorie content of menu items across restaurants. I will calculate summary statistics, including the mean and median calorie counts for each restaurant. This analysis will help identify whether some restaurants tend to offer higher-calorie menu items than others.
+
+**Code**
+
+```{r}
+```
+
+**Visualization**
+
+```{r}
+```
+
+**Conclusions**
+
+**Course Reflection**
+
+## Milestone 4: Data Analysis and Storytelling

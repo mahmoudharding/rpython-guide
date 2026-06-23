@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-06-23">
 
-<title>Knitting to PDF – Introduction to R and Python for Data Science</title>
+<title>Programming Style Guide – Introduction to R and Python for Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,7 +55,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -65,8 +85,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./tags.html" rel="next">
-<link href="./rproj.html" rel="prev">
+<link href="./templates.html" rel="next">
+<link href="./milestones.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -117,7 +137,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./knitting.html"><span class="chapter-title">Knitting to PDF</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./coding_style.html"><span class="chapter-title">Programming Style Guide</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +179,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./knitting.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Knitting to PDF</span></a>
+  <a href="./knitting.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Knitting to PDF</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -184,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./coding_style.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Programming Style Guide</span></a>
+  <a href="./coding_style.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Programming Style Guide</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -212,31 +232,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#knitting-assignment-00" id="toc-knitting-assignment-00" class="nav-link active" data-scroll-target="#knitting-assignment-00">Knitting Assignment 00</a></li>
-  <li><a href="#knitting-to-pdf" id="toc-knitting-to-pdf" class="nav-link" data-scroll-target="#knitting-to-pdf">Knitting to PDF</a>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link active" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#general-guidelines" id="toc-general-guidelines" class="nav-link" data-scroll-target="#general-guidelines">General Guidelines</a>
   <ul>
-  <li><a href="#using-the-yaml-header" id="toc-using-the-yaml-header" class="nav-link" data-scroll-target="#using-the-yaml-header">Using the YAML Header</a></li>
-  <li><a href="#using-the-knit-menu" id="toc-using-the-knit-menu" class="nav-link" data-scroll-target="#using-the-knit-menu">Using the Knit Menu</a></li>
+  <li><a href="#comments" id="toc-comments" class="nav-link" data-scroll-target="#comments">Comments</a></li>
+  <li><a href="#pick-clear-descriptive-names-and-a-standard-naming-convention" id="toc-pick-clear-descriptive-names-and-a-standard-naming-convention" class="nav-link" data-scroll-target="#pick-clear-descriptive-names-and-a-standard-naming-convention">Pick clear, descriptive names and a standard naming convention</a></li>
+  <li><a href="#write-code-in-logical-blocks" id="toc-write-code-in-logical-blocks" class="nav-link" data-scroll-target="#write-code-in-logical-blocks">Write code in logical blocks</a></li>
+  <li><a href="#use-consistent-spacing" id="toc-use-consistent-spacing" class="nav-link" data-scroll-target="#use-consistent-spacing">Use consistent spacing</a></li>
+  <li><a href="#handle-long-lines-thoughtfully" id="toc-handle-long-lines-thoughtfully" class="nav-link" data-scroll-target="#handle-long-lines-thoughtfully">Handle long lines thoughtfully</a></li>
+  <li><a href="#import-libraries-and-load-packages-at-the-beginning" id="toc-import-libraries-and-load-packages-at-the-beginning" class="nav-link" data-scroll-target="#import-libraries-and-load-packages-at-the-beginning">Import libraries and load packages at the beginning</a></li>
   </ul></li>
-  <li><a href="#common-knitting-errors" id="toc-common-knitting-errors" class="nav-link" data-scroll-target="#common-knitting-errors">Common Knitting Errors</a>
+  <li><a href="#python-specific-style" id="toc-python-specific-style" class="nav-link" data-scroll-target="#python-specific-style">Python-Specific Style</a>
   <ul>
-  <li><a href="#missing-knitr" id="toc-missing-knitr" class="nav-link" data-scroll-target="#missing-knitr">Missing <code>knitr</code></a></li>
-  <li><a href="#missing-latex" id="toc-missing-latex" class="nav-link" data-scroll-target="#missing-latex">Missing LaTeX</a></li>
+  <li><a href="#chain-methods-when-appropriate" id="toc-chain-methods-when-appropriate" class="nav-link" data-scroll-target="#chain-methods-when-appropriate">Chain methods when appropriate</a></li>
+  <li><a href="#define-functions-clearly" id="toc-define-functions-clearly" class="nav-link" data-scroll-target="#define-functions-clearly">Define functions clearly</a></li>
   </ul></li>
-  <li><a href="#installing-tinytex-for-pdf-output" id="toc-installing-tinytex-for-pdf-output" class="nav-link" data-scroll-target="#installing-tinytex-for-pdf-output">Installing TinyTeX for PDF Output</a>
+  <li><a href="#r-specific-style" id="toc-r-specific-style" class="nav-link" data-scroll-target="#r-specific-style">R-Specific Style</a>
   <ul>
-  <li><a href="#tinytex-vs.-tinytex" id="toc-tinytex-vs.-tinytex" class="nav-link" data-scroll-target="#tinytex-vs.-tinytex">TinyTeX vs.&nbsp;<code>tinytex</code></a>
-  <ul>
-  <li><a href="#tinytex" id="toc-tinytex" class="nav-link" data-scroll-target="#tinytex">TinyTeX</a></li>
-  <li><a href="#tinytex-1" id="toc-tinytex-1" class="nav-link" data-scroll-target="#tinytex-1"><code>tinytex</code></a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#steps-to-set-up-tinytex" id="toc-steps-to-set-up-tinytex" class="nav-link" data-scroll-target="#steps-to-set-up-tinytex">Steps to Set Up TinyTeX</a>
-  <ul>
-  <li><a href="#step-1-install-the-tinytex-package" id="toc-step-1-install-the-tinytex-package" class="nav-link" data-scroll-target="#step-1-install-the-tinytex-package">Step 1: Install the <code>tinytex</code> Package</a></li>
-  <li><a href="#step-2-install-tinytex" id="toc-step-2-install-tinytex" class="nav-link" data-scroll-target="#step-2-install-tinytex">Step 2: Install TinyTeX</a></li>
-  <li><a href="#step-3-verify-the-installation" id="toc-step-3-verify-the-installation" class="nav-link" data-scroll-target="#step-3-verify-the-installation">Step 3: Verify the Installation</a></li>
-  <li><a href="#step-4-knit-to-pdf" id="toc-step-4-knit-to-pdf" class="nav-link" data-scroll-target="#step-4-knit-to-pdf">Step 4: Knit to PDF</a></li>
+  <li><a href="#use-the-pipe" id="toc-use-the-pipe" class="nav-link" data-scroll-target="#use-the-pipe">Use the Pipe <code>|&gt;</code></a></li>
+  <li><a href="#format-pipes-with-whitespace" id="toc-format-pipes-with-whitespace" class="nav-link" data-scroll-target="#format-pipes-with-whitespace">Format pipes with whitespace</a></li>
+  <li><a href="#format-ggplot2-code" id="toc-format-ggplot2-code" class="nav-link" data-scroll-target="#format-ggplot2-code">Format <code>ggplot2</code> code</a></li>
+  <li><a href="#use---for-assignment" id="toc-use---for-assignment" class="nav-link" data-scroll-target="#use---for-assignment">Use <code>&lt;-</code> for assignment</a></li>
+  <li><a href="#formatting-if-statements" id="toc-formatting-if-statements" class="nav-link" data-scroll-target="#formatting-if-statements">Formatting if statements</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -246,7 +263,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Knitting to PDF</span></h1>
+<h1 class="title"><span class="chapter-title">Programming Style Guide</span></h1>
 </div>
 
 
@@ -269,129 +286,198 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="knitting-assignment-00" class="level2">
-<h2 class="anchored" data-anchor-id="knitting-assignment-00">Knitting Assignment 00</h2>
-<p>In RStudio, <strong>knitting</strong> is the process of taking a source document written in R Markdown (<code>.Rmd</code>) and combining the text, code, and code output into a single rendered file, such as HTML, PDF, or Word. When a document is knitted, RStudio runs all code chunks, captures their output (e.g., tables, plots, and summaries), and integrates the results with the written text.</p>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>The purpose for this guide is to help you write clear, readable, and professional code from the start. It draws on recommendations from <span class="citation" data-cites="pruim2023fostering">Pruim, Gı̂rjău, and Horton (<a href="references.html#ref-pruim2023fostering" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="vanrossum2001pep8">Rossum, Warsaw, and Coghlan (<a href="references.html#ref-vanrossum2001pep8" role="doc-biblioref">2001</a>)</span>, and <span class="citation" data-cites="wickham2015tidyverse">Wickham (<a href="references.html#ref-wickham2015tidyverse" role="doc-biblioref">2015</a>)</span>.</p>
 </section>
-<section id="knitting-to-pdf" class="level2">
-<h2 class="anchored" data-anchor-id="knitting-to-pdf">Knitting to PDF</h2>
-<section id="using-the-yaml-header" class="level3">
-<h3 class="anchored" data-anchor-id="using-the-yaml-header">Using the YAML Header</h3>
-<p>To knit directly to PDF by default, specify PDF output in the YAML header at the top of your document.</p>
-<div class="text-center">
-<p><img src="images/knit-yaml.png" class="img-fluid" style="width:75.0%"></p>
-</div>
-</section>
-<section id="using-the-knit-menu" class="level3">
-<h3 class="anchored" data-anchor-id="using-the-knit-menu">Using the Knit Menu</h3>
-<p>To manually knit a document to PDF:</p>
-<ol type="1">
-<li>Click the <strong>Knit</strong> button in RStudio.</li>
-<li>Select <strong>Knit to PDF</strong> from the drop-down menu.</li>
-</ol>
-<div class="text-center">
-<p><img src="images/knit-menu.png" class="img-fluid" style="width:75.0%"></p>
-</div>
-</section>
-</section>
-<section id="common-knitting-errors" class="level2">
-<h2 class="anchored" data-anchor-id="common-knitting-errors">Common Knitting Errors</h2>
-<section id="missing-knitr" class="level3">
-<h3 class="anchored" data-anchor-id="missing-knitr">Missing <code>knitr</code></h3>
-<p>If you see the following message when attempting to knit</p>
-<blockquote class="blockquote">
-<p>Required package ‘knitr’ is missing. Would you like to install it?</p>
-</blockquote>
-<p>the <code>knitr</code> package has not yet been installed on your computer.</p>
-<p>Click <strong>Yes</strong> and RStudio will automatically install <code>knitr</code> and any required dependencies. Once installation is complete, knitting should begin again automatically.</p>
-<p>If the document knits successfully, no further action is required.</p>
-</section>
-<section id="missing-latex" class="level3">
-<h3 class="anchored" data-anchor-id="missing-latex">Missing LaTeX</h3>
-<p>If you instead see an error similar to the one below:</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Error: LaTeX failed to compile RMarkdown.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. In addition: Warning message: In system2(…, stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) : ‘“pdflatex”’ not found</p>
-<p>Execution halted No LaTeX installation detected (LaTeX is required to create PDF output). You should install a LaTeX distribution for your platform: https://www.latex-project.org/get/</p>
-</div>
-</div>
-<p>your computer does not have a LaTeX distribution installed. To create PDF files from R Markdown, you must install a LaTeX distribution such as TinyTeX.</p>
-<p>Proceed to the instructions below.</p>
-</section>
-</section>
-<section id="installing-tinytex-for-pdf-output" class="level2">
-<h2 class="anchored" data-anchor-id="installing-tinytex-for-pdf-output">Installing TinyTeX for PDF Output</h2>
-<p>To knit R Markdown documents to PDF, your computer needs a LaTeX installation. We recommend TinyTeX because it is lightweight, easy to install, and integrates well with RStudio.</p>
-<section id="tinytex-vs.-tinytex" class="level3">
-<h3 class="anchored" data-anchor-id="tinytex-vs.-tinytex">TinyTeX vs.&nbsp;<code>tinytex</code></h3>
-<section id="tinytex" class="level4">
-<h4 class="anchored" data-anchor-id="tinytex">TinyTeX</h4>
-<p>TinyTeX is a lightweight LaTeX distribution used to compile R Markdown documents into PDF files. It performs the actual PDF creation process.</p>
-</section>
-<section id="tinytex-1" class="level4">
-<h4 class="anchored" data-anchor-id="tinytex-1"><code>tinytex</code></h4>
-<p><code>tinytex</code> is an R package that installs and manages TinyTeX from within RStudio.</p>
-</section>
-</section>
-</section>
-<section id="steps-to-set-up-tinytex" class="level2">
-<h2 class="anchored" data-anchor-id="steps-to-set-up-tinytex">Steps to Set Up TinyTeX</h2>
-<section id="step-1-install-the-tinytex-package" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-install-the-tinytex-package">Step 1: Install the <code>tinytex</code> Package</h3>
+<section id="general-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="general-guidelines">General Guidelines</h2>
+<section id="comments" class="level3">
+<h3 class="anchored" data-anchor-id="comments">Comments</h3>
 <ul>
-<li>Open RStudio.</li>
-<li>In the <strong>Console</strong>, run:</li>
+<li>Comments start with <code>#</code></li>
+<li>Comments should be sentence case</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tinytex"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Note:</strong> This installs the <code>tinytex</code> package, which manages the TinyTeX installation.</p>
-</section>
-<section id="step-2-install-tinytex" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-install-tinytex">Step 2: Install TinyTeX</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>In the <strong>Console</strong>, run:</li>
-</ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Note:</strong> This command downloads and installs TinyTeX on your computer and may take several minutes.</p>
-</section>
-<section id="step-3-verify-the-installation" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-verify-the-installation">Step 3: Verify the Installation</h3>
-<ul>
-<li>In the <strong>Console</strong>, run:</li>
-</ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">tinytex_root</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>If the command returns a file path, TinyTeX has been installed successfully.</p>
-<p>Example paths:</p>
-<ul>
-<li>macOS/Linux: <code>"/usr/local/texlive/..."</code></li>
-<li>Windows: <code>"C:\\Users\\YourName\\AppData\\Roaming\\TinyTeX\\..."</code></li>
+<li>Comments should usually be a short phrase or single sentence that describes the purpose of a block of code. Use additional sentences only to explain non-obvious decisions (e.g., <code># Keep only data from 2024. Earlier years use a different reporting</code><br><code># system and are not directly comparable.</code>)</li>
 </ul>
 </section>
-<section id="step-4-knit-to-pdf" class="level3">
-<h3 class="anchored" data-anchor-id="step-4-knit-to-pdf">Step 4: Knit to PDF</h3>
+<section id="pick-clear-descriptive-names-and-a-standard-naming-convention" class="level3">
+<h3 class="anchored" data-anchor-id="pick-clear-descriptive-names-and-a-standard-naming-convention">Pick clear, descriptive names and a standard naming convention</h3>
 <ul>
-<li>Open your <code>.Rmd</code> file in RStudio.</li>
-<li>Verify that the YAML header specifies PDF output:</li>
+<li>Use meaningful names (e.g., <code>average_score</code>, not <code>x1</code>)</li>
+<li>Use <code>snake_case</code> for variable and user-defined function names</li>
+<li>Avoid using dots in names (e.g., <code>average.score</code>)</li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Title"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">output</span><span class="kw">:</span><span class="at"> pdf_document</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="write-code-in-logical-blocks" class="level3">
+<h3 class="anchored" data-anchor-id="write-code-in-logical-blocks">Write code in logical blocks</h3>
 <ul>
-<li>Click <strong>Knit</strong>.</li>
-<li>Select <strong>Knit to PDF</strong> if prompted.</li>
+<li>Use blank lines between steps</li>
 </ul>
-<p>RStudio will now use TinyTeX to generate a PDF version of your document.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Laod the data</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>code</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean the data</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>code</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>code</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>code</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="use-consistent-spacing" class="level3">
+<h3 class="anchored" data-anchor-id="use-consistent-spacing">Use consistent spacing</h3>
+<p>For assignment statements and arithmetic expressions.</p>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 45%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Language</th>
+<th>Good Example</th>
+<th>Bad Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R</td>
+<td><code>height &lt;- feet * 12 + inches</code></td>
+<td><code>height&lt;-feet*12+inches</code></td>
+</tr>
+<tr class="even">
+<td>Python</td>
+<td><code>df["lbs"] = df["kg"] / 2.204</code></td>
+<td><code>df["lbs"]=df["kg"]/2.204</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>For assigning default values or passing keyword arguements.</p>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 45%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Language</th>
+<th>Good Example</th>
+<th>Bad Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R</td>
+<td><code>mean(x, na.rm=TRUE)</code></td>
+<td><code>mean(x, na.rm = TRUE)</code></td>
+</tr>
+<tr class="even">
+<td>Python</td>
+<td><code>round(number, ndigits=2)</code></td>
+<td><code>round(number, ndigits = 2)</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="handle-long-lines-thoughtfully" class="level3">
+<h3 class="anchored" data-anchor-id="handle-long-lines-thoughtfully">Handle long lines thoughtfully</h3>
+<ul>
+<li>Keep lines ≤ 79 chars</li>
+<li>Use parentheses for long expressions</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sepal.Length =</span> <span class="fu">mean</span>(Sepal.Length),</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">Sepal.Width =</span> <span class="fu">mean</span>(Sepal.Width),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">.by =</span> Species</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> pd.concat(</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    [df1, df2, df3],</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    ignore_index<span class="op">=</span><span class="va">True</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    sort<span class="op">=</span><span class="va">False</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="import-libraries-and-load-packages-at-the-beginning" class="level3">
+<h3 class="anchored" data-anchor-id="import-libraries-and-load-packages-at-the-beginning">Import libraries and load packages at the beginning</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="python-specific-style" class="level2">
+<h2 class="anchored" data-anchor-id="python-specific-style">Python-Specific Style</h2>
+<section id="chain-methods-when-appropriate" class="level3">
+<h3 class="anchored" data-anchor-id="chain-methods-when-appropriate">Chain methods when appropriate</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.groupby(<span class="st">"category"</span>).mean()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="define-functions-clearly" class="level3">
+<h3 class="anchored" data-anchor-id="define-functions-clearly">Define functions clearly</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_mean(values):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Return the mean of a list of numbers."""</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">sum</span>(values) <span class="op">/</span> <span class="bu">len</span>(values)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="r-specific-style" class="level2">
+<h2 class="anchored" data-anchor-id="r-specific-style">R-Specific Style</h2>
+<section id="use-the-pipe" class="level3">
+<h3 class="anchored" data-anchor-id="use-the-pipe">Use the Pipe <code>|&gt;</code></h3>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(score <span class="sc">&gt;</span> <span class="dv">80</span>) <span class="sc">|&gt;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">avg =</span> <span class="fu">mean</span>(score))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="format-pipes-with-whitespace" class="level3">
+<h3 class="anchored" data-anchor-id="format-pipes-with-whitespace">Format pipes with whitespace</h3>
+<ul>
+<li>Pipes go at end of line</li>
+<li>Indent by 2 spaces</li>
+<li>Short pipes go one a single line <code>iris |&gt; summary()</code></li>
+</ul>
+</section>
+<section id="format-ggplot2-code" class="level3">
+<h3 class="anchored" data-anchor-id="format-ggplot2-code">Format <code>ggplot2</code> code</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Width, <span class="at">y =</span> Sepal.Length)) <span class="sc">+</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Sepal width (cm)"</span>,</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Sepal length (cm)"</span>,</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Sepal Dimensions by Species"</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="use---for-assignment" class="level3">
+<h3 class="anchored" data-anchor-id="use---for-assignment">Use <code>&lt;-</code> for assignment</h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="formatting-if-statements" class="level3">
+<h3 class="anchored" data-anchor-id="formatting-if-statements">Formatting if statements</h3>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>score <span class="ot">&lt;-</span> <span class="dv">10</span> </span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (score <span class="sc">&gt;</span> <span class="dv">15</span>) {</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="st">"High"</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> <span class="cf">if</span> (score <span class="sc">&lt;</span> <span class="dv">15</span>) {</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="st">"Medium"</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> { </span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(<span class="st">"Low"</span>)</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-pruim2023fostering" class="csl-entry" role="listitem">
+Pruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023. <span>“Fostering Better Coding Practices for Data Scientists.”</span> <em>Harvard Data Science Review</em> 5 (3). <a href="https://doi.org/10.1162/99608f92.97c9f60f">https://doi.org/10.1162/99608f92.97c9f60f</a>.
+</div>
+<div id="ref-vanrossum2001pep8" class="csl-entry" role="listitem">
+Rossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. <span>“<span class="nocase">PEP 8 – Style Guide for Python Code</span>.”</span> <a href="https://peps.python.org/pep-0008/">https://peps.python.org/pep-0008/</a>.
+</div>
+<div id="ref-wickham2015tidyverse" class="csl-entry" role="listitem">
+Wickham, Hadley. 2015. <span>“The Tidyverse Style Guide.”</span> <a href="https://style.tidyverse.org/">https://style.tidyverse.org/</a>.
+</div>
+</div>
 </section>
 </section>
 
@@ -815,13 +901,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./rproj.html" class="pagination-link" aria-label="R Project Folder">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">R Project Folder</span></span>
+      <a href="./milestones.html" class="pagination-link" aria-label="Final Project Milestones">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Final Project Milestones</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./tags.html" class="pagination-link" aria-label="Tag System Overview">
-        <span class="nav-page-text"><span class="chapter-title">Tag System Overview</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./templates.html" class="pagination-link" aria-label="Milestone Templates">
+        <span class="nav-page-text"><span class="chapter-title">Milestone Templates</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

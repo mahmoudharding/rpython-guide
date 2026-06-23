@@ -1,0 +1,358 @@
+---
+title: Milestone Templates
+editor: source
+---
+
+## Milestone 1: Finding a Dataset
+
+### Dataset Approval Request Template
+
+::: {.callout-note}
+A copy of this template can be found [here](https://docs.google.com/document/d/1Az9RWUKFe68S-jbBoNqpfjAKR_EuacyUT3PnAFMc6sI/edit?tab=t.0). Create your own copy and complete it before submitting.
+:::
+
+**Name:** 
+
+**Section:** 
+
+**Course:** Introduction to R and Python for Data Science
+
+**Date:** 
+
+**Dataset Description**
+
+Provide a brief description of the dataset.
+
+**Example**
+
+> MenuStat is a free nutrition database of foods and beverages served by the nation's top grossing chain restaurants. 
+
+
+**Dataset Name:** The name of the CSV file.
+
+**Example**
+
+> `ms_annual_data_2022.xls`
+
+**Link:** Provide a direct link to the website where the dataset can be accessed or downloaded. The link should work without requiring a personal login whenever possible.
+
+**Example**
+
+> <https://www.menustat.org/data.html>
+
+**Dataset Dimensions**
+
+Number of observations (rows):
+
+Number of variables (columns):
+
+**Unit of Observation**
+
+Describe what each row in the dataset represents.
+
+**Example**
+
+> Each row represents a single menu item offered by a restaurant.
+
+**Numerical Variable Names and Descriptions**
+
+>::: {.custom-table}
+| Name | Description |
+| ---- | ----------- |
+| `matched_2021` | Indicator for whether the menu item was also present in the 2021 dataset |
+| `new_item_2022` | Indicator for whether the menu item is new in the 2022 dataset |
+| `serving_size` | Serving size amount |
+| `calories` | Energy content (kcal) |
+| `total_fat` | Total fat (g) |
+| `saturated_fat` | Saturated fat (g) |
+| `trans_fat` | Trans fat (g) |
+| `cholesterol` | Cholesterol (mg) |
+| `sodium` | Sodium (mg) |
+| `carbohydrates` | Total carbohydrates (g) |
+| `dietary_fiber` | Dietary fiber (g) |
+| `sugar` | Total sugar (g) |
+| `protein` | Protein (g) |
+| `potassium` | Potassium (mg) |
+: {tbl-colwidths="[20,80]"}
+:::
+
+**Categorical Variable Names and Descriptions**
+
+> ::: {.custom-table}
+| Name.| Description |
+| ---- | ----------- |
+| `menu_item_id`  | Unique identifier for the menu item |
+| `food_category` | Category of food or beverage item |
+| `restaurant` | Name of the restaurant chain |  
+| `item_name` | Name of the menu item |
+| `item_description` | Description of the menu item |
+| `serving_size_text` | Serving size as reported by the restaurant |
+| `serving_size_unit` | Unit of measurement for the serving size |
+| `serving_size_household` | Household serving size description |
+: {tbl-colwidths="[20,80]"}
+:::
+
+**Potential Research Questions and Descriptions**
+
+List 2–3 research questions that could be investigated using this dataset.
+
+1.
+2.
+3.
+
+**Example**
+
+> 1. How do calorie counts vary across different food categories?
+><br>
+> 2. What is the relationship between serving size and calorie content?
+><br>
+> 3. Which restaurant chains offer menu items with the highest average calorie content?
+
+**Justification**
+
+Explain why you are interested in this dataset and why it is appropriate for the project.
+
+### Datasheet Template
+
+::: {.callout-note}
+A copy of this template can be found [here](https://docs.google.com/document/d/1-R2ZNy_uzcWJyzzptzo_EefJbUd91Cr3PECABm1RNVc/edit?tab=t.0). Create your own copy and complete it before submitting.
+:::
+
+**Name**
+
+The name of the CSV file
+
+**Example**
+
+> `ms_annual_data_2022.csv`
+
+**Description**
+
+**Instructions:** Write a brief description of your dataset (3-5 sentences). Your description should:
+
+- Explain what the dataset is about  
+- Identify the data source  
+- Summarize the types of information included  
+- Clearly state the unit of observation (what one row represents)
+
+**Example**
+
+> MenuStat is a nutrition database containing menu items from large U.S. chain restaurants. The data are collected from nutrition information published on restaurant websites and are maintained by the Harvard Pilgrim Health Care Institute. The dataset includes information about menu items, restaurant names, food categories, serving sizes, and nutritional measures such as calories, fat, sodium, carbohydrates, and protein. Each row represents a single menu item offered by a restaurant.
+
+**Source**
+
+**Instructions:** Provide the name of the source and a direct link to the webpage or repository where the dataset was obtained. The link should allow someone else to locate the same dataset.
+
+**Example**
+
+> **Source:** The Harvard Pilgrim Health Care Institute <br> **Link:** <https://www.menustat.org/data.html>
+
+**Variables**
+
+**Instructions:** Complete the variables table for your dataset. Each row in the table should describe one variable (column) in the dataset.
+
+For each variable, provide the following:
+
+- **Variable name:** The exact column name as it appears in the dataset.  
+
+- **Description:** A brief explanation of what the variable represents.  
+
+- **Type:** Indicate whether the variable is Cat. (categorical) or Num. (numerical).
+
+- **Units:** The units of measurement for the variable (e.g., students, dollars, years). If the variable is categorical, write N/A.
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Type | Description |
+|------|------|-------------|
+| `matched_2021` | Cat. | Indicator for whether the menu item was also present in the 2021 MenuStat dataset (`1` = yes, `0` = no) |
+| `new_item_2022` | Cat. | Indicator for whether the menu item is new in the 2022 dataset (`1` = yes, `0` = no) |
+| `menu_item_id` | Cat. | Unique identifier for the menu item |
+| `food_category` | Cat. | Category of food or beverage item |
+| `restaurant` | Cat. | Name of the restaurant chain |
+| `item_name` | Cat. | Name of the menu item |
+| `item_description` | Cat. | Description of the menu item |
+| `serving_size` | Num. | Serving size amount |
+| `serving_size_text` | Cat. | Serving size as reported by the restaurant |
+| `serving_size_unit` | Cat. | Unit of measurement for the serving size (e.g., oz, g, mL) |
+| `serving_size_household` | Cat. | Household serving size description (e.g., 1 sandwich, 1 slice) |
+| `calories` | Num. | Energy content (kilocalories) |
+| `total_fat` | Num. | Total fat (grams) |
+| `saturated_fat` | Num. | Saturated fat (grams) |
+| `trans_fat` | Num. | Trans fat (grams) |
+| `cholesterol` | Num. | Cholesterol (milligrams) |
+| `sodium` | Num. | Sodium (milligrams) |
+| `carbohydrates` | Num. | Total carbohydrates (grams) |
+| `dietary_fiber` | Num. | Dietary fiber (grams) |
+| `sugar` | Num. | Total sugar (grams) |
+| `protein` | Num. | Protein (grams) |
+| `potassium` | Num. | Potassium (milligrams) |
+| `notes` | Cat. | Additional notes provided by MenuStat |
+| `calories_text` | Cat. | Calories reported as text by the restaurant |
+| `total_fat_text` | Cat. | Total fat reported as text by the restaurant |
+| `saturated_fat_text` | Cat. | Saturated fat reported as text by the restaurant |
+| `trans_fat_text` | Cat. | Trans fat reported as text by the restaurant |
+| `cholesterol_text` | Cat. | Cholesterol reported as text by the restaurant |
+| `sodium_text` | Cat. | Sodium reported as text by the restaurant |
+| `carbohydrates_text` | Cat. | Carbohydrates reported as text by the restaurant |
+| `dietary_fiber_text` | Cat. | Dietary fiber reported as text by the restaurant |
+| `sugar_text` | Cat. | Sugar reported as text by the restaurant |
+| `protein_text` | Cat. | Protein reported as text by the restaurant |
+: {tbl-colwidths="[15,10,75]"}
+:::
+
+> **Notes:**<br>The variables `notes`, `calories_text`, `total_fat_text`, `saturated_fat_text`, `trans_fat_text`, `cholesterol_text`, `sodium_text`, `carbohydrates_text`, `dietary_fiber_text`, `sugar_text`, and `protein_text`contain only missing values in the 2022 dataset.
+
+## Milestone 2: Data Dive
+
+### Data Dive Using R
+
+
+### Data Dive Using Python
+
+
+## Milestone 3: Analysis Plan
+
+### Developing Research Questions
+
+The purpose of this guide is to help you develop effective research questions for your final project. Strong research questions focus your exploratory data analysis and help identify patterns, trends, and relationships worth investigating.
+
+#### What to Include in Your Submission
+
+- Three research questions, each involving two or more variables.  
+- A brief explanation of why you chose these variables and why the relationship is worth exploring.
+
+#### General Guidelines
+
+- Focus on exploring relationships, patterns, and trends in the data  
+- Ensure questions are clear, specific, and focused  
+- Prioritize comparisons (across groups, categories, or over time)
+- Avoid questions that can be answered with a simple *yes* or *no*
+- Avoid language that implies causation (e.g., *affect*, *impact*)
+
+#### Guidance for Writing Research Questions
+
+**Use Two or More Variables**
+
+Each question must examine a relationship between variables.
+
+**Example**
+
+> - **Avoid:** *What is the average salary?* 
+> - **Use:** *What is the relationship between years of experience and salary?*
+
+**Be Specific and Clear**
+
+Clearly state what you are investigating and identify the variables involved.
+
+**Example**
+
+> - **Avoid:** *Is there a connection between studying and grades?*
+> - **Use:** *How does the number of hours studied relate to final exam scores among high school students?*  
+
+**Avoid Causal Language**
+
+Exploratory analysis identifies relationships—not cause and effect.
+
+**Example**
+
+> - **Avoid:** *Does income affect education level?*  
+> - **Use:** *What is the relationship between income and education level?*
+
+**Consider Adding Depth** 
+
+You can strengthen a research question by examining how a relationship differs across groups or categories.
+
+**Example**
+
+> - **Good:** *What is the relationship between physical activity and heart rate?*
+> - **Better:** *What is the relation
+
+### Analysis Plan Notebook Setup
+
+**Introduction**
+
+**Example**
+
+> This project explores trends in restaurant menu items using nutritional information collected from several national restaurant chains. The goal of the analysis is to identify patterns in menu item calories and investigate how calorie counts vary across different restaurants and menu categories. Understanding these patterns may provide insight into differences in restaurant offerings and nutritional content.
+
+**Dataset Description**
+
+**Example**
+
+> This dataset contains nutritional information for menu items offered by several restaurant chains. The data was collected to provide consumers with information about the nutritional content of restaurant meals. <br><br> Each row in the dataset represents a single menu item. The dataset contains 9,569 observations. No observations have been removed at this stage of the analysis. <br><br> The variables most relevant to this project include the restaurant name, menu category, and calorie count. These variables will be used to investigate differences in nutritional content across restaurants and menu item types. <br><br> **Source:** MenuStat REseteraunt Nutrition Database.<br> **Link:** <https://www.menustat.org/uploads/1/4/1/6/141624194/ms_annual_data_2022.xls> 
+
+**Variables**
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Type | Description |
+|------|------|-------------|
+| `matched_2021` | Cat. | Indicator for whether the menu item was also present in the 2021 MenuStat dataset (`1` = yes, `0` = no) |
+| `new_item_2022` | Cat. | Indicator for whether the menu item is new in the 2022 dataset (`1` = yes, `0` = no) |
+| `menu_item_id` | Cat. | Unique identifier for the menu item |
+| `food_category` | Cat. | Category of food or beverage item |
+| `restaurant` | Cat. | Name of the restaurant chain |
+| `item_name` | Cat. | Name of the menu item |
+| `item_description` | Cat. | Description of the menu item |
+| `serving_size` | Num. | Serving size amount |
+| `serving_size_text` | Cat. | Serving size as reported by the restaurant |
+| `serving_size_unit` | Cat. | Unit of measurement for the serving size (e.g., oz, g, mL) |
+| `serving_size_household` | Cat. | Household serving size description (e.g., 1 sandwich, 1 slice) |
+| `calories` | Num. | Energy content (kilocalories) |
+| `total_fat` | Num. | Total fat (grams) |
+| `saturated_fat` | Num. | Saturated fat (grams) |
+| `trans_fat` | Num. | Trans fat (grams) |
+| `cholesterol` | Num. | Cholesterol (milligrams) |
+| `sodium` | Num. | Sodium (milligrams) |
+| `carbohydrates` | Num. | Total carbohydrates (grams) |
+| `dietary_fiber` | Num. | Dietary fiber (grams) |
+| `sugar` | Num. | Total sugar (grams) |
+| `protein` | Num. | Protein (grams) |
+| `potassium` | Num. | Potassium (milligrams) |
+: {tbl-colwidths="[15,10,75]"}
+:::
+
+**Research Question 1**
+
+**Question**
+
+> How does the average calorie content of menu items vary across restaurants?
+
+**Variables Used**
+
+List the variables that will be used to answer this research question and briefly describe their role in the analysis.
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Role in Analysis |
+| ---- | ---------------- |
+| `restaurant` | Grouping variable used to compare restaurants |
+| `calories` | Numerical variable used to measure calorie content |
+: {tbl-colwidths="[25,75]"}
+:::
+
+**Planned Analysis**
+
+**Example**
+
+> To answer this question, I will compare the average calorie content of menu items across restaurants. I will calculate summary statistics, including the mean and median calorie counts for each restaurant. This analysis will help identify whether some restaurants tend to offer higher-calorie menu items than others.
+
+**Code**
+
+```{r}
+```
+
+**Visualization**
+
+```{r}
+```
+
+**Conclusions**
+
+**Course Reflection**
+
+## Milestone 4: Data Analysis and Storytelling

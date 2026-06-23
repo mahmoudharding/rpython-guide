@@ -1,0 +1,157 @@
+---
+title: Programming Style Guide
+editor: source
+---
+
+## Purpose
+
+The purpose for this guide is to help you write clear, readable, and professional code from the start. It draws on recommendations from @pruim2023fostering, @vanrossum2001pep8, and @wickham2015tidyverse. 
+
+## General Guidelines
+
+### Comments
+- Comments start with `#`
+- Comments should be sentence case 
+```python
+# Load the data
+```
+
+- Comments should usually be a short phrase or single sentence that describes the purpose of a block of code. Use additional sentences only to explain non-obvious decisions (e.g., `# Keep only data from 2024. Earlier years use a different reporting`<br>`# system and are not directly comparable.`)
+
+### Pick clear, descriptive names and a standard naming convention
+
+- Use meaningful names (e.g., `average_score`, not `x1`)
+- Use `snake_case` for variable and user-defined function names
+- Avoid using dots in names (e.g., `average.score`)
+
+### Write code in logical blocks
+
+- Use blank lines between steps
+```python
+# Laod the data
+code
+
+# Clean the data
+code
+code
+code
+```
+
+### Use consistent spacing
+
+For assignment statements and arithmetic expressions. 
+
+::: {.custom-table}
+| Language | Good Example | Bad Example |
+|----------|--------------|-------------|
+| R        | `height <- feet * 12 + inches` | `height<-feet*12+inches` |
+| Python   | `df["lbs"] = df["kg"] / 2.204` | `df["lbs"]=df["kg"]/2.204` |
+: {tbl-colwidths="[10,45,45]"}
+:::
+
+For assigning default values or passing keyword arguements.
+
+::: {.custom-table}
+| Language | Good Example | Bad Example |
+|----------|--------------|-------------|
+| R        | `mean(x, na.rm=TRUE)` | `mean(x, na.rm = TRUE)` |
+| Python   | `round(number, ndigits=2)` | `round(number, ndigits = 2)` |
+: {tbl-colwidths="[10,45,45]"}
+:::
+
+### Handle long lines thoughtfully
+
+- Keep lines ≤ 79 chars
+- Use parentheses for long expressions
+
+```r
+df |>
+  summarise(
+    Sepal.Length = mean(Sepal.Length),
+    Sepal.Width = mean(Sepal.Width),
+    .by = Species
+  )
+```
+
+```python
+results = pd.concat(
+    [df1, df2, df3],
+    ignore_index=True,
+    sort=False
+)
+```
+
+### Import libraries and load packages at the beginning
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+```r
+library(tidyverse)
+library(ggplot2)
+```
+
+## Python-Specific Style
+
+### Chain methods when appropriate
+
+```python
+df.groupby("category").mean()
+```
+
+### Define functions clearly
+```python
+def calculate_mean(values):
+    """Return the mean of a list of numbers."""
+    return sum(values) / len(values)
+```
+
+## R-Specific Style
+
+### Use the Pipe `|>`
+
+```r
+data |>
+  filter(score > 80) |>
+  summarise(avg = mean(score))
+```
+
+### Format pipes with whitespace
+
+- Pipes go at end of line
+- Indent by 2 spaces
+- Short pipes go one a single line `iris |> summary()`
+
+### Format `ggplot2` code
+
+```r
+ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) +
+  geom_point() +
+  labs(
+    x = "Sepal width (cm)",
+    y = "Sepal length (cm)",
+    title = "Sepal Dimensions by Species"
+  )
+```
+
+### Use `<-` for assignment
+
+```r
+x <- 10
+```
+
+### Formatting if statements
+
+```r
+score <- 10 
+if (score > 15) {
+  print("High")
+} else if (score < 15) {
+  print("Medium")
+} else { 
+  print("Low")
+}
+```

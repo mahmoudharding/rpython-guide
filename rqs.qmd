@@ -1,0 +1,59 @@
+---
+title: Developing Research Questions
+editor: source
+---
+
+## Purpose
+
+The purpose of this guide is to help you develop effective research questions for your final project. Strong research questions focus your exploratory data analysis and help identify patterns, trends, and relationships worth investigating.
+
+## What to Include in Your Submission
+
+- Three research questions, each involving two or more variables.  
+- A brief explanation of why you chose these variables and why the relationship is worth exploring.
+
+## General Guidelines
+
+- Focus on exploring relationships, patterns, and trends in the data  
+- Ensure questions are clear, specific, and focused  
+- Prioritize comparisons (across groups, categories, or over time)
+- Avoid questions that can be answered with a simple *yes* or *no*
+- Avoid language that implies causation (e.g., *affect*, *impact*)
+
+## Guidance for Writing Research Questions
+
+### Use Two or More Variables
+
+Each question must examine a relationship between variables.
+
+**Example**
+
+> - **Avoid:** *What is the average salary?* 
+> - **Use:** *What is the relationship between years of experience and salary?*
+
+### Be Specific and Clear 
+
+Clearly state what you are investigating and identify the variables involved.
+
+**Example**
+
+> - **Avoid:** *Is there a connection between studying and grades?*
+> - **Use:** *How does the number of hours studied relate to final exam scores among high school students?*  
+
+### Avoid Causal Language 
+
+Exploratory analysis identifies relationships—not cause and effect.
+
+**Example**
+
+> - **Avoid:** *Does income affect education level?*  
+> - **Use:** *What is the relationship between income and education level?*
+
+### Consider Adding Depth 
+
+You can strengthen a research question by examining how a relationship differs across groups or categories.
+
+**Example**
+
+> - **Good:** *What is the relationship between physical activity and heart rate?*
+> - **Better:** *What is the relationship between physical activity and heart rate, and how does it differ by age group?*

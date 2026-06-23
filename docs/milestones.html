@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-07">
+<meta name="dcterms.date" content="2026-06-23">
 
 <title>Final Project Milestones – Introduction to R and Python for Data Science</title>
 <style>
@@ -31,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./coding_style.html" rel="next">
 <link href="./programming.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -147,6 +148,26 @@ ul.task-list li input[type="checkbox"] {
   <a href="./milestones.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Final Project Milestones</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./coding_style.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Programming Style Guide</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./templates.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Milestone Templates</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./example_apn.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Example Analysis Notebook Setup</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">References</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -195,19 +216,29 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions">Research Questions</a>
   <ul class="collapse">
   <li><a href="#submission-timeliness-2" id="toc-submission-timeliness-2" class="nav-link" data-scroll-target="#submission-timeliness-2">Submission Timeliness</a></li>
-  <li><a href="#submission-compliance" id="toc-submission-compliance" class="nav-link" data-scroll-target="#submission-compliance">Submission Compliance</a></li>
-  <li><a href="#content-tags-2" id="toc-content-tags-2" class="nav-link" data-scroll-target="#content-tags-2">Content Tags</a></li>
+  <li><a href="#research-questions-1" id="toc-research-questions-1" class="nav-link" data-scroll-target="#research-questions-1">Research Questions</a></li>
+  <li><a href="#content-tags-2" id="toc-content-tags-2" class="nav-link" data-scroll-target="#content-tags-2">Content Tags</a>
+  <ul class="collapse">
+  <li><a href="#research-question-completeness-issues" id="toc-research-question-completeness-issues" class="nav-link" data-scroll-target="#research-question-completeness-issues">Research Question Completeness Issues</a></li>
+  <li><a href="#research-question-clarity-specificity-issues" id="toc-research-question-clarity-specificity-issues" class="nav-link" data-scroll-target="#research-question-clarity-specificity-issues">Research Question Clarity &amp; Specificity Issues</a></li>
+  <li><a href="#research-question-variable-selection-relationship-issues" id="toc-research-question-variable-selection-relationship-issues" class="nav-link" data-scroll-target="#research-question-variable-selection-relationship-issues">Research Question Variable Selection &amp; Relationship Issues</a></li>
+  <li><a href="#research-question-causality-issues" id="toc-research-question-causality-issues" class="nav-link" data-scroll-target="#research-question-causality-issues">Research Question Causality Issues</a></li>
+  <li><a href="#research-question-submission-formatting-issues" id="toc-research-question-submission-formatting-issues" class="nav-link" data-scroll-target="#research-question-submission-formatting-issues">Research Question Submission &amp; Formatting Issues</a></li>
+  </ul></li>
   </ul></li>
   <li><a href="#analysis-notebook-setup" id="toc-analysis-notebook-setup" class="nav-link" data-scroll-target="#analysis-notebook-setup">Analysis Notebook Setup</a>
   <ul class="collapse">
+  <li><a href="#what-to-include" id="toc-what-to-include" class="nav-link" data-scroll-target="#what-to-include">What to Include</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  <li><a href="#notebook-structure" id="toc-notebook-structure" class="nav-link" data-scroll-target="#notebook-structure">Notebook Structure</a></li>
   <li><a href="#submission-timeliness-3" id="toc-submission-timeliness-3" class="nav-link" data-scroll-target="#submission-timeliness-3">Submission Timeliness</a></li>
-  <li><a href="#submission-compliance-1" id="toc-submission-compliance-1" class="nav-link" data-scroll-target="#submission-compliance-1">Submission Compliance</a></li>
+  <li><a href="#analysis-notebook-setup-1" id="toc-analysis-notebook-setup-1" class="nav-link" data-scroll-target="#analysis-notebook-setup-1">Analysis Notebook Setup</a></li>
   <li><a href="#content-tags-3" id="toc-content-tags-3" class="nav-link" data-scroll-target="#content-tags-3">Content Tags</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#milestone-4" id="toc-milestone-4" class="nav-link" data-scroll-target="#milestone-4">Milestone 4</a>
   <ul>
-  <li><a href="#data-analysis-storytelling-25-points" id="toc-data-analysis-storytelling-25-points" class="nav-link" data-scroll-target="#data-analysis-storytelling-25-points">Data Analysis &amp; Storytelling (25 Points)</a>
+  <li><a href="#data-analysis-storytelling" id="toc-data-analysis-storytelling" class="nav-link" data-scroll-target="#data-analysis-storytelling">Data Analysis &amp; Storytelling</a>
   <ul class="collapse">
   <li><a href="#severity-scale-for-3-point-components" id="toc-severity-scale-for-3-point-components" class="nav-link" data-scroll-target="#severity-scale-for-3-point-components">Severity Scale for 3-Point Components</a></li>
   <li><a href="#severity-scale-for-2-point-components" id="toc-severity-scale-for-2-point-components" class="nav-link" data-scroll-target="#severity-scale-for-2-point-components">Severity Scale for 2-Point Components</a></li>
@@ -234,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 7, 2026</p>
+      <p class="date">June 23, 2026</p>
     </div>
   </div>
   
@@ -785,43 +816,603 @@ ul.task-list li input[type="checkbox"] {
 <p>In this milestone, you will develop research questions, create an analysis plan, and set up the notebook that will serve as the foundation for your final project analysis.</p>
 <section id="research-questions" class="level3">
 <h3 class="anchored" data-anchor-id="research-questions">Research Questions</h3>
+<p>The Research Questions milestone is worth 15 points total. Points are awarded based on submission timeliness and the quality of the research questions.</p>
 <p>Detailed submission instructions are available in Moodle.</p>
 <section id="submission-timeliness-2" class="level4">
 <h4 class="anchored" data-anchor-id="submission-timeliness-2">Submission Timeliness</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Severity Tag</th>
+<th>Points Deducted</th>
+<th>Points Earned</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[T-ON]</code></td>
+<td>0.0</td>
+<td>5.0</td>
+<td>Submitted on time</td>
+</tr>
+<tr class="even">
+<td><code>[T-L1]</code></td>
+<td>2.0</td>
+<td>3.0</td>
+<td>Submitted 1 day late</td>
+</tr>
+<tr class="odd">
+<td><code>[T-L2]</code></td>
+<td>3.5</td>
+<td>1.5</td>
+<td>Submitted 2 days late</td>
+</tr>
+<tr class="even">
+<td><code>[T-L3]</code></td>
+<td>4.0</td>
+<td>1.0</td>
+<td>Submitted more than 2 days late</td>
+</tr>
+<tr class="odd">
+<td><code>[T-N]</code></td>
+<td>5.0</td>
+<td>0.0</td>
+<td>Not submitted</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="submission-compliance" class="level4">
-<h4 class="anchored" data-anchor-id="submission-compliance">Submission Compliance</h4>
+<section id="research-questions-1" class="level4">
+<h4 class="anchored" data-anchor-id="research-questions-1">Research Questions</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Severity Tag</th>
+<th>Points Deducted</th>
+<th>Points Earned</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[C]</code></td>
+<td>0.0</td>
+<td>10.0</td>
+<td>Three clear, specific, and focused questions are provided. Each question involves two or more variables, avoids causal language, and includes a brief justification.</td>
+</tr>
+<tr class="even">
+<td><code>[e]</code></td>
+<td>0.75</td>
+<td>9.25</td>
+<td>The research questions are strong overall, with only minor issues related to wording, specificity, variable identification, or explanation.</td>
+</tr>
+<tr class="odd">
+<td><code>[m]</code></td>
+<td>2.0</td>
+<td>8.0</td>
+<td>The research questions are generally appropriate, but one or more questions are unclear, insufficiently specific, weakly justified, or do not fully meet the stated requirements.</td>
+</tr>
+<tr class="even">
+<td><code>[M]</code></td>
+<td>5.0</td>
+<td>5.0</td>
+<td>Several research questions are unclear, weakly justified, overly broad, or written as yes/no questions. Significant revision is required.</td>
+</tr>
+<tr class="odd">
+<td><code>[S]</code></td>
+<td>8.0</td>
+<td>2.0</td>
+<td>Most research questions do not meet the requirements or examine meaningful relationships between variables.</td>
+</tr>
+<tr class="even">
+<td><code>[X]</code></td>
+<td>10.0</td>
+<td>0.0</td>
+<td>Missing or required work is not present.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="content-tags-2" class="level4">
 <h4 class="anchored" data-anchor-id="content-tags-2">Content Tags</h4>
+<section id="research-question-completeness-issues" class="level5">
+<h5 class="anchored" data-anchor-id="research-question-completeness-issues">Research Question Completeness Issues</h5>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[RQ-NUM]</code></td>
+<td>Fewer than three research questions are provided.</td>
+</tr>
+<tr class="even">
+<td><code>[RQ-LIST]</code></td>
+<td>Variables are referenced but not specifically listed.</td>
+</tr>
+<tr class="odd">
+<td><code>[RQ-VAR]</code></td>
+<td>One or more questions do not involve at least two variables.</td>
+</tr>
+<tr class="even">
+<td><code>[RQ-CREATE]</code></td>
+<td>Created variables are not clearly defined or explained.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="research-question-clarity-specificity-issues" class="level5">
+<h5 class="anchored" data-anchor-id="research-question-clarity-specificity-issues">Research Question Clarity &amp; Specificity Issues</h5>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[RQ-CLR]</code></td>
+<td>One or more research questions are unclear or difficult to interpret.</td>
+</tr>
+<tr class="even">
+<td><code>[RQ-SPC]</code></td>
+<td>Questions are too broad, vague, or lack a clear analytical focus.</td>
+</tr>
+<tr class="odd">
+<td><code>[RQ-YN]</code></td>
+<td>One or more questions can be answered with a simple yes or no.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="research-question-variable-selection-relationship-issues" class="level5">
+<h5 class="anchored" data-anchor-id="research-question-variable-selection-relationship-issues">Research Question Variable Selection &amp; Relationship Issues</h5>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[RQ-VSEL]</code></td>
+<td>Variable choices are not well justified or are poorly matched to the questions.</td>
+</tr>
+<tr class="even">
+<td><code>[RQ-REL]</code></td>
+<td>Questions do not clearly explore relationships between variables.</td>
+</tr>
+<tr class="odd">
+<td><code>[RQ-EDA]</code></td>
+<td>Questions are not well suited for exploratory data analysis.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="research-question-causality-issues" class="level5">
+<h5 class="anchored" data-anchor-id="research-question-causality-issues">Research Question Causality Issues</h5>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[RQ-CAUSE]</code></td>
+<td>Research questions use causal language or imply causal relationships.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="research-question-submission-formatting-issues" class="level5">
+<h5 class="anchored" data-anchor-id="research-question-submission-formatting-issues">Research Question Submission &amp; Formatting Issues</h5>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[REQ-PDF]</code></td>
+<td>Submission was not entered in the text box or uploaded as a PDF.</td>
+</tr>
+<tr class="even">
+<td><code>[REQ-FMT]</code></td>
+<td>Formatting makes the submission difficult to read or interpret.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
 </section>
 </section>
 <section id="analysis-notebook-setup" class="level3">
 <h3 class="anchored" data-anchor-id="analysis-notebook-setup">Analysis Notebook Setup</h3>
+<p>The Analysis Notebook Setup is worth 15 points total. Points are awarded based on submission timeliness and completion of the notebook setup.</p>
 <p>Detailed submission instructions are available in Moodle.</p>
+<section id="what-to-include" class="level4">
+<h4 class="anchored" data-anchor-id="what-to-include">What to Include</h4>
+<p>Your notebook should contain the following sections:</p>
+<ul>
+<li><p>An introduction</p></li>
+<li><p>A dataset description</p></li>
+<li><p>Three research questions</p></li>
+<li><p>Placeholders for code, visualizations, and discussion for each research question</p></li>
+</ul>
+</section>
+<section id="example" class="level4">
+<h4 class="anchored" data-anchor-id="example">Example</h4>
+<p>See: <a href="">Analysis Plan Notebook Setup Example</a></p>
+<p>The example includes:</p>
+<ul>
+<li><p>A completed Introduction</p></li>
+<li><p>A completed Dataset Description</p></li>
+<li><p>One completed Research Question section</p></li>
+</ul>
+<p>Use the example to understand the expected level of detail and organization for your notebook.</p>
+</section>
+<section id="notebook-structure" class="level4">
+<h4 class="anchored" data-anchor-id="notebook-structure">Notebook Structure</h4>
+<p>The notebook template contains the following sections:</p>
+<ul>
+<li><p>Introduction</p></li>
+<li><p>Dataset Description</p></li>
+<li><p>Research Question 1</p></li>
+<li><p>Research Question 2</p></li>
+<li><p>Research Question 3</p></li>
+<li><p>Conclusions</p></li>
+<li><p>Course Reflection</p></li>
+</ul>
+<p>For Milestone 3, complete the Introduction, Dataset Description, Research Questions, Variables Used, and Planned Analysis sections. Leave the Code, Visualization, Discussion, Conclusions, and Course Reflection sections empty.</p>
+</section>
 <section id="submission-timeliness-3" class="level4">
 <h4 class="anchored" data-anchor-id="submission-timeliness-3">Submission Timeliness</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Severity Tag</th>
+<th>Points Deducted</th>
+<th>Points Earned</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[T-ON]</code></td>
+<td>0.0</td>
+<td>5.0</td>
+<td>Submitted on time</td>
+</tr>
+<tr class="even">
+<td><code>[T-L1]</code></td>
+<td>2.0</td>
+<td>3.0</td>
+<td>Submitted 1 day late</td>
+</tr>
+<tr class="odd">
+<td><code>[T-L2]</code></td>
+<td>3.5</td>
+<td>1.5</td>
+<td>Submitted 2 days late</td>
+</tr>
+<tr class="even">
+<td><code>[T-L3]</code></td>
+<td>4.0</td>
+<td>1.0</td>
+<td>Submitted more than 2 days late</td>
+</tr>
+<tr class="odd">
+<td><code>[T-N]</code></td>
+<td>5.0</td>
+<td>0.0</td>
+<td>Not submitted</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="submission-compliance-1" class="level4">
-<h4 class="anchored" data-anchor-id="submission-compliance-1">Submission Compliance</h4>
+<section id="analysis-notebook-setup-1" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-notebook-setup-1">Analysis Notebook Setup</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Severity Tag</th>
+<th>Points Deducted</th>
+<th>Points Earned</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[C]</code></td>
+<td>0.0</td>
+<td>10.0</td>
+<td>All required sections are completed. Guiding text has been replaced with clear, original content, and no code is included.</td>
+</tr>
+<tr class="even">
+<td><code>[e]</code></td>
+<td>0.75</td>
+<td>9.25</td>
+<td>The notebook is complete overall, with only minor issues related to organization, clarity, or remaining guiding text.</td>
+</tr>
+<tr class="odd">
+<td><code>[m]</code></td>
+<td>2.0</td>
+<td>8.0</td>
+<td>Most required sections are completed, but one or more sections are incomplete, unclear, or contain substantial guiding text.</td>
+</tr>
+<tr class="even">
+<td><code>[M]</code></td>
+<td>5.0</td>
+<td>5.0</td>
+<td>Several required sections are incomplete, unclear, or contain placeholder text. Significant revision is required.</td>
+</tr>
+<tr class="odd">
+<td><code>[S]</code></td>
+<td>8.0</td>
+<td>2.0</td>
+<td>Many required sections are missing, unchanged from the template, or lack sufficient content to support the final project.</td>
+</tr>
+<tr class="even">
+<td><code>[X]</code></td>
+<td>10.0</td>
+<td>0.0</td>
+<td>Missing or required work is not present.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="content-tags-3" class="level4">
 <h4 class="anchored" data-anchor-id="content-tags-3">Content Tags</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tag</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[NB-GUIDE]</code></td>
+<td>Guiding or placeholder text was not removed from one or more sections.</td>
+</tr>
+<tr class="even">
+<td><code>[NB-MISS]</code></td>
+<td>One or more required sections are missing or empty.</td>
+</tr>
+<tr class="odd">
+<td><code>[NB-CLR]</code></td>
+<td>Written responses are unclear, incomplete, or difficult to interpret.</td>
+</tr>
+<tr class="even">
+<td><code>[NB-CODE]</code></td>
+<td>Code was added despite instructions not to include code.</td>
+</tr>
+<tr class="odd">
+<td><code>[NB-STRUCT]</code></td>
+<td>Required notebook sections were removed, renamed, or reorganized.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 </section>
 </section>
 <section id="milestone-4" class="level2">
 <h2 class="anchored" data-anchor-id="milestone-4">Milestone 4</h2>
-<section id="data-analysis-storytelling-25-points" class="level3">
-<h3 class="anchored" data-anchor-id="data-analysis-storytelling-25-points">Data Analysis &amp; Storytelling (25 Points)</h3>
+<p>In this milestone, you will complete your final project notebook using either R or Python. You will conduct your analysis, create visualizations, and communicate your findings by answering the research questions developed in the previous milestones.</p>
+<section id="data-analysis-storytelling" class="level3">
+<h3 class="anchored" data-anchor-id="data-analysis-storytelling">Data Analysis &amp; Storytelling</h3>
+<p>The Data Analysis &amp; Storytelling Notebook is worth 30 points total. Points are awarded based on submission timeliness and completion of the notebook.</p>
+<p>Detailed submission instructions are available in Moodle.</p>
 <section id="severity-scale-for-3-point-components" class="level4">
 <h4 class="anchored" data-anchor-id="severity-scale-for-3-point-components">Severity Scale for 3-Point Components</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Severity Tag</th>
+<th>Points Deducted</th>
+<th>Points Earned</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[C]</code></td>
+<td>0.00</td>
+<td>3.00</td>
+<td>The response correctly addresses the question and meets all requirements.</td>
+</tr>
+<tr class="even">
+<td><code>[e]</code></td>
+<td>0.1875</td>
+<td>2.8125</td>
+<td>The work is correct, with issues limited to presentation or precision.</td>
+</tr>
+<tr class="odd">
+<td><code>[m]</code></td>
+<td>0.375</td>
+<td>2.625</td>
+<td>The core idea is correct, but some details are missing or unclear.</td>
+</tr>
+<tr class="even">
+<td><code>[M]</code></td>
+<td>0.75</td>
+<td>2.25</td>
+<td>A key element is missing or incorrect.</td>
+</tr>
+<tr class="odd">
+<td><code>[MJ]</code></td>
+<td>1.50</td>
+<td>1.50</td>
+<td>The main idea or a required element is missing or incorrect.</td>
+</tr>
+<tr class="even">
+<td><code>[S]</code></td>
+<td>2.25</td>
+<td>0.75</td>
+<td>An attempt was made, but most elements are missing or incorrect.</td>
+</tr>
+<tr class="odd">
+<td><code>[X]</code></td>
+<td>3.00</td>
+<td>0.00</td>
+<td>Missing or required work is not present.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="severity-scale-for-2-point-components" class="level4">
 <h4 class="anchored" data-anchor-id="severity-scale-for-2-point-components">Severity Scale for 2-Point Components</h4>
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Severity Tag</th>
+<th>Points Deducted</th>
+<th>Points Earned</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>[C]</code></td>
+<td>0.00</td>
+<td>2.00</td>
+<td>The response correctly addresses the question and meets all requirements.</td>
+</tr>
+<tr class="even">
+<td><code>[e]</code></td>
+<td>0.125</td>
+<td>1.875</td>
+<td>The work is correct, with issues limited to presentation or precision.</td>
+</tr>
+<tr class="odd">
+<td><code>[m]</code></td>
+<td>0.25</td>
+<td>1.75</td>
+<td>The core idea is correct, but some details are missing or unclear.</td>
+</tr>
+<tr class="even">
+<td><code>[M]</code></td>
+<td>0.50</td>
+<td>1.50</td>
+<td>A key element is missing or incorrect.</td>
+</tr>
+<tr class="odd">
+<td><code>[MJ]</code></td>
+<td>1.00</td>
+<td>1.00</td>
+<td>The main idea or a required element is missing or incorrect.</td>
+</tr>
+<tr class="even">
+<td><code>[S]</code></td>
+<td>1.50</td>
+<td>0.50</td>
+<td>An attempt was made, but most elements are missing or incorrect.</td>
+</tr>
+<tr class="odd">
+<td><code>[X]</code></td>
+<td>2.00</td>
+<td>0.00</td>
+<td>Missing or required work is not present.</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
 <section id="content-tags-4" class="level4">
 <h4 class="anchored" data-anchor-id="content-tags-4">Content Tags</h4>
+<p>The Data Analysis &amp; Storytelling assignment follows the same tags as programming assignments. See Programming Assignments for details.</p>
 
 
 </section>
@@ -1254,6 +1845,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./coding_style.html" class="pagination-link" aria-label="Programming Style Guide">
+        <span class="nav-page-text"><span class="chapter-title">Programming Style Guide</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-06-23">
 
-<title>Knitting to PDF – Introduction to R and Python for Data Science</title>
+<title>References – Introduction to R and Python for Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,41 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -65,8 +50,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./tags.html" rel="next">
-<link href="./rproj.html" rel="prev">
+<link href="./example_apn.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -117,7 +101,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./knitting.html"><span class="chapter-title">Knitting to PDF</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html"><span class="chapter-title">References</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +143,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./knitting.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Knitting to PDF</span></a>
+  <a href="./knitting.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Knitting to PDF</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -199,7 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">References</span></a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">References</span></a>
   </div>
 </li>
     </ul>
@@ -207,46 +191,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#knitting-assignment-00" id="toc-knitting-assignment-00" class="nav-link active" data-scroll-target="#knitting-assignment-00">Knitting Assignment 00</a></li>
-  <li><a href="#knitting-to-pdf" id="toc-knitting-to-pdf" class="nav-link" data-scroll-target="#knitting-to-pdf">Knitting to PDF</a>
-  <ul>
-  <li><a href="#using-the-yaml-header" id="toc-using-the-yaml-header" class="nav-link" data-scroll-target="#using-the-yaml-header">Using the YAML Header</a></li>
-  <li><a href="#using-the-knit-menu" id="toc-using-the-knit-menu" class="nav-link" data-scroll-target="#using-the-knit-menu">Using the Knit Menu</a></li>
-  </ul></li>
-  <li><a href="#common-knitting-errors" id="toc-common-knitting-errors" class="nav-link" data-scroll-target="#common-knitting-errors">Common Knitting Errors</a>
-  <ul>
-  <li><a href="#missing-knitr" id="toc-missing-knitr" class="nav-link" data-scroll-target="#missing-knitr">Missing <code>knitr</code></a></li>
-  <li><a href="#missing-latex" id="toc-missing-latex" class="nav-link" data-scroll-target="#missing-latex">Missing LaTeX</a></li>
-  </ul></li>
-  <li><a href="#installing-tinytex-for-pdf-output" id="toc-installing-tinytex-for-pdf-output" class="nav-link" data-scroll-target="#installing-tinytex-for-pdf-output">Installing TinyTeX for PDF Output</a>
-  <ul>
-  <li><a href="#tinytex-vs.-tinytex" id="toc-tinytex-vs.-tinytex" class="nav-link" data-scroll-target="#tinytex-vs.-tinytex">TinyTeX vs.&nbsp;<code>tinytex</code></a>
-  <ul>
-  <li><a href="#tinytex" id="toc-tinytex" class="nav-link" data-scroll-target="#tinytex">TinyTeX</a></li>
-  <li><a href="#tinytex-1" id="toc-tinytex-1" class="nav-link" data-scroll-target="#tinytex-1"><code>tinytex</code></a></li>
-  </ul></li>
-  </ul></li>
-  <li><a href="#steps-to-set-up-tinytex" id="toc-steps-to-set-up-tinytex" class="nav-link" data-scroll-target="#steps-to-set-up-tinytex">Steps to Set Up TinyTeX</a>
-  <ul>
-  <li><a href="#step-1-install-the-tinytex-package" id="toc-step-1-install-the-tinytex-package" class="nav-link" data-scroll-target="#step-1-install-the-tinytex-package">Step 1: Install the <code>tinytex</code> Package</a></li>
-  <li><a href="#step-2-install-tinytex" id="toc-step-2-install-tinytex" class="nav-link" data-scroll-target="#step-2-install-tinytex">Step 2: Install TinyTeX</a></li>
-  <li><a href="#step-3-verify-the-installation" id="toc-step-3-verify-the-installation" class="nav-link" data-scroll-target="#step-3-verify-the-installation">Step 3: Verify the Installation</a></li>
-  <li><a href="#step-4-knit-to-pdf" id="toc-step-4-knit-to-pdf" class="nav-link" data-scroll-target="#step-4-knit-to-pdf">Step 4: Knit to PDF</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Knitting to PDF</span></h1>
+<h1 class="title"><span class="chapter-title">References</span></h1>
 </div>
 
 
@@ -269,131 +222,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="knitting-assignment-00" class="level2">
-<h2 class="anchored" data-anchor-id="knitting-assignment-00">Knitting Assignment 00</h2>
-<p>In RStudio, <strong>knitting</strong> is the process of taking a source document written in R Markdown (<code>.Rmd</code>) and combining the text, code, and code output into a single rendered file, such as HTML, PDF, or Word. When a document is knitted, RStudio runs all code chunks, captures their output (e.g., tables, plots, and summaries), and integrates the results with the written text.</p>
-</section>
-<section id="knitting-to-pdf" class="level2">
-<h2 class="anchored" data-anchor-id="knitting-to-pdf">Knitting to PDF</h2>
-<section id="using-the-yaml-header" class="level3">
-<h3 class="anchored" data-anchor-id="using-the-yaml-header">Using the YAML Header</h3>
-<p>To knit directly to PDF by default, specify PDF output in the YAML header at the top of your document.</p>
-<div class="text-center">
-<p><img src="images/knit-yaml.png" class="img-fluid" style="width:75.0%"></p>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-pruim2023fostering" class="csl-entry" role="listitem">
+Pruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023.
+<span>“Fostering Better Coding Practices for Data Scientists.”</span>
+<em>Harvard Data Science Review</em> 5 (3). <a href="https://doi.org/10.1162/99608f92.97c9f60f">https://doi.org/10.1162/99608f92.97c9f60f</a>.
 </div>
-</section>
-<section id="using-the-knit-menu" class="level3">
-<h3 class="anchored" data-anchor-id="using-the-knit-menu">Using the Knit Menu</h3>
-<p>To manually knit a document to PDF:</p>
-<ol type="1">
-<li>Click the <strong>Knit</strong> button in RStudio.</li>
-<li>Select <strong>Knit to PDF</strong> from the drop-down menu.</li>
-</ol>
-<div class="text-center">
-<p><img src="images/knit-menu.png" class="img-fluid" style="width:75.0%"></p>
+<div id="ref-vanrossum2001pep8" class="csl-entry" role="listitem">
+Rossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. <span>“<span class="nocase">PEP 8 – Style Guide for Python Code</span>.”</span> <a href="https://peps.python.org/pep-0008/">https://peps.python.org/pep-0008/</a>.
 </div>
-</section>
-</section>
-<section id="common-knitting-errors" class="level2">
-<h2 class="anchored" data-anchor-id="common-knitting-errors">Common Knitting Errors</h2>
-<section id="missing-knitr" class="level3">
-<h3 class="anchored" data-anchor-id="missing-knitr">Missing <code>knitr</code></h3>
-<p>If you see the following message when attempting to knit</p>
-<blockquote class="blockquote">
-<p>Required package ‘knitr’ is missing. Would you like to install it?</p>
-</blockquote>
-<p>the <code>knitr</code> package has not yet been installed on your computer.</p>
-<p>Click <strong>Yes</strong> and RStudio will automatically install <code>knitr</code> and any required dependencies. Once installation is complete, knitting should begin again automatically.</p>
-<p>If the document knits successfully, no further action is required.</p>
-</section>
-<section id="missing-latex" class="level3">
-<h3 class="anchored" data-anchor-id="missing-latex">Missing LaTeX</h3>
-<p>If you instead see an error similar to the one below:</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
+<div id="ref-wickham2015tidyverse" class="csl-entry" role="listitem">
+Wickham, Hadley. 2015. <span>“The Tidyverse Style Guide.”</span> <a href="https://style.tidyverse.org/">https://style.tidyverse.org/</a>.
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Error: LaTeX failed to compile RMarkdown.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. In addition: Warning message: In system2(…, stdout = if (use_file_stdout()) f1 else FALSE, stderr = f2) : ‘“pdflatex”’ not found</p>
-<p>Execution halted No LaTeX installation detected (LaTeX is required to create PDF output). You should install a LaTeX distribution for your platform: https://www.latex-project.org/get/</p>
-</div>
-</div>
-<p>your computer does not have a LaTeX distribution installed. To create PDF files from R Markdown, you must install a LaTeX distribution such as TinyTeX.</p>
-<p>Proceed to the instructions below.</p>
-</section>
-</section>
-<section id="installing-tinytex-for-pdf-output" class="level2">
-<h2 class="anchored" data-anchor-id="installing-tinytex-for-pdf-output">Installing TinyTeX for PDF Output</h2>
-<p>To knit R Markdown documents to PDF, your computer needs a LaTeX installation. We recommend TinyTeX because it is lightweight, easy to install, and integrates well with RStudio.</p>
-<section id="tinytex-vs.-tinytex" class="level3">
-<h3 class="anchored" data-anchor-id="tinytex-vs.-tinytex">TinyTeX vs.&nbsp;<code>tinytex</code></h3>
-<section id="tinytex" class="level4">
-<h4 class="anchored" data-anchor-id="tinytex">TinyTeX</h4>
-<p>TinyTeX is a lightweight LaTeX distribution used to compile R Markdown documents into PDF files. It performs the actual PDF creation process.</p>
-</section>
-<section id="tinytex-1" class="level4">
-<h4 class="anchored" data-anchor-id="tinytex-1"><code>tinytex</code></h4>
-<p><code>tinytex</code> is an R package that installs and manages TinyTeX from within RStudio.</p>
-</section>
-</section>
-</section>
-<section id="steps-to-set-up-tinytex" class="level2">
-<h2 class="anchored" data-anchor-id="steps-to-set-up-tinytex">Steps to Set Up TinyTeX</h2>
-<section id="step-1-install-the-tinytex-package" class="level3">
-<h3 class="anchored" data-anchor-id="step-1-install-the-tinytex-package">Step 1: Install the <code>tinytex</code> Package</h3>
-<ul>
-<li>Open RStudio.</li>
-<li>In the <strong>Console</strong>, run:</li>
-</ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"tinytex"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Note:</strong> This installs the <code>tinytex</code> package, which manages the TinyTeX installation.</p>
-</section>
-<section id="step-2-install-tinytex" class="level3">
-<h3 class="anchored" data-anchor-id="step-2-install-tinytex">Step 2: Install TinyTeX</h3>
-<ul>
-<li>In the <strong>Console</strong>, run:</li>
-</ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Note:</strong> This command downloads and installs TinyTeX on your computer and may take several minutes.</p>
-</section>
-<section id="step-3-verify-the-installation" class="level3">
-<h3 class="anchored" data-anchor-id="step-3-verify-the-installation">Step 3: Verify the Installation</h3>
-<ul>
-<li>In the <strong>Console</strong>, run:</li>
-</ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">tinytex_root</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>If the command returns a file path, TinyTeX has been installed successfully.</p>
-<p>Example paths:</p>
-<ul>
-<li>macOS/Linux: <code>"/usr/local/texlive/..."</code></li>
-<li>Windows: <code>"C:\\Users\\YourName\\AppData\\Roaming\\TinyTeX\\..."</code></li>
-</ul>
-</section>
-<section id="step-4-knit-to-pdf" class="level3">
-<h3 class="anchored" data-anchor-id="step-4-knit-to-pdf">Step 4: Knit to PDF</h3>
-<ul>
-<li>Open your <code>.Rmd</code> file in RStudio.</li>
-<li>Verify that the YAML header specifies PDF output:</li>
-</ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Title"</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Your Name"</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">output</span><span class="kw">:</span><span class="at"> pdf_document</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li>Click <strong>Knit</strong>.</li>
-<li>Select <strong>Knit to PDF</strong> if prompted.</li>
-</ul>
-<p>RStudio will now use TinyTeX to generate a PDF version of your document.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -815,14 +658,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./rproj.html" class="pagination-link" aria-label="R Project Folder">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">R Project Folder</span></span>
+      <a href="./example_apn.html" class="pagination-link" aria-label="Example Analysis Notebook Setup">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Example Analysis Notebook Setup</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./tags.html" class="pagination-link" aria-label="Tag System Overview">
-        <span class="nav-page-text"><span class="chapter-title">Tag System Overview</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

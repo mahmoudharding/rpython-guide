@@ -1,72 +1,12 @@
 [
   {
-    "objectID": "milestones.html",
-    "href": "milestones.html",
-    "title": "Final Project Milestones",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to R and Python for Data Science",
     "section": "",
-    "text": "Final Project Milestones",
+    "text": "This resource is intended for students in Introduction to R and Python for Data Science. It provides materials and guidance to support understanding the grading rubrics, coding style, and project milestones.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
-    ]
-  },
-  {
-    "objectID": "milestones.html#milestone-1",
-    "href": "milestones.html#milestone-1",
-    "title": "Final Project Milestones",
-    "section": "Milestone 1",
-    "text": "Milestone 1\nIn this milestone, you will identify a dataset, demonstrate that it satisfies the project requirements, and create a datasheet documenting the variables, structure, and context of the dataset.\n\nDataset Approval Request\nThe Dataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nDataset Approval\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThe dataset meets all requirements and all required submission elements are present. Dataset approved.\n\n\n[e]\n0.75\n9.25\nOne or more minor issues must be addressed before the dataset can be approved. Dataset not yet approved.\n\n\n[m]\n2.0\n8.0\nSome requirements are unmet, unclear, or insufficiently documented. Revision is required before the dataset can be approved. Dataset not yet approved.\n\n\n[M]\n5.0\n5.0\nSeveral requirements are unmet or unclear. Significant revision or selection of an alternate dataset may be required. Dataset not yet approved.\n\n\n[S]\n8.0\n2.0\nMany requirements are unmet or violated. The dataset is not viable in its current form and should be replaced. Dataset not yet approved.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present. Dataset not yet approved.\n\n\n\n\n\n\nContent Tags\n\nDataset Structure & Size Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-FTYPE]\nFile type issue.\n\n\n[D-FSIZE]\nFile size issue.\n\n\n[D-RANGE]\nThe dataset does not meet the 500–10,000 row requirement.\n\n\n[D-VAR]\nThe dataset does not include at least 10 variables.\n\n\n[D-CAT]\nFewer than 2 categorical variables are present.\n\n\n[D-NUM]\nFewer than 2 numerical variables are present.\n\n\n\n\n\n\nDataset Suitability Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-TS]\nThe dataset is primarily time-series data.\n\n\n[D-REP]\nThe dataset contains repeated measurements of the same subject.\n\n\n[D-PII]\nPersonally identifiable information (PII) is present in the dataset.\n\n\n[D-OVR]\nThe dataset is overly common or has extensive publicly available analyses.\n\n\n[D-AN]\nThe dataset is unlikely to support meaningful analysis using the methods covered in this course.\n\n\n\n\n\n\nDataset Access & Documentation Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-UO]\nThe unit of observation is unclear or incorrectly described.\n\n\n[D-LINK]\nThe dataset link is missing, broken, or requires a personal login.\n\n\n\n\n\n\nDataset Justification & Research Question Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[J-FIT]\nThe justification does not clearly explain why the dataset fits the project goals.\n\n\n[J-REQ]\nThe justification does not explain how the dataset meets the project requirements.\n\n\n[J-RQ]\nExample research questions are missing or unclear.\n\n\n\n\n\n\n\n\nDatasheet\nThe Datasheet is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nDatasheet\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThe datasheet fully meets all requirements, addresses all specified criteria, and is well organized and clearly written.\n\n\n[e]\n0.75\n9.25\nThe datasheet is complete and clear, with only minor issues related to presentation, organization, or precision.\n\n\n[m]\n2.0\n8.0\nThe datasheet is generally complete and understandable, but some information is missing, unclear, or insufficiently documented.\n\n\n[M]\n5.0\n5.0\nSeveral required elements are missing, incomplete, or unclear. Meaningful revision is required.\n\n\n[S]\n8.0\n2.0\nMany required elements are missing or unclear; the datasheet does not meaningfully document the dataset.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\n\nDatasheet Completeness Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-MISS]\nOne or more variables are missing required documentation elements.\n\n\n[DS-PART]\nVariable descriptions are present but lack sufficient detail or clarity.\n\n\n[DS-SRC]\nDataset source is missing or unclear.\n\n\n\n\n\n\nDatasheet Variable Documentation Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-FNAME]\nThe filename does not adhere to snake_case.\n\n\n[DS-VNAME]\nOne or more variable names do not adhere to snake_case.\n\n\n[DS-DESC]\nA variable description does not clearly explain the meaning or context of the variable.\n\n\n[DS-TYPE]\nThe data type used to store a variable is missing or incorrect.\n\n\n[DS-UNIT]\nThe unit of measurement is missing or unclear where one is needed.\n\n\n[DS-VAL]\nPossible values, categories, or coding schemes are missing or unclear.\n\n\n\n\n\n\nDatasheet Organization & Clarity Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-ORG]\nThe organization of the datasheet makes it difficult to follow.\n\n\n[DS-WRITE]\nWriting is unclear, imprecise, or difficult to interpret.\n\n\n[DS-CONTEXT]\nThe datasheet does not provide sufficient context to understand the dataset and its variables.\n\n\n[DS-FMT]\nFormatting distracts from clarity (e.g., unnecessary bolding, headings, or spacing).\n\n\n[DS-PH]\nPlaceholder or instructional text was not removed.\n\n\n\n\n\n\nDatasheet Submission Format Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-PDF]\nThe datasheet was not submitted as a PDF.\n\n\n[REQ-UP]\nThe file was not uploaded correctly to Moodle.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
-    ]
-  },
-  {
-    "objectID": "milestones.html#grading",
-    "href": "milestones.html#grading",
-    "title": "Final Project Milestones",
-    "section": "Grading",
-    "text": "Grading\nDataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nSubmission Compliance\n\n\nContent Tags",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
-    ]
-  },
-  {
-    "objectID": "milestones.html#grading-1",
-    "href": "milestones.html#grading-1",
-    "title": "Final Project Milestones",
-    "section": "Grading",
-    "text": "Grading\nDataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nSubmission Compliance\n\n\nContent Tags",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
-    ]
-  },
-  {
-    "objectID": "milestones.html#milestone-2",
-    "href": "milestones.html#milestone-2",
-    "title": "Final Project Milestones",
-    "section": "Milestone 2",
-    "text": "Milestone 2\n\nData Dive Using R and Python\nIn these milestones, you will use R and Python to explore your dataset, identify patterns and potential issues, and develop insights that will support your final project analysis.\nSee Programming Assignments for grading criteria.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
-    ]
-  },
-  {
-    "objectID": "milestones.html#milestone-3",
-    "href": "milestones.html#milestone-3",
-    "title": "Final Project Milestones",
-    "section": "Milestone 3",
-    "text": "Milestone 3\nIn this milestone, you will develop research questions, create an analysis plan, and set up the notebook that will serve as the foundation for your final project analysis.\n\nResearch Questions\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\nSubmission Compliance\n\n\nContent Tags\n\n\n\nAnalysis Notebook Setup\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\nSubmission Compliance\n\n\nContent Tags",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
-    ]
-  },
-  {
-    "objectID": "milestones.html#milestone-4",
-    "href": "milestones.html#milestone-4",
-    "title": "Final Project Milestones",
-    "section": "Milestone 4",
-    "text": "Milestone 4\n\nData Analysis & Storytelling (25 Points)\n\nSeverity Scale for 3-Point Components\n\n\nSeverity Scale for 2-Point Components\n\n\nContent Tags",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
   },
   {
@@ -74,7 +14,7 @@
     "href": "intro.html",
     "title": "Introduction",
     "section": "",
-    "text": "Purpose\nThis resource is intended for students in Introduction to R and Python for Data Science. It provides materials and guidance to support success throughout the course, including information about grading rubrics, coding style expectations, assignment requirements, and project milestones.\nThe guide is designed to help students understand how coursework will be evaluated and how to develop clear, readable, and well-documented code in both R and Python. It also outlines expectations for visualizations, written interpretations, and project milestones.",
+    "text": "This resource is intended for students in Introduction to R and Python for Data Science. It provides materials and guidance to support success throughout the course, including information about grading rubrics, coding style expectations, assignment requirements, and project milestones.\nThe guide is designed to help students understand how coursework will be evaluated and how to develop clear, readable, and well-documented code in both R and Python. It also outlines expectations for visualizations, written interpretations, and project milestones.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -230,13 +170,203 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction to R and Python for Data Science",
+    "objectID": "milestones.html",
+    "href": "milestones.html",
+    "title": "Final Project Milestones",
     "section": "",
-    "text": "This resource is intended for students in Introduction to R and Python for Data Science. It provides materials and guidance to support understanding the grading rubrics, coding style, and project milestones.",
+    "text": "Final Project Milestones",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-1",
+    "href": "milestones.html#milestone-1",
+    "title": "Final Project Milestones",
+    "section": "Milestone 1",
+    "text": "Milestone 1\nIn this milestone, you will identify a dataset, demonstrate that it satisfies the project requirements, and create a datasheet documenting the variables, structure, and context of the dataset.\n\nDataset Approval Request\nThe Dataset Approval Request is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nDataset Approval\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThe dataset meets all requirements and all required submission elements are present. Dataset approved.\n\n\n[e]\n0.75\n9.25\nOne or more minor issues must be addressed before the dataset can be approved. Dataset not yet approved.\n\n\n[m]\n2.0\n8.0\nSome requirements are unmet, unclear, or insufficiently documented. Revision is required before the dataset can be approved. Dataset not yet approved.\n\n\n[M]\n5.0\n5.0\nSeveral requirements are unmet or unclear. Significant revision or selection of an alternate dataset may be required. Dataset not yet approved.\n\n\n[S]\n8.0\n2.0\nMany requirements are unmet or violated. The dataset is not viable in its current form and should be replaced. Dataset not yet approved.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present. Dataset not yet approved.\n\n\n\n\n\n\nContent Tags\n\nDataset Structure & Size Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-FTYPE]\nFile type issue.\n\n\n[D-FSIZE]\nFile size issue.\n\n\n[D-RANGE]\nThe dataset does not meet the 500–10,000 row requirement.\n\n\n[D-VAR]\nThe dataset does not include at least 10 variables.\n\n\n[D-CAT]\nFewer than 2 categorical variables are present.\n\n\n[D-NUM]\nFewer than 2 numerical variables are present.\n\n\n\n\n\n\nDataset Suitability Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-TS]\nThe dataset is primarily time-series data.\n\n\n[D-REP]\nThe dataset contains repeated measurements of the same subject.\n\n\n[D-PII]\nPersonally identifiable information (PII) is present in the dataset.\n\n\n[D-OVR]\nThe dataset is overly common or has extensive publicly available analyses.\n\n\n[D-AN]\nThe dataset is unlikely to support meaningful analysis using the methods covered in this course.\n\n\n\n\n\n\nDataset Access & Documentation Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[D-UO]\nThe unit of observation is unclear or incorrectly described.\n\n\n[D-LINK]\nThe dataset link is missing, broken, or requires a personal login.\n\n\n\n\n\n\nDataset Justification & Research Question Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[J-FIT]\nThe justification does not clearly explain why the dataset fits the project goals.\n\n\n[J-REQ]\nThe justification does not explain how the dataset meets the project requirements.\n\n\n[J-RQ]\nExample research questions are missing or unclear.\n\n\n\n\n\n\n\n\nDatasheet\nThe Datasheet is worth 15 points total. Points are awarded based on submission timeliness and dataset approval.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nDatasheet\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThe datasheet fully meets all requirements, addresses all specified criteria, and is well organized and clearly written.\n\n\n[e]\n0.75\n9.25\nThe datasheet is complete and clear, with only minor issues related to presentation, organization, or precision.\n\n\n[m]\n2.0\n8.0\nThe datasheet is generally complete and understandable, but some information is missing, unclear, or insufficiently documented.\n\n\n[M]\n5.0\n5.0\nSeveral required elements are missing, incomplete, or unclear. Meaningful revision is required.\n\n\n[S]\n8.0\n2.0\nMany required elements are missing or unclear; the datasheet does not meaningfully document the dataset.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\n\nDatasheet Completeness Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-MISS]\nOne or more variables are missing required documentation elements.\n\n\n[DS-PART]\nVariable descriptions are present but lack sufficient detail or clarity.\n\n\n[DS-SRC]\nDataset source is missing or unclear.\n\n\n\n\n\n\nDatasheet Variable Documentation Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-FNAME]\nThe filename does not adhere to snake_case.\n\n\n[DS-VNAME]\nOne or more variable names do not adhere to snake_case.\n\n\n[DS-DESC]\nA variable description does not clearly explain the meaning or context of the variable.\n\n\n[DS-TYPE]\nThe data type used to store a variable is missing or incorrect.\n\n\n[DS-UNIT]\nThe unit of measurement is missing or unclear where one is needed.\n\n\n[DS-VAL]\nPossible values, categories, or coding schemes are missing or unclear.\n\n\n\n\n\n\nDatasheet Organization & Clarity Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[DS-ORG]\nThe organization of the datasheet makes it difficult to follow.\n\n\n[DS-WRITE]\nWriting is unclear, imprecise, or difficult to interpret.\n\n\n[DS-CONTEXT]\nThe datasheet does not provide sufficient context to understand the dataset and its variables.\n\n\n[DS-FMT]\nFormatting distracts from clarity (e.g., unnecessary bolding, headings, or spacing).\n\n\n[DS-PH]\nPlaceholder or instructional text was not removed.\n\n\n\n\n\n\nDatasheet Submission Format Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-PDF]\nThe datasheet was not submitted as a PDF.\n\n\n[REQ-UP]\nThe file was not uploaded correctly to Moodle.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-2",
+    "href": "milestones.html#milestone-2",
+    "title": "Final Project Milestones",
+    "section": "Milestone 2",
+    "text": "Milestone 2\n\nData Dive Using R and Python\nIn these milestones, you will use R and Python to explore your dataset, identify patterns and potential issues, and develop insights that will support your final project analysis.\nSee Programming Assignments for grading criteria.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-3",
+    "href": "milestones.html#milestone-3",
+    "title": "Final Project Milestones",
+    "section": "Milestone 3",
+    "text": "Milestone 3\nIn this milestone, you will develop research questions, create an analysis plan, and set up the notebook that will serve as the foundation for your final project analysis.\n\nResearch Questions\nThe Research Questions milestone is worth 15 points total. Points are awarded based on submission timeliness and the quality of the research questions.\nDetailed submission instructions are available in Moodle.\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nResearch Questions\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nThree clear, specific, and focused questions are provided. Each question involves two or more variables, avoids causal language, and includes a brief justification.\n\n\n[e]\n0.75\n9.25\nThe research questions are strong overall, with only minor issues related to wording, specificity, variable identification, or explanation.\n\n\n[m]\n2.0\n8.0\nThe research questions are generally appropriate, but one or more questions are unclear, insufficiently specific, weakly justified, or do not fully meet the stated requirements.\n\n\n[M]\n5.0\n5.0\nSeveral research questions are unclear, weakly justified, overly broad, or written as yes/no questions. Significant revision is required.\n\n\n[S]\n8.0\n2.0\nMost research questions do not meet the requirements or examine meaningful relationships between variables.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\n\nResearch Question Completeness Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[RQ-NUM]\nFewer than three research questions are provided.\n\n\n[RQ-LIST]\nVariables are referenced but not specifically listed.\n\n\n[RQ-VAR]\nOne or more questions do not involve at least two variables.\n\n\n[RQ-CREATE]\nCreated variables are not clearly defined or explained.\n\n\n\n\n\n\nResearch Question Clarity & Specificity Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[RQ-CLR]\nOne or more research questions are unclear or difficult to interpret.\n\n\n[RQ-SPC]\nQuestions are too broad, vague, or lack a clear analytical focus.\n\n\n[RQ-YN]\nOne or more questions can be answered with a simple yes or no.\n\n\n\n\n\n\nResearch Question Variable Selection & Relationship Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[RQ-VSEL]\nVariable choices are not well justified or are poorly matched to the questions.\n\n\n[RQ-REL]\nQuestions do not clearly explore relationships between variables.\n\n\n[RQ-EDA]\nQuestions are not well suited for exploratory data analysis.\n\n\n\n\n\n\nResearch Question Causality Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[RQ-CAUSE]\nResearch questions use causal language or imply causal relationships.\n\n\n\n\n\n\nResearch Question Submission & Formatting Issues\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[REQ-PDF]\nSubmission was not entered in the text box or uploaded as a PDF.\n\n\n[REQ-FMT]\nFormatting makes the submission difficult to read or interpret.\n\n\n\n\n\n\n\n\nAnalysis Notebook Setup\nThe Analysis Notebook Setup is worth 15 points total. Points are awarded based on submission timeliness and completion of the notebook setup.\nDetailed submission instructions are available in Moodle.\n\nWhat to Include\nYour notebook should contain the following sections:\n\nAn introduction\nA dataset description\nThree research questions\nPlaceholders for code, visualizations, and discussion for each research question\n\n\n\nExample\nSee: Analysis Plan Notebook Setup Example\nThe example includes:\n\nA completed Introduction\nA completed Dataset Description\nOne completed Research Question section\n\nUse the example to understand the expected level of detail and organization for your notebook.\n\n\nNotebook Structure\nThe notebook template contains the following sections:\n\nIntroduction\nDataset Description\nResearch Question 1\nResearch Question 2\nResearch Question 3\nConclusions\nCourse Reflection\n\nFor Milestone 3, complete the Introduction, Dataset Description, Research Questions, Variables Used, and Planned Analysis sections. Leave the Code, Visualization, Discussion, Conclusions, and Course Reflection sections empty.\n\n\nSubmission Timeliness\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[T-ON]\n0.0\n5.0\nSubmitted on time\n\n\n[T-L1]\n2.0\n3.0\nSubmitted 1 day late\n\n\n[T-L2]\n3.5\n1.5\nSubmitted 2 days late\n\n\n[T-L3]\n4.0\n1.0\nSubmitted more than 2 days late\n\n\n[T-N]\n5.0\n0.0\nNot submitted\n\n\n\n\n\n\nAnalysis Notebook Setup\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.0\n10.0\nAll required sections are completed. Guiding text has been replaced with clear, original content, and no code is included.\n\n\n[e]\n0.75\n9.25\nThe notebook is complete overall, with only minor issues related to organization, clarity, or remaining guiding text.\n\n\n[m]\n2.0\n8.0\nMost required sections are completed, but one or more sections are incomplete, unclear, or contain substantial guiding text.\n\n\n[M]\n5.0\n5.0\nSeveral required sections are incomplete, unclear, or contain placeholder text. Significant revision is required.\n\n\n[S]\n8.0\n2.0\nMany required sections are missing, unchanged from the template, or lack sufficient content to support the final project.\n\n\n[X]\n10.0\n0.0\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\n\n\n\n\n\n\n\n\nTag\nExplanation\n\n\n\n\n[NB-GUIDE]\nGuiding or placeholder text was not removed from one or more sections.\n\n\n[NB-MISS]\nOne or more required sections are missing or empty.\n\n\n[NB-CLR]\nWritten responses are unclear, incomplete, or difficult to interpret.\n\n\n[NB-CODE]\nCode was added despite instructions not to include code.\n\n\n[NB-STRUCT]\nRequired notebook sections were removed, renamed, or reorganized.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "milestones.html#milestone-4",
+    "href": "milestones.html#milestone-4",
+    "title": "Final Project Milestones",
+    "section": "Milestone 4",
+    "text": "Milestone 4\nIn this milestone, you will complete your final project notebook using either R or Python. You will conduct your analysis, create visualizations, and communicate your findings by answering the research questions developed in the previous milestones.\n\nData Analysis & Storytelling\nThe Data Analysis & Storytelling Notebook is worth 30 points total. Points are awarded based on submission timeliness and completion of the notebook.\nDetailed submission instructions are available in Moodle.\n\nSeverity Scale for 3-Point Components\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.00\n3.00\nThe response correctly addresses the question and meets all requirements.\n\n\n[e]\n0.1875\n2.8125\nThe work is correct, with issues limited to presentation or precision.\n\n\n[m]\n0.375\n2.625\nThe core idea is correct, but some details are missing or unclear.\n\n\n[M]\n0.75\n2.25\nA key element is missing or incorrect.\n\n\n[MJ]\n1.50\n1.50\nThe main idea or a required element is missing or incorrect.\n\n\n[S]\n2.25\n0.75\nAn attempt was made, but most elements are missing or incorrect.\n\n\n[X]\n3.00\n0.00\nMissing or required work is not present.\n\n\n\n\n\n\nSeverity Scale for 2-Point Components\n\n\n\n\n\n\n\n\n\n\nSeverity Tag\nPoints Deducted\nPoints Earned\nExplanation\n\n\n\n\n[C]\n0.00\n2.00\nThe response correctly addresses the question and meets all requirements.\n\n\n[e]\n0.125\n1.875\nThe work is correct, with issues limited to presentation or precision.\n\n\n[m]\n0.25\n1.75\nThe core idea is correct, but some details are missing or unclear.\n\n\n[M]\n0.50\n1.50\nA key element is missing or incorrect.\n\n\n[MJ]\n1.00\n1.00\nThe main idea or a required element is missing or incorrect.\n\n\n[S]\n1.50\n0.50\nAn attempt was made, but most elements are missing or incorrect.\n\n\n[X]\n2.00\n0.00\nMissing or required work is not present.\n\n\n\n\n\n\nContent Tags\nThe Data Analysis & Storytelling assignment follows the same tags as programming assignments. See Programming Assignments for details.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Final Project Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "coding_style.html",
+    "href": "coding_style.html",
+    "title": "Programming Style Guide",
+    "section": "",
+    "text": "Purpose\nThe purpose for this guide is to help you write clear, readable, and professional code from the start. It draws on recommendations from Pruim, Gı̂rjău, and Horton (2023), Rossum, Warsaw, and Coghlan (2001), and Wickham (2015).",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programming Style Guide</span>"
+    ]
+  },
+  {
+    "objectID": "coding_style.html#general-guidelines",
+    "href": "coding_style.html#general-guidelines",
+    "title": "Programming Style Guide",
+    "section": "General Guidelines",
+    "text": "General Guidelines\n\nComments\n\nComments start with #\nComments should be sentence case\n\n# Load the data\n\nComments should usually be a short phrase or single sentence that describes the purpose of a block of code. Use additional sentences only to explain non-obvious decisions (e.g., # Keep only data from 2024. Earlier years use a different reporting# system and are not directly comparable.)\n\n\n\nPick clear, descriptive names and a standard naming convention\n\nUse meaningful names (e.g., average_score, not x1)\nUse snake_case for variable and user-defined function names\nAvoid using dots in names (e.g., average.score)\n\n\n\nWrite code in logical blocks\n\nUse blank lines between steps\n\n# Laod the data\ncode\n\n# Clean the data\ncode\ncode\ncode\n\n\nUse consistent spacing\nFor assignment statements and arithmetic expressions.\n\n\n\n\n\n\n\n\n\nLanguage\nGood Example\nBad Example\n\n\n\n\nR\nheight &lt;- feet * 12 + inches\nheight&lt;-feet*12+inches\n\n\nPython\ndf[\"lbs\"] = df[\"kg\"] / 2.204\ndf[\"lbs\"]=df[\"kg\"]/2.204\n\n\n\n\nFor assigning default values or passing keyword arguements.\n\n\n\n\n\n\n\n\n\nLanguage\nGood Example\nBad Example\n\n\n\n\nR\nmean(x, na.rm=TRUE)\nmean(x, na.rm = TRUE)\n\n\nPython\nround(number, ndigits=2)\nround(number, ndigits = 2)\n\n\n\n\n\n\nHandle long lines thoughtfully\n\nKeep lines ≤ 79 chars\nUse parentheses for long expressions\n\ndf |&gt;\n  summarise(\n    Sepal.Length = mean(Sepal.Length),\n    Sepal.Width = mean(Sepal.Width),\n    .by = Species\n  )\nresults = pd.concat(\n    [df1, df2, df3],\n    ignore_index=True,\n    sort=False\n)\n\n\nImport libraries and load packages at the beginning\nimport pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nlibrary(tidyverse)\nlibrary(ggplot2)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programming Style Guide</span>"
+    ]
+  },
+  {
+    "objectID": "coding_style.html#python-specific-style",
+    "href": "coding_style.html#python-specific-style",
+    "title": "Programming Style Guide",
+    "section": "Python-Specific Style",
+    "text": "Python-Specific Style\n\nChain methods when appropriate\ndf.groupby(\"category\").mean()\n\n\nDefine functions clearly\ndef calculate_mean(values):\n    \"\"\"Return the mean of a list of numbers.\"\"\"\n    return sum(values) / len(values)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programming Style Guide</span>"
+    ]
+  },
+  {
+    "objectID": "coding_style.html#r-specific-style",
+    "href": "coding_style.html#r-specific-style",
+    "title": "Programming Style Guide",
+    "section": "R-Specific Style",
+    "text": "R-Specific Style\n\nUse the Pipe |&gt;\ndata |&gt;\n  filter(score &gt; 80) |&gt;\n  summarise(avg = mean(score))\n\n\nFormat pipes with whitespace\n\nPipes go at end of line\nIndent by 2 spaces\nShort pipes go one a single line iris |&gt; summary()\n\n\n\nFormat ggplot2 code\nggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) +\n  geom_point() +\n  labs(\n    x = \"Sepal width (cm)\",\n    y = \"Sepal length (cm)\",\n    title = \"Sepal Dimensions by Species\"\n  )\n\n\nUse &lt;- for assignment\nx &lt;- 10\n\n\nFormatting if statements\nscore &lt;- 10 \nif (score &gt; 15) {\n  print(\"High\")\n} else if (score &lt; 15) {\n  print(\"Medium\")\n} else { \n  print(\"Low\")\n}\n\n\n\n\nPruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023. “Fostering Better Coding Practices for Data Scientists.” Harvard Data Science Review 5 (3). https://doi.org/10.1162/99608f92.97c9f60f.\n\n\nRossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. “PEP 8 – Style Guide for Python Code.” https://peps.python.org/pep-0008/.\n\n\nWickham, Hadley. 2015. “The Tidyverse Style Guide.” https://style.tidyverse.org/.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programming Style Guide</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "Milestone Templates",
+    "section": "",
+    "text": "Milestone 1: Finding a Dataset",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Milestone Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#milestone-1-finding-a-dataset",
+    "href": "templates.html#milestone-1-finding-a-dataset",
+    "title": "Milestone Templates",
+    "section": "",
+    "text": "Dataset Approval Request Template\n\n\n\n\n\n\nNote\n\n\n\nA copy of this template can be found here. Create your own copy and complete it before submitting.\n\n\nName:\nSection:\nCourse: Introduction to R and Python for Data Science\nDate:\nDataset Description\nProvide a brief description of the dataset.\nExample\n\nMenuStat is a free nutrition database of foods and beverages served by the nation’s top grossing chain restaurants.\n\nDataset Name: The name of the CSV file.\nExample\n\nms_annual_data_2022.xls\n\nLink: Provide a direct link to the website where the dataset can be accessed or downloaded. The link should work without requiring a personal login whenever possible.\nExample\n\nhttps://www.menustat.org/data.html\n\nDataset Dimensions\nNumber of observations (rows):\nNumber of variables (columns):\nUnit of Observation\nDescribe what each row in the dataset represents.\nExample\n\nEach row represents a single menu item offered by a restaurant.\n\nNumerical Variable Names and Descriptions\n\n\n\n\n\n\n\n\n\nName\nDescription\n\n\n\n\nmatched_2021\nIndicator for whether the menu item was also present in the 2021 dataset\n\n\nnew_item_2022\nIndicator for whether the menu item is new in the 2022 dataset\n\n\nserving_size\nServing size amount\n\n\ncalories\nEnergy content (kcal)\n\n\ntotal_fat\nTotal fat (g)\n\n\nsaturated_fat\nSaturated fat (g)\n\n\ntrans_fat\nTrans fat (g)\n\n\ncholesterol\nCholesterol (mg)\n\n\nsodium\nSodium (mg)\n\n\ncarbohydrates\nTotal carbohydrates (g)\n\n\ndietary_fiber\nDietary fiber (g)\n\n\nsugar\nTotal sugar (g)\n\n\nprotein\nProtein (g)\n\n\npotassium\nPotassium (mg)\n\n\n\n\n\nCategorical Variable Names and Descriptions\n\n\n\n\n\n\n\n\n\nName.\nDescription\n\n\n\n\nmenu_item_id\nUnique identifier for the menu item\n\n\nfood_category\nCategory of food or beverage item\n\n\nrestaurant\nName of the restaurant chain\n\n\nitem_name\nName of the menu item\n\n\nitem_description\nDescription of the menu item\n\n\nserving_size_text\nServing size as reported by the restaurant\n\n\nserving_size_unit\nUnit of measurement for the serving size\n\n\nserving_size_household\nHousehold serving size description\n\n\n\n\n\nPotential Research Questions and Descriptions\nList 2–3 research questions that could be investigated using this dataset.\n\n\n\n\n\nExample\n\n\nHow do calorie counts vary across different food categories? \nWhat is the relationship between serving size and calorie content? \nWhich restaurant chains offer menu items with the highest average calorie content?\n\n\nJustification\nExplain why you are interested in this dataset and why it is appropriate for the project.\n\n\nDatasheet Template\n\n\n\n\n\n\nNote\n\n\n\nA copy of this template can be found here. Create your own copy and complete it before submitting.\n\n\nName\nThe name of the CSV file\nExample\n\nms_annual_data_2022.csv\n\nDescription\nInstructions: Write a brief description of your dataset (3-5 sentences). Your description should:\n\nExplain what the dataset is about\n\nIdentify the data source\n\nSummarize the types of information included\n\nClearly state the unit of observation (what one row represents)\n\nExample\n\nMenuStat is a nutrition database containing menu items from large U.S. chain restaurants. The data are collected from nutrition information published on restaurant websites and are maintained by the Harvard Pilgrim Health Care Institute. The dataset includes information about menu items, restaurant names, food categories, serving sizes, and nutritional measures such as calories, fat, sodium, carbohydrates, and protein. Each row represents a single menu item offered by a restaurant.\n\nSource\nInstructions: Provide the name of the source and a direct link to the webpage or repository where the dataset was obtained. The link should allow someone else to locate the same dataset.\nExample\n\nSource: The Harvard Pilgrim Health Care Institute  Link: https://www.menustat.org/data.html\n\nVariables\nInstructions: Complete the variables table for your dataset. Each row in the table should describe one variable (column) in the dataset.\nFor each variable, provide the following:\n\nVariable name: The exact column name as it appears in the dataset.\nDescription: A brief explanation of what the variable represents.\nType: Indicate whether the variable is Cat. (categorical) or Num. (numerical).\nUnits: The units of measurement for the variable (e.g., students, dollars, years). If the variable is categorical, write N/A.\n\nExample\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nmatched_2021\nCat.\nIndicator for whether the menu item was also present in the 2021 MenuStat dataset (1 = yes, 0 = no)\n\n\nnew_item_2022\nCat.\nIndicator for whether the menu item is new in the 2022 dataset (1 = yes, 0 = no)\n\n\nmenu_item_id\nCat.\nUnique identifier for the menu item\n\n\nfood_category\nCat.\nCategory of food or beverage item\n\n\nrestaurant\nCat.\nName of the restaurant chain\n\n\nitem_name\nCat.\nName of the menu item\n\n\nitem_description\nCat.\nDescription of the menu item\n\n\nserving_size\nNum.\nServing size amount\n\n\nserving_size_text\nCat.\nServing size as reported by the restaurant\n\n\nserving_size_unit\nCat.\nUnit of measurement for the serving size (e.g., oz, g, mL)\n\n\nserving_size_household\nCat.\nHousehold serving size description (e.g., 1 sandwich, 1 slice)\n\n\ncalories\nNum.\nEnergy content (kilocalories)\n\n\ntotal_fat\nNum.\nTotal fat (grams)\n\n\nsaturated_fat\nNum.\nSaturated fat (grams)\n\n\ntrans_fat\nNum.\nTrans fat (grams)\n\n\ncholesterol\nNum.\nCholesterol (milligrams)\n\n\nsodium\nNum.\nSodium (milligrams)\n\n\ncarbohydrates\nNum.\nTotal carbohydrates (grams)\n\n\ndietary_fiber\nNum.\nDietary fiber (grams)\n\n\nsugar\nNum.\nTotal sugar (grams)\n\n\nprotein\nNum.\nProtein (grams)\n\n\npotassium\nNum.\nPotassium (milligrams)\n\n\nnotes\nCat.\nAdditional notes provided by MenuStat\n\n\ncalories_text\nCat.\nCalories reported as text by the restaurant\n\n\ntotal_fat_text\nCat.\nTotal fat reported as text by the restaurant\n\n\nsaturated_fat_text\nCat.\nSaturated fat reported as text by the restaurant\n\n\ntrans_fat_text\nCat.\nTrans fat reported as text by the restaurant\n\n\ncholesterol_text\nCat.\nCholesterol reported as text by the restaurant\n\n\nsodium_text\nCat.\nSodium reported as text by the restaurant\n\n\ncarbohydrates_text\nCat.\nCarbohydrates reported as text by the restaurant\n\n\ndietary_fiber_text\nCat.\nDietary fiber reported as text by the restaurant\n\n\nsugar_text\nCat.\nSugar reported as text by the restaurant\n\n\nprotein_text\nCat.\nProtein reported as text by the restaurant\n\n\n\n\n\n\nNotes:The variables notes, calories_text, total_fat_text, saturated_fat_text, trans_fat_text, cholesterol_text, sodium_text, carbohydrates_text, dietary_fiber_text, sugar_text, and protein_textcontain only missing values in the 2022 dataset.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Milestone Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#milestone-2-data-dive",
+    "href": "templates.html#milestone-2-data-dive",
+    "title": "Milestone Templates",
+    "section": "Milestone 2: Data Dive",
+    "text": "Milestone 2: Data Dive\n\nData Dive Using R\n\n\nData Dive Using Python",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Milestone Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#milestone-3-analysis-plan",
+    "href": "templates.html#milestone-3-analysis-plan",
+    "title": "Milestone Templates",
+    "section": "Milestone 3: Analysis Plan",
+    "text": "Milestone 3: Analysis Plan\n\nDeveloping Research Questions\nThe purpose of this guide is to help you develop effective research questions for your final project. Strong research questions focus your exploratory data analysis and help identify patterns, trends, and relationships worth investigating.\n\nWhat to Include in Your Submission\n\nThree research questions, each involving two or more variables.\n\nA brief explanation of why you chose these variables and why the relationship is worth exploring.\n\n\n\nGeneral Guidelines\n\nFocus on exploring relationships, patterns, and trends in the data\n\nEnsure questions are clear, specific, and focused\n\nPrioritize comparisons (across groups, categories, or over time)\nAvoid questions that can be answered with a simple yes or no\nAvoid language that implies causation (e.g., affect, impact)\n\n\n\nGuidance for Writing Research Questions\nUse Two or More Variables\nEach question must examine a relationship between variables.\nExample\n\n\nAvoid: What is the average salary?\nUse: What is the relationship between years of experience and salary?\n\n\nBe Specific and Clear\nClearly state what you are investigating and identify the variables involved.\nExample\n\n\nAvoid: Is there a connection between studying and grades?\nUse: How does the number of hours studied relate to final exam scores among high school students?\n\n\nAvoid Causal Language\nExploratory analysis identifies relationships—not cause and effect.\nExample\n\n\nAvoid: Does income affect education level?\n\nUse: What is the relationship between income and education level?\n\n\nConsider Adding Depth\nYou can strengthen a research question by examining how a relationship differs across groups or categories.\nExample\n\n\nGood: What is the relationship between physical activity and heart rate?\nBetter: *What is the relation\n\n\n\n\n\nAnalysis Plan Notebook Setup\nIntroduction\nExample\n\nThis project explores trends in restaurant menu items using nutritional information collected from several national restaurant chains. The goal of the analysis is to identify patterns in menu item calories and investigate how calorie counts vary across different restaurants and menu categories. Understanding these patterns may provide insight into differences in restaurant offerings and nutritional content.\n\nDataset Description\nExample\n\nThis dataset contains nutritional information for menu items offered by several restaurant chains. The data was collected to provide consumers with information about the nutritional content of restaurant meals.  Each row in the dataset represents a single menu item. The dataset contains 9,569 observations. No observations have been removed at this stage of the analysis.  The variables most relevant to this project include the restaurant name, menu category, and calorie count. These variables will be used to investigate differences in nutritional content across restaurants and menu item types.  Source: MenuStat REseteraunt Nutrition Database. Link: https://www.menustat.org/uploads/1/4/1/6/141624194/ms_annual_data_2022.xls\n\nVariables\nExample\n\n\n\n\n\n\n\n\n\n\nName\nType\nDescription\n\n\n\n\nmatched_2021\nCat.\nIndicator for whether the menu item was also present in the 2021 MenuStat dataset (1 = yes, 0 = no)\n\n\nnew_item_2022\nCat.\nIndicator for whether the menu item is new in the 2022 dataset (1 = yes, 0 = no)\n\n\nmenu_item_id\nCat.\nUnique identifier for the menu item\n\n\nfood_category\nCat.\nCategory of food or beverage item\n\n\nrestaurant\nCat.\nName of the restaurant chain\n\n\nitem_name\nCat.\nName of the menu item\n\n\nitem_description\nCat.\nDescription of the menu item\n\n\nserving_size\nNum.\nServing size amount\n\n\nserving_size_text\nCat.\nServing size as reported by the restaurant\n\n\nserving_size_unit\nCat.\nUnit of measurement for the serving size (e.g., oz, g, mL)\n\n\nserving_size_household\nCat.\nHousehold serving size description (e.g., 1 sandwich, 1 slice)\n\n\ncalories\nNum.\nEnergy content (kilocalories)\n\n\ntotal_fat\nNum.\nTotal fat (grams)\n\n\nsaturated_fat\nNum.\nSaturated fat (grams)\n\n\ntrans_fat\nNum.\nTrans fat (grams)\n\n\ncholesterol\nNum.\nCholesterol (milligrams)\n\n\nsodium\nNum.\nSodium (milligrams)\n\n\ncarbohydrates\nNum.\nTotal carbohydrates (grams)\n\n\ndietary_fiber\nNum.\nDietary fiber (grams)\n\n\nsugar\nNum.\nTotal sugar (grams)\n\n\nprotein\nNum.\nProtein (grams)\n\n\npotassium\nNum.\nPotassium (milligrams)\n\n\n\n\n\nResearch Question 1\nQuestion\n\nHow does the average calorie content of menu items vary across restaurants?\n\nVariables Used\nList the variables that will be used to answer this research question and briefly describe their role in the analysis.\nExample\n\n\n\n\n\n\n\n\n\nName\nRole in Analysis\n\n\n\n\nrestaurant\nGrouping variable used to compare restaurants\n\n\ncalories\nNumerical variable used to measure calorie content\n\n\n\n\n\nPlanned Analysis\nExample\n\nTo answer this question, I will compare the average calorie content of menu items across restaurants. I will calculate summary statistics, including the mean and median calorie counts for each restaurant. This analysis will help identify whether some restaurants tend to offer higher-calorie menu items than others.\n\nCode\nVisualization\nConclusions\nCourse Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Milestone Templates</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html#milestone-4-data-analysis-and-storytelling",
+    "href": "templates.html#milestone-4-data-analysis-and-storytelling",
+    "title": "Milestone Templates",
+    "section": "Milestone 4: Data Analysis and Storytelling",
+    "text": "Milestone 4: Data Analysis and Storytelling",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Milestone Templates</span>"
+    ]
+  },
+  {
+    "objectID": "example_apn.html",
+    "href": "example_apn.html",
+    "title": "Example Analysis Notebook Setup",
+    "section": "",
+    "text": "Introduction\nThis project explores trends in restaurant menu items using nutritional information collected from several national restaurant chains. The goal of the analysis is to identify patterns in menu item calories and investigate how calorie counts vary across different restaurants and menu categories. Understanding these patterns may provide insight into differences in restaurant offerings and nutritional content.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Analysis Notebook Setup</span>"
+    ]
+  },
+  {
+    "objectID": "example_apn.html#dataset-description",
+    "href": "example_apn.html#dataset-description",
+    "title": "Example Analysis Notebook Setup",
+    "section": "Dataset Description",
+    "text": "Dataset Description\nThis dataset contains nutritional information for menu items offered by several restaurant chains. The data was collected to provide consumers with information about the nutritional content of restaurant meals.\nEach row in the dataset represents a single menu item. The dataset contains 9,569 observations. No observations have been removed at this stage of the analysis.\nThe variables most relevant to this project include the restaurant name, menu category, and calorie count. These variables will be used to investigate differences in nutritional content across restaurants and menu item types.\n\nVariable Documentation\n\n\n\nVariable Name\nData Type\nDescription\n\n\n\n\nrestaurant\nCharacter\nName of the restaurant chain\n\n\nitem_name\nCharacter\nName of the menu item\n\n\ncategory\nCharacter\nMenu category for the item\n\n\ncalories\nNumeric\nNumber of calories in the menu item",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Analysis Notebook Setup</span>"
+    ]
+  },
+  {
+    "objectID": "example_apn.html#research-question-1",
+    "href": "example_apn.html#research-question-1",
+    "title": "Example Analysis Notebook Setup",
+    "section": "Research Question 1",
+    "text": "Research Question 1\n\nQuestion\nHow does the average calorie content of menu items vary across restaurants?\n\n\nVariables Used\nList the variables that will be used to answer this research question and briefly describe their role in the analysis.\n\n\n\nVariable Name\nRole in Analysis\n\n\n\n\nrestaurant\nGrouping variable used to compare restaurants\n\n\ncalories\nNumerical variable used to measure calorie content\n\n\n\n\n\nPlanned Analysis\nTo answer this question, I will compare the average calorie content of menu items across restaurants. I will calculate summary statistics, including the mean and median calorie counts for each restaurant. I will also create a visualization that compares calorie distributions across restaurants. This analysis will help identify whether some restaurants tend to offer higher-calorie menu items than others.\n\n\nCode\n\n\nVisualization",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Analysis Notebook Setup</span>"
+    ]
+  },
+  {
+    "objectID": "example_apn.html#conclusions",
+    "href": "example_apn.html#conclusions",
+    "title": "Example Analysis Notebook Setup",
+    "section": "Conclusions",
+    "text": "Conclusions",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Analysis Notebook Setup</span>"
+    ]
+  },
+  {
+    "objectID": "example_apn.html#course-reflection",
+    "href": "example_apn.html#course-reflection",
+    "title": "Example Analysis Notebook Setup",
+    "section": "Course Reflection",
+    "text": "Course Reflection",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Example Analysis Notebook Setup</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Pruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023.\n“Fostering Better Coding Practices for Data Scientists.”\nHarvard Data Science Review 5 (3). https://doi.org/10.1162/99608f92.97c9f60f.\n\n\nRossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. “PEP 8 – Style Guide for Python Code.” https://peps.python.org/pep-0008/.\n\n\nWickham, Hadley. 2015. “The Tidyverse Style Guide.” https://style.tidyverse.org/.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>References</span>"
     ]
   }
 ]

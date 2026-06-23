@@ -1,0 +1,116 @@
+---
+title: "Data Analysis and Storytelling Project"
+author: "Your Name"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output: pdf_document
+---
+
+```{r Setup, include = FALSE}
+knitr::opts_chunk$set(tidy.opts = (list(width.cutoff = 60,
+                                        blank = TRUE)),
+                      echo = TRUE,
+                      error = TRUE)
+```
+
+[DELETE BEFORE SUBMITTING]
+
+For Milestone 3:
+
+- Replace all template prompts and instructions with your own work.
+- Complete the Introduction, Dataset Description, Research Questions, Variables Used, and Planned Analysis sections.
+- Leave the Code, Visualization, and Discussion sections empty.
+
+Before submitting the final project:
+
+- Remove all Planned Analysis sections.
+
+# Introduction
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+Write one or two paragraphs introducing your project. Explain the purpose of the analysis and provide a brief overview of the dataset you selected.
+
+# Dataset Description
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+Write one or two paragraphs describing your dataset and explaining why you selected it.
+
+Include:
+
+- Who or what the data was collected for
+- The purpose of the data collection
+- The unit of observation (what each row represents)
+- The total number of observations in the dataset
+- Any observations that have been removed (or will be removed) and why
+- The key variables relevant to your analysis
+
+## Variables Used
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+Replace the example table below with information about your dataset.
+
+| Variable Name | Data Type | Description |
+|---------------|-----------|-------------|
+| example_var | Numeric | Example description |
+
+# Research Question 1
+
+## Question
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+Write a research question that investigates a relationship between two or more variables.
+
+## Variables Used
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+List the variables that will be used to answer this research question and briefly describe their role in the analysis.
+
+| Variable Name | Role in Analysis |
+|---------------|------------------|
+|               |                  |
+
+## Planned Analysis (Milestone 3 Only — Remove Before Final Submission)
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+Describe how you plan to answer this question.
+
+Include:
+
+- The variables that will be used
+- The relationships or comparisons you plan to investigate
+- The visualizations you plan to create
+- How the analysis will help answer the question
+
+## Code
+
+```{r}
+```
+
+## Visualization
+
+```{r}
+```
+
+## Discussion
+
+**[COMPLETE IN MILESTONE 4]**
+
+# Conclusion
+
+**[COMPLETE IN MILESTONE 4]**
+
+**[DELETE THESE INSTRUCTIONS BEFORE SUBMITTING MILESTONE 3]**
+
+Summarize the main findings from your analysis.
+
+Consider:
+
+- What patterns, trends, or relationships were observed?
+- Which research questions were answered most clearly?
+- What limitations should be considered when interpreting the results?
+- What additional questions or analyses could be explored in the future?

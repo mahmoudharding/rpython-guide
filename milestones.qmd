@@ -189,30 +189,224 @@ In this milestone, you will develop research questions, create an analysis plan,
 
 ### Research Questions
 
+The Research Questions milestone is worth 15 points total. Points are awarded based on submission timeliness and the quality of the research questions.
+
 Detailed submission instructions are available in Moodle.
 
 #### Submission Timeliness
 
-#### Submission Compliance
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[T-ON]` | 0.0 | 5.0 | Submitted on time |
+| `[T-L1]` | 2.0 | 3.0 | Submitted 1 day late |
+| `[T-L2]` | 3.5 | 1.5 | Submitted 2 days late |
+| `[T-L3]` | 4.0 | 1.0 | Submitted more than 2 days late |
+| `[T-N]` | 5.0 | 0.0 | Not submitted |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+#### Research Questions
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C]` | 0.0 | 10.0 | Three clear, specific, and focused questions are provided. Each question involves two or more variables, avoids causal language, and includes a brief justification. |
+| `[e]` | 0.75 | 9.25 | The research questions are strong overall, with only minor issues related to wording, specificity, variable identification, or explanation. |
+| `[m]` | 2.0 | 8.0 | The research questions are generally appropriate, but one or more questions are unclear, insufficiently specific, weakly justified, or do not fully meet the stated requirements. |
+| `[M]` | 5.0 | 5.0 | Several research questions are unclear, weakly justified, overly broad, or written as yes/no questions. Significant revision is required. |
+| `[S]` | 8.0 | 2.0 | Most research questions do not meet the requirements or examine meaningful relationships between variables. |
+| `[X]` | 10.0 | 0.0 | Missing or required work is not present. |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
 
 #### Content Tags
+
+##### Research Question Completeness Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[RQ-NUM]` | Fewer than three research questions are provided. |
+| `[RQ-LIST]` | Variables are referenced but not specifically listed. |
+| `[RQ-VAR]` | One or more questions do not involve at least two variables. |
+| `[RQ-CREATE]` | Created variables are not clearly defined or explained. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Research Question Clarity & Specificity Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[RQ-CLR]` | One or more research questions are unclear or difficult to interpret. |
+| `[RQ-SPC]` | Questions are too broad, vague, or lack a clear analytical focus. |
+| `[RQ-YN]` | One or more questions can be answered with a simple yes or no. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Research Question Variable Selection & Relationship Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[RQ-VSEL]` | Variable choices are not well justified or are poorly matched to the questions. |
+| `[RQ-REL]` | Questions do not clearly explore relationships between variables. |
+| `[RQ-EDA]` | Questions are not well suited for exploratory data analysis. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Research Question Causality Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[RQ-CAUSE]` | Research questions use causal language or imply causal relationships. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+##### Research Question Submission & Formatting Issues
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[REQ-PDF]` | Submission was not entered in the text box or uploaded as a PDF. |
+| `[REQ-FMT]` | Formatting makes the submission difficult to read or interpret. |
+: {tbl-colwidths="[20,80]"}
+:::
 
 ### Analysis Notebook Setup
 
+The Analysis Notebook Setup is worth 15 points total. Points are awarded based on submission timeliness and completion of the notebook setup.
+
 Detailed submission instructions are available in Moodle.
+
+#### What to Include
+
+Your notebook should contain the following sections:
+
+- An introduction
+
+- A dataset description
+
+- Three research questions
+
+- Placeholders for code, visualizations, and discussion for each research question
+
+#### Example
+
+See: [Analysis Plan Notebook Setup Example]()
+
+The example includes:
+
+- A completed Introduction
+
+- A completed Dataset Description
+
+- One completed Research Question section
+
+Use the example to understand the expected level of detail and organization for your notebook.
+
+#### Notebook Structure
+
+The notebook template contains the following sections:
+
+- Introduction
+
+- Dataset Description
+
+- Research Question 1
+
+- Research Question 2
+
+- Research Question 3
+
+- Conclusions
+
+- Course Reflection
+
+For Milestone 3, complete the Introduction, Dataset Description, Research Questions, Variables Used, and Planned Analysis sections. Leave the Code, Visualization, Discussion, Conclusions, and Course Reflection sections empty.
 
 #### Submission Timeliness
 
-#### Submission Compliance
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[T-ON]` | 0.0 | 5.0 | Submitted on time |
+| `[T-L1]` | 2.0 | 3.0 | Submitted 1 day late |
+| `[T-L2]` | 3.5 | 1.5 | Submitted 2 days late |
+| `[T-L3]` | 4.0 | 1.0 | Submitted more than 2 days late |
+| `[T-N]` | 5.0 | 0.0 | Not submitted |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
+#### Analysis Notebook Setup
+
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C]` | 0.0 | 10.0 | All required sections are completed. Guiding text has been replaced with clear, original content, and no code is included. |
+| `[e]` | 0.75 | 9.25 | The notebook is complete overall, with only minor issues related to organization, clarity, or remaining guiding text. |
+| `[m]` | 2.0 | 8.0 | Most required sections are completed, but one or more sections are incomplete, unclear, or contain substantial guiding text. |
+| `[M]` | 5.0 | 5.0 | Several required sections are incomplete, unclear, or contain placeholder text. Significant revision is required. |
+| `[S]` | 8.0 | 2.0 | Many required sections are missing, unchanged from the template, or lack sufficient content to support the final project. |
+| `[X]` | 10.0 | 0.0 | Missing or required work is not present. |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
 
 #### Content Tags
+
+::: {.custom-table}
+| Tag | Explanation |
+|-----|-------------|
+| `[NB-GUIDE]` | Guiding or placeholder text was not removed from one or more sections. |
+| `[NB-MISS]` | One or more required sections are missing or empty. |
+| `[NB-CLR]` | Written responses are unclear, incomplete, or difficult to interpret. |
+| `[NB-CODE]` | Code was added despite instructions not to include code. |
+| `[NB-STRUCT]` | Required notebook sections were removed, renamed, or reorganized. |
+: {tbl-colwidths="[20,80]"}
+:::
 
 ## Milestone 4
 
-### Data Analysis & Storytelling (25 Points)
+In this milestone, you will complete your final project notebook using either R or Python. You will conduct your analysis, create visualizations, and communicate your findings by answering the research questions developed in the previous milestones.
+
+### Data Analysis & Storytelling
+
+The Data Analysis & Storytelling Notebook is worth 30 points total. Points are awarded based on submission timeliness and completion of the notebook.
+
+Detailed submission instructions are available in Moodle.
 
 #### Severity Scale for 3-Point Components
 
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C]` | 0.00 | 3.00 | The response correctly addresses the question and meets all requirements. |
+| `[e]` | 0.1875 | 2.8125 | The work is correct, with issues limited to presentation or precision. |
+| `[m]` | 0.375 | 2.625 | The core idea is correct, but some details are missing or unclear. |
+| `[M]` | 0.75 | 2.25 | A key element is missing or incorrect. |
+| `[MJ]` | 1.50 | 1.50 | The main idea or a required element is missing or incorrect. |
+| `[S]` | 2.25 | 0.75 | An attempt was made, but most elements are missing or incorrect. |
+| `[X]` | 3.00 | 0.00 | Missing or required work is not present. |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
 #### Severity Scale for 2-Point Components
 
+::: {.custom-table}
+| Severity Tag | Points Deducted | Points Earned | Explanation |
+|--------------|-----------------|---------------|-------------|
+| `[C]` | 0.00 | 2.00 | The response correctly addresses the question and meets all requirements. |
+| `[e]` | 0.125 | 1.875 | The work is correct, with issues limited to presentation or precision. |
+| `[m]` | 0.25 | 1.75 | The core idea is correct, but some details are missing or unclear. |
+| `[M]` | 0.50 | 1.50 | A key element is missing or incorrect. |
+| `[MJ]` | 1.00 | 1.00 | The main idea or a required element is missing or incorrect. |
+| `[S]` | 1.50 | 0.50 | An attempt was made, but most elements are missing or incorrect. |
+| `[X]` | 2.00 | 0.00 | Missing or required work is not present. |
+: {tbl-colwidths="[15,15,15,55]"}
+:::
+
 #### Content Tags
+
+The Data Analysis & Storytelling assignment follows the same tags as programming assignments. See Programming Assignments for details.
