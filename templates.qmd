@@ -362,7 +362,7 @@ List the variables that will be used to answer this research question and briefl
 # Add code for this analysis here.
 ```
 
-**Conclusions**
+**Interpretation of Findings**
 
 Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.
 
@@ -409,7 +409,7 @@ Describe a visualization that will help answer the research question and explain
 # Add code to create the visualization here.
 ```
 
-**Conclusions**
+**Interpretation of Findings**
 
 Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.
 
@@ -456,7 +456,7 @@ Describe a visualization that will help answer the research question and explain
 # Add code to create the visualization here.
 ```
 
-**Conclusions**
+**Interpretation of Findings**
 
 Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.
 
@@ -469,3 +469,10 @@ Provide a brief summary of the project, including the research questions investi
 Reflect on what you learned during the project. Discuss any challenges you encountered, skills you developed, and insights you gained from working with data.
 
 ## Milestone 4: Data Analysis and Storytelling
+
+- Removing the placeholder text from the **Planned Analysis ** and  **Visualization ** sections.
+- Adding code that implements the analyses described in your analysis plan.
+- Adding code to create the visualizations identified in your analysis plan.
+- Writing commentary to each  **Interpretation of Findings** section that interprets and communicates the findings from your analysis output and visualizations.
+- Completing the  **Summary ** section.
+- Completing the  **Course Reflection ** section.
