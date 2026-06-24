@@ -271,7 +271,18 @@ You can strengthen a research question by examining how a relationship differs a
 
 ### Analysis Plan Notebook Setup
 
+::: {.callout-note}
+Download the template needed for this project:
+
+- [Analysis Plan Notebook Template (Jupyter Notebook)]()
+- [Analysis Plan Notebook Template (RMarkdwn)]()
+
+Create your own copy of each template and complete it before submitting.
+:::
+
 **Introduction**
+
+Write a brief introduction describing the purpose of your project and the topic you plan to investigate.
 
 **Example**
 
@@ -279,11 +290,15 @@ You can strengthen a research question by examining how a relationship differs a
 
 **Dataset Description**
 
+Describe your dataset, including its purpose, unit of observation, size, and source.
+
 **Example**
 
 > This dataset contains nutritional information for menu items offered by several restaurant chains. The data was collected to provide consumers with information about the nutritional content of restaurant meals. <br><br> Each row in the dataset represents a single menu item. The dataset contains 9,569 observations. No observations have been removed at this stage of the analysis. <br><br> The variables most relevant to this project include the restaurant name, menu category, and calorie count. These variables will be used to investigate differences in nutritional content across restaurants and menu item types. <br><br> **Source:** MenuStat REseteraunt Nutrition Database.<br> **Link:** <https://www.menustat.org/uploads/1/4/1/6/141624194/ms_annual_data_2022.xls> 
 
 **Variables**
+
+List and describe the variables in your dataset. For each variable, provide its name, type (categorical or numerical), and a brief description of what it represents.
 
 **Example**
 
@@ -344,15 +359,113 @@ List the variables that will be used to answer this research question and briefl
 **Code**
 
 ```{r}
-```
-
-**Visualization**
-
-```{r}
+# Add code for this analysis here.
 ```
 
 **Conclusions**
 
+Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.
+
+**Research Question 2**
+
+**Question**
+
+> What is the relationship between serving size and calorie content, and how does this relationship differ across food categories?
+
+**Variables Used**
+
+List the variables that will be used to answer this research question and briefly describe their role in the analysis.
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Role in Analysis |
+| ---- | ---------------- |
+| `serving_size` | Serving size amount |
+| `calories` | Numerical variable used to measure calorie content |
+| `food_category` | Category of food or beverage item | 
+: {tbl-colwidths="[25,75]"}
+:::
+
+**Planned Analysis**
+
+**Example**
+
+> To answer this question, I will examine the relationship between serving size and calorie content for menu items in the dataset. I will create summary statistics for serving size and calories and investigate whether larger menu items tend to contain more calories. I will then compare this relationship across food categories to determine whether the association between serving size and calorie content differs among different types of menu items.
+
+**Code**
+
+```{r}
+# Add code for this analysis here.
+```
+
+**Visualization**
+
+Describe a visualization that will help answer the research question and explain why it is appropriate.
+
+> I will create a scatterplot with serving size on the x-axis and calorie content on the y-axis. Menu items will be colored by food category to make it easier to compare patterns across categories. This visualization will help identify whether larger serving sizes are associated with higher calorie counts and whether this relationship varies among food categories.
+
+```{r}
+# Add code to create the visualization here.
+```
+
+**Conclusions**
+
+Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.
+
+**Research Question 3**
+
+**Question**
+
+> How does the relationship between calories and sodium content differ across restaurant chains?
+
+**Variables Used**
+
+List the variables that will be used to answer this research question and briefly describe their role in the analysis.
+
+**Example**
+
+> ::: {.custom-table}
+| Name | Role in Analysis |
+| ---- | ---------------- |
+| `restaurant` | Grouping variable used to compare restaurants |
+| `sodium` | Sodium (mg) |
+| `calories` | Numerical variable used to measure calorie content |
+: {tbl-colwidths="[25,75]"}
+:::
+
+**Planned Analysis**
+
+**Example**
+
+> To answer this question, I will examine the relationship between calorie content and sodium content for menu items in the dataset. I will calculate summary statistics for both variables and investigate whether menu items with higher calorie counts also tend to contain more sodium. To compare restaurants, I will focus on the restaurant chains with the largest number of menu items and determine whether the relationship between calories and sodium differs among these restaurants.
+
+**Code**
+
+```{r}
+# Add code for this analysis here.
+```
+
+**Visualization**
+
+Describe a visualization that will help answer the research question and explain why it is appropriate.
+
+> I will create a scatterplot with calorie content on the x-axis and sodium content on the y-axis. Points will represent menu items from the restaurant chains with the largest number of menu items in the dataset, with each restaurant displayed using a different color. This visualization will help identify the overall relationship between calories and sodium content and allow comparisons of this relationship across major restaurant chains.
+
+```{r}
+# Add code to create the visualization here.
+```
+
+**Conclusions**
+
+Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.
+
+**Summary**
+
+Provide a brief summary of the project, including the research questions investigated and the key findings from your analysis.
+
 **Course Reflection**
+
+Reflect on what you learned during the project. Discuss any challenges you encountered, skills you developed, and insights you gained from working with data.
 
 ## Milestone 4: Data Analysis and Storytelling

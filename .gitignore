@@ -5,3 +5,5 @@
 /.quarto/
 updated_*
 old_*
+
+**/*.quarto_ipynb
