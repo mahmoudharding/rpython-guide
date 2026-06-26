@@ -32,12 +32,13 @@ Detailed submission instructions are available in Moodle.
 
 ::: {.custom-table}
 | Severity Tag | Points Deducted | Points Earned | Explanation |
-|--------------|-----------------|---------------|-------------|
+|--------------|----------------:|--------------:|-------------|
 | `[C]` | 0.0 | 10.0 | The dataset meets all requirements and all required submission elements are present. **Dataset approved.** |
 | `[e]` | 0.75 | 9.25 | One or more minor issues must be addressed before the dataset can be approved. **Dataset not yet approved.** |
 | `[m]` | 2.0 | 8.0 | Some requirements are unmet, unclear, or insufficiently documented. Revision is required before the dataset can be approved. **Dataset not yet approved.** |
-| `[M]` | 5.0 | 5.0 | Several requirements are unmet or unclear. Significant revision or selection of an alternate dataset may be required. **Dataset not yet approved.** |
-| `[S]` | 8.0 | 2.0 | Many requirements are unmet or violated. The dataset is not viable in its current form and should be replaced. **Dataset not yet approved.** |
+| `[M]` | 5.0 | 5.0 | Several requirements are unmet or unclear. Significant revision is required before the dataset can be approved. **Dataset not yet approved.** |
+| `[MJ]` | 7.0 | 3.0 | Multiple major requirements are unmet, or the dataset has fundamental problems that make it unsuitable without substantial revision or replacement. **Dataset not yet approved.** |
+| `[S]` | 8.0 | 2.0 | Most requirements are unmet or violated. The dataset is not viable in its current form and should be replaced. **Dataset not yet approved.** |
 | `[X]` | 10.0 | 0.0 | Missing or required work is not present. **Dataset not yet approved.** |
 : {tbl-colwidths="[15,15,15,55]"}
 :::
@@ -115,12 +116,13 @@ Detailed submission instructions are available in Moodle.
 
 ::: {.custom-table}
 | Severity Tag | Points Deducted | Points Earned | Explanation |
-|--------------|-----------------|---------------|-------------|
+|--------------|----------------:|--------------:|-------------|
 | `[C]` | 0.0 | 10.0 | The datasheet fully meets all requirements, addresses all specified criteria, and is well organized and clearly written. |
 | `[e]` | 0.75 | 9.25 | The datasheet is complete and clear, with only minor issues related to presentation, organization, or precision. |
 | `[m]` | 2.0 | 8.0 | The datasheet is generally complete and understandable, but some information is missing, unclear, or insufficiently documented. |
-| `[M]` | 5.0 | 5.0 | Several required elements are missing, incomplete, or unclear. Meaningful revision is required. |
-| `[S]` | 8.0 | 2.0 | Many required elements are missing or unclear; the datasheet does not meaningfully document the dataset. |
+| `[M]` | 5.0 | 5.0 | Several required elements are missing, incomplete, or unclear. Significant revision is required. |
+| `[MJ]` | 7.0 | 3.0 | Multiple major required elements are missing or insufficiently documented. The datasheet does not adequately describe the dataset and requires substantial revision. |
+| `[S]` | 8.0 | 2.0 | Most required elements are missing or unclear. The datasheet does not meaningfully document the dataset. |
 | `[X]` | 10.0 | 0.0 | Missing or required work is not present. |
 : {tbl-colwidths="[15,15,15,55]"}
 :::
@@ -183,6 +185,8 @@ In these milestones, you will use R and Python to explore your dataset, identify
 
 See [Programming Assignments](grading-rubric.html#programming-assignments) for grading criteria.
 
+Detailed submission instructions are available in Moodle.
+
 ## Milestone 3
 
 In this milestone, you will develop research questions, create an analysis plan, and set up the notebook that will serve as the foundation for your final project analysis. 
@@ -210,13 +214,14 @@ Detailed submission instructions are available in Moodle.
 
 ::: {.custom-table}
 | Severity Tag | Points Deducted | Points Earned | Explanation |
-|--------------|-----------------|---------------|-------------|
-| `[C]` | 0.0 | 10.0 | Three clear, specific, and focused questions are provided. Each question involves two or more variables, avoids causal language, and includes a brief justification. |
-| `[e]` | 0.75 | 9.25 | The research questions are strong overall, with only minor issues related to wording, specificity, variable identification, or explanation. |
-| `[m]` | 2.0 | 8.0 | The research questions are generally appropriate, but one or more questions are unclear, insufficiently specific, weakly justified, or do not fully meet the stated requirements. |
-| `[M]` | 5.0 | 5.0 | Several research questions are unclear, weakly justified, overly broad, or written as yes/no questions. Significant revision is required. |
-| `[S]` | 8.0 | 2.0 | Most research questions do not meet the requirements or examine meaningful relationships between variables. |
-| `[X]` | 10.0 | 0.0 | Missing or required work is not present. |
+|--------------|----------------:|--------------:|-------------|
+| `[C]` | 0.0 | 3.0 | The research question fully meets the stated requirements. It is clear, specific, investigable, involves two or more variables, avoids causal language, and includes a meaningful justification. |
+| `[e]` | 0.1875 | 2.8125 | The research question meets the stated requirements, with only minor issues related to wording, specificity, variable identification, or justification. |
+| `[m]` | 0.375 | 2.625 | The research question is generally appropriate, but one aspect could be improved (e.g., clarity, specificity, variable identification, or justification). |
+| `[M]` | 0.75 | 2.25 | A key element of the research question is missing or substantially weak, requiring significant revision. |
+| `[MJ]` | 1.5 | 1.5 | Multiple required elements are missing or substantially weak, requiring major revision before the question can support a meaningful investigation. |
+| `[S]` | 2.25 | 0.75 | The research question does not meet most of the stated requirements and is not suitable for a meaningful data investigation without substantial revision. |
+| `[X]` | 3.0 | 0.0 | Missing or required work is not present. |
 : {tbl-colwidths="[15,15,15,55]"}
 :::
 
@@ -281,52 +286,6 @@ The Analysis Notebook Setup is worth 15 points total. Points are awarded based o
 
 Detailed submission instructions are available in Moodle.
 
-#### What to Include
-
-Your notebook should contain the following sections:
-
-- An introduction
-
-- A dataset description
-
-- Three research questions
-
-- Placeholders for code, visualizations, and discussion for each research question
-
-#### Example
-
-See: [Analysis Plan Notebook Setup Example]()
-
-The example includes:
-
-- A completed Introduction
-
-- A completed Dataset Description
-
-- One completed Research Question section
-
-Use the example to understand the expected level of detail and organization for your notebook.
-
-#### Notebook Structure
-
-The notebook template contains the following sections:
-
-- Introduction
-
-- Dataset Description
-
-- Research Question 1
-
-- Research Question 2
-
-- Research Question 3
-
-- Conclusions
-
-- Course Reflection
-
-For Milestone 3, complete the Introduction, Dataset Description, Research Questions, Variables Used, and Planned Analysis sections. Leave the Code, Visualization, Discussion, Conclusions, and Course Reflection sections empty.
-
 #### Submission Timeliness
 
 ::: {.custom-table}
@@ -345,12 +304,13 @@ For Milestone 3, complete the Introduction, Dataset Description, Research Questi
 ::: {.custom-table}
 | Severity Tag | Points Deducted | Points Earned | Explanation |
 |--------------|-----------------|---------------|-------------|
-| `[C]` | 0.0 | 10.0 | All required sections are completed. Guiding text has been replaced with clear, original content, and no code is included. |
-| `[e]` | 0.75 | 9.25 | The notebook is complete overall, with only minor issues related to organization, clarity, or remaining guiding text. |
-| `[m]` | 2.0 | 8.0 | Most required sections are completed, but one or more sections are incomplete, unclear, or contain substantial guiding text. |
-| `[M]` | 5.0 | 5.0 | Several required sections are incomplete, unclear, or contain placeholder text. Significant revision is required. |
-| `[S]` | 8.0 | 2.0 | Many required sections are missing, unchanged from the template, or lack sufficient content to support the final project. |
-| `[X]` | 10.0 | 0.0 | Missing or required work is not present. |
+| `[C]` | 0.0 | 2.0 | The response correctly addresses the question and meets all requirements. |
+| `[e]` | 0.125 | 1.875 | The work is correct, with issues limited to presentation or precision. |
+| `[m]` | 0.25 | 1.75 | The core idea is correct, but some details are missing or unclear. |
+| `[M]` | 0.5 | 1.5 | A key element is missing or incorrect. |
+| `[MJ]` | 1.0 | 1.0 | The main idea or a required element is missing or incorrect. |
+| `[S]` | 1.5 | 0.5 | An attempt was made, but most elements are missing or incorrect. |
+| `[X]` | 2.0 | 0.0 | Missing or required work is not present. |
 : {tbl-colwidths="[15,15,15,55]"}
 :::
 

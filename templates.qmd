@@ -216,6 +216,10 @@ For each variable, provide the following:
 
 ### Developing Research Questions
 
+::: {.callout-note}
+A copy of this template can be found [here](https://docs.google.com/document/d/1-R2ZNy_uzcWJyzzptzo_EefJbUd91Cr3PECABm1RNVc/edit?tab=t.0). Create your own copy and complete it before submitting.
+:::
+
 The purpose of this guide is to help you develop effective research questions for your final project. Strong research questions focus your exploratory data analysis and help identify patterns, trends, and relationships worth investigating.
 
 #### What to Include in Your Submission
@@ -272,12 +276,11 @@ You can strengthen a research question by examining how a relationship differs a
 ### Analysis Plan Notebook Setup
 
 ::: {.callout-note}
-Download the template needed for this project:
+
+Download the template needed to complete this project milestone:
 
 - [Analysis Plan Notebook Template (Jupyter Notebook)]()
 - [Analysis Plan Notebook Template (RMarkdwn)]()
-
-Create your own copy of each template and complete it before submitting.
 :::
 
 **Introduction**
