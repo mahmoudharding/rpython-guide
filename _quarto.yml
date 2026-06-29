@@ -17,7 +17,6 @@ book:
     - milestones.qmd
     - coding_style.qmd
     - templates.qmd
-    - example_apn.qmd
     - references.qmd
 
 bibliography: references.bib

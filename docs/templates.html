@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -31,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./example_apn.html" rel="next">
+<link href="./references.html" rel="next">
 <link href="./coding_style.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -156,11 +190,6 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./templates.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Milestone Templates</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./example_apn.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Example Analysis Notebook Setup</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -705,6 +734,19 @@ Note
 <h2 class="anchored" data-anchor-id="milestone-3-analysis-plan">Milestone 3: Analysis Plan</h2>
 <section id="developing-research-questions" class="level3">
 <h3 class="anchored" data-anchor-id="developing-research-questions">Developing Research Questions</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A copy of this template can be found <a href="https://docs.google.com/document/d/1-R2ZNy_uzcWJyzzptzo_EefJbUd91Cr3PECABm1RNVc/edit?tab=t.0">here</a>. Create your own copy and complete it before submitting.</p>
+</div>
+</div>
 <p>The purpose of this guide is to help you develop effective research questions for your final project. Strong research questions focus your exploratory data analysis and help identify patterns, trends, and relationships worth investigating.</p>
 <section id="what-to-include-in-your-submission" class="level4">
 <h4 class="anchored" data-anchor-id="what-to-include-in-your-submission">What to Include in Your Submission</h4>
@@ -783,16 +825,19 @@ Note
 </div>
 </div>
 <p><strong>Introduction</strong></p>
+<p>Write a brief introduction describing the purpose of your project and the topic you plan to investigate.</p>
 <p><strong>Example</strong></p>
 <blockquote class="blockquote">
 <p>This project explores trends in restaurant menu items using nutritional information collected from several national restaurant chains. The goal of the analysis is to identify patterns in menu item calories and investigate how calorie counts vary across different restaurants and menu categories. Understanding these patterns may provide insight into differences in restaurant offerings and nutritional content.</p>
 </blockquote>
 <p><strong>Dataset Description</strong></p>
+<p>Describe your dataset, including its purpose, unit of observation, size, and source.</p>
 <p><strong>Example</strong></p>
 <blockquote class="blockquote">
 <p>This dataset contains nutritional information for menu items offered by several restaurant chains. The data was collected to provide consumers with information about the nutritional content of restaurant meals. <br><br> Each row in the dataset represents a single menu item. The dataset contains 9,569 observations. No observations have been removed at this stage of the analysis. <br><br> The variables most relevant to this project include the restaurant name, menu category, and calorie count. These variables will be used to investigate differences in nutritional content across restaurants and menu item types. <br><br> <strong>Source:</strong> MenuStat REseteraunt Nutrition Database.<br> <strong>Link:</strong> <a href="https://www.menustat.org/uploads/1/4/1/6/141624194/ms_annual_data_2022.xls" class="uri">https://www.menustat.org/uploads/1/4/1/6/141624194/ms_annual_data_2022.xls</a></p>
 </blockquote>
 <p><strong>Variables</strong></p>
+<p>List and describe the variables in your dataset. For each variable, provide its name, type (categorical or numerical), and a brief description of what it represents.</p>
 <p><strong>Example</strong></p>
 <blockquote class="blockquote">
 <div class="custom-table">
@@ -964,13 +1009,141 @@ Note
 <p>To answer this question, I will compare the average calorie content of menu items across restaurants. I will calculate summary statistics, including the mean and median calorie counts for each restaurant. This analysis will help identify whether some restaurants tend to offer higher-calorie menu items than others.</p>
 </blockquote>
 <p><strong>Code</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add code for this analysis here.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Interpretation of Findings</strong></p>
+<p>Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.</p>
+<p><strong>Research Question 2</strong></p>
+<p><strong>Question</strong></p>
+<blockquote class="blockquote">
+<p>What is the relationship between serving size and calorie content, and how does this relationship differ across food categories?</p>
+</blockquote>
+<p><strong>Variables Used</strong></p>
+<p>List the variables that will be used to answer this research question and briefly describe their role in the analysis.</p>
+<p><strong>Example</strong></p>
+<blockquote class="blockquote">
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Role in Analysis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>serving_size</code></td>
+<td>Serving size amount</td>
+</tr>
+<tr class="even">
+<td><code>calories</code></td>
+<td>Numerical variable used to measure calorie content</td>
+</tr>
+<tr class="odd">
+<td><code>food_category</code></td>
+<td>Category of food or beverage item</td>
+</tr>
+</tbody>
+</table>
+</div>
+</blockquote>
+<p><strong>Planned Analysis</strong></p>
+<p><strong>Example</strong></p>
+<blockquote class="blockquote">
+<p>To answer this question, I will examine the relationship between serving size and calorie content for menu items in the dataset. I will create summary statistics for serving size and calories and investigate whether larger menu items tend to contain more calories. I will then compare this relationship across food categories to determine whether the association between serving size and calorie content differs among different types of menu items.</p>
+</blockquote>
+<p><strong>Code</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add code for this analysis here.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p><strong>Visualization</strong></p>
-<p><strong>Conclusions</strong></p>
+<p>Describe a visualization that will help answer the research question and explain why it is appropriate.</p>
+<blockquote class="blockquote">
+<p>I will create a scatterplot with serving size on the x-axis and calorie content on the y-axis. Menu items will be colored by food category to make it easier to compare patterns across categories. This visualization will help identify whether larger serving sizes are associated with higher calorie counts and whether this relationship varies among food categories.</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add code to create the visualization here.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Interpretation of Findings</strong></p>
+<p>Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.</p>
+<p><strong>Research Question 3</strong></p>
+<p><strong>Question</strong></p>
+<blockquote class="blockquote">
+<p>How does the relationship between calories and sodium content differ across restaurant chains?</p>
+</blockquote>
+<p><strong>Variables Used</strong></p>
+<p>List the variables that will be used to answer this research question and briefly describe their role in the analysis.</p>
+<p><strong>Example</strong></p>
+<blockquote class="blockquote">
+<div class="custom-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Role in Analysis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>restaurant</code></td>
+<td>Grouping variable used to compare restaurants</td>
+</tr>
+<tr class="even">
+<td><code>sodium</code></td>
+<td>Sodium (mg)</td>
+</tr>
+<tr class="odd">
+<td><code>calories</code></td>
+<td>Numerical variable used to measure calorie content</td>
+</tr>
+</tbody>
+</table>
+</div>
+</blockquote>
+<p><strong>Planned Analysis</strong></p>
+<p><strong>Example</strong></p>
+<blockquote class="blockquote">
+<p>To answer this question, I will examine the relationship between calorie content and sodium content for menu items in the dataset. I will calculate summary statistics for both variables and investigate whether menu items with higher calorie counts also tend to contain more sodium. To compare restaurants, I will focus on the restaurant chains with the largest number of menu items and determine whether the relationship between calories and sodium differs among these restaurants.</p>
+</blockquote>
+<p><strong>Code</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add code for this analysis here.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Visualization</strong></p>
+<p>Describe a visualization that will help answer the research question and explain why it is appropriate.</p>
+<blockquote class="blockquote">
+<p>I will create a scatterplot with calorie content on the x-axis and sodium content on the y-axis. Points will represent menu items from the restaurant chains with the largest number of menu items in the dataset, with each restaurant displayed using a different color. This visualization will help identify the overall relationship between calories and sodium content and allow comparisons of this relationship across major restaurant chains.</p>
+</blockquote>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Add code to create the visualization here.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>Interpretation of Findings</strong></p>
+<p>Summarize the main findings related to the research question. Discuss any patterns, relationships, or unexpected results observed in the analysis.</p>
+<p><strong>Summary</strong></p>
+<p>Provide a brief summary of the project, including the research questions investigated and the key findings from your analysis.</p>
 <p><strong>Course Reflection</strong></p>
+<p>Reflect on what you learned during the project. Discuss any challenges you encountered, skills you developed, and insights you gained from working with data.</p>
 </section>
 </section>
 <section id="milestone-4-data-analysis-and-storytelling" class="level2">
 <h2 class="anchored" data-anchor-id="milestone-4-data-analysis-and-storytelling">Milestone 4: Data Analysis and Storytelling</h2>
+<ul>
+<li>Removing the placeholder text from the <strong>Planned Analysis </strong> and <strong>Visualization </strong> sections.</li>
+<li>Adding code that implements the analyses described in your analysis plan.</li>
+<li>Adding code to create the visualizations identified in your analysis plan.</li>
+<li>Writing commentary to each <strong>Interpretation of Findings</strong> section that interprets and communicates the findings from your analysis output and visualizations.</li>
+<li>Completing the <strong>Summary </strong> section.</li>
+<li>Completing the <strong>Course Reflection </strong> section.</li>
+</ul>
 
 
 </section>
@@ -1400,8 +1573,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./example_apn.html" class="pagination-link" aria-label="Example Analysis Notebook Setup">
-        <span class="nav-page-text"><span class="chapter-title">Example Analysis Notebook Setup</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text"><span class="chapter-title">References</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
