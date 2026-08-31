@@ -93,11 +93,11 @@ Programming assignments include code-based questions and may also include writte
 ::: {.custom-table}
 | Tag | Explanation |
 |-----|-------------|
-| `[CODE-ERR]` | Code produces a syntax or runtime error and does not execute successfully. |
+| `[CODE-ERR]` | Code produces a syntax or runtime error. |
 | `[CODE-PH]` | Placeholder or instructional comment was not removed (e.g., `# YOUR CODE GOES HERE`). |
 | `[CODE-FMT]` | Comments and/or code run off the page or are not formatted for readability. |
 | `[CODE-STYLE]` | Code works but does not follow required style or structure. |
-| `[CODE-OUT]` | Entire datasets or unnecessary output are displayed when only summary output was needed. |
+| `[CODE-OUT]` | [CODE-OUT] Output does not match the expected output or includes unnecessary output (e.g., incorrect visualization, entire datasets). |
 | `[CODE-MISS]` | Required output is missing, hidden, truncated, or difficult to read. |
 | `[CODE-REQ]` | Required code, computation, or logic is missing. |
 | `[CODE-RESULT]` | Code runs without errors, but the output does not answer the question or support the analysis. |
@@ -110,7 +110,7 @@ Programming assignments include code-based questions and may also include writte
 ::: {.custom-table}
 | Tag | Explanation |
 |-----|-------------|
-| `[VIS-CLAR]` | Visualization is cluttered, overcrowded, or difficult to interpret visually. |
+| `[VIS-CLAR]` | Visualization is cluttered, difficult to read, or uses design choices that reduce clarity or ease of interpretation (e.g., marker size, color, or separation). |
 | `[VIS-HIST]` | Histogram construction misrepresents continuous data. |
 | `[VIS-CHOICE]` | The visualization type is not appropriate for the structure or type of data being displayed (e.g., using a scatterplot or box plot for discrete categorical data, or using a bar chart for continuous numerical data). |
 | `[VIS-LAB]` | The visualization is not labeled clearly or appropriately (e.g., axis labels, titles). |

@@ -31,7 +31,7 @@ Activity assignments are worth 5 points total. Points are awarded based on submi
 | Severity Tag | Points Deducted | Points Earned | Explanation |
 |--------------|-----------------|---------------|-------------|
 | `[C-M]` | 0.0 | 4.0 | Submission requirements met |
-| `[C-C]` | 0.5 | 3.5 | Required component missing |
+| `[C-C]` | 1.0 | 3.0 | Required component missing |
 | `[C-S]` | 2.0 | 2.0 | Required section missing |
 | `[C-F]` | 3.0 | 1.0 | Incorrect submission format |
 | `[C-N]` | 4.0 | 0.0 | Not submitted |
