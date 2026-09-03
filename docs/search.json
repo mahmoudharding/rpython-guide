@@ -224,7 +224,7 @@
     "href": "coding_style.html",
     "title": "Programming Style Guide",
     "section": "",
-    "text": "Purpose\nThe purpose for this guide is to help you write clear, readable, and professional code from the start. It draws on recommendations from Pruim, Gı̂rjău, and Horton (2023), Rossum, Warsaw, and Coghlan (2001), and Wickham (2015).",
+    "text": "Purpose\nThe purpose for this guide is to help you write clear, readable, and professional code from the start. It draws on recommendations from Pruim et al. (2023), Rossum et al. (2001), and Wickham (2015).",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programming Style Guide</span>"
     ]
@@ -254,7 +254,7 @@
     "href": "coding_style.html#r-specific-style",
     "title": "Programming Style Guide",
     "section": "R-Specific Style",
-    "text": "R-Specific Style\n\nUse the Pipe |&gt;\ndata |&gt;\n  filter(score &gt; 80) |&gt;\n  summarise(avg = mean(score))\n\n\nFormat pipes with whitespace\n\nPipes go at end of line\nIndent by 2 spaces\nShort pipes go one a single line iris |&gt; summary()\n\n\n\nFormat ggplot2 code\nggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) +\n  geom_point() +\n  labs(\n    x = \"Sepal width (cm)\",\n    y = \"Sepal length (cm)\",\n    title = \"Sepal Dimensions by Species\"\n  )\n\n\nUse &lt;- for assignment\nx &lt;- 10\n\n\nFormatting if statements\nscore &lt;- 10 \nif (score &gt; 15) {\n  print(\"High\")\n} else if (score &lt; 15) {\n  print(\"Medium\")\n} else { \n  print(\"Low\")\n}\n\n\n\n\nPruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023. “Fostering Better Coding Practices for Data Scientists.” Harvard Data Science Review 5 (3). https://doi.org/10.1162/99608f92.97c9f60f.\n\n\nRossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. “PEP 8 – Style Guide for Python Code.” https://peps.python.org/pep-0008/.\n\n\nWickham, Hadley. 2015. “The Tidyverse Style Guide.” https://style.tidyverse.org/.",
+    "text": "R-Specific Style\n\nUse the Pipe |&gt;\ndata |&gt;\n  filter(score &gt; 80) |&gt;\n  summarise(avg = mean(score))\n\n\nFormat pipes with whitespace\n\nPipes go at end of line\nIndent by 2 spaces\nShort pipes go one a single line iris |&gt; summary()\n\n\n\nFormat ggplot2 code\nggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) +\n  geom_point() +\n  labs(\n    x = \"Sepal width (cm)\",\n    y = \"Sepal length (cm)\",\n    title = \"Sepal Dimensions by Species\"\n  )\n\n\nUse &lt;- for assignment\nx &lt;- 10\n\n\nFormatting if statements\nscore &lt;- 10 \nif (score &gt; 15) {\n  print(\"High\")\n} else if (score &lt; 15) {\n  print(\"Medium\")\n} else { \n  print(\"Low\")\n}\n\n\n\n\nPruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023. “Fostering Better Coding Practices for Data Scientists.” Harvard Data Science Review 5 (3). https://doi.org/10.1162/99608f92.97c9f60f.\n\n\nRossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. PEP 8 – Style Guide for Python Code. https://peps.python.org/pep-0008/.\n\n\nWickham, Hadley. 2015. The Tidyverse Style Guide. https://style.tidyverse.org/.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Programming Style Guide</span>"
     ]
@@ -314,7 +314,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Pruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023.\n“Fostering Better Coding Practices for Data Scientists.”\nHarvard Data Science Review 5 (3). https://doi.org/10.1162/99608f92.97c9f60f.\n\n\nRossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. “PEP 8 – Style Guide for Python Code.” https://peps.python.org/pep-0008/.\n\n\nWickham, Hadley. 2015. “The Tidyverse Style Guide.” https://style.tidyverse.org/.",
+    "text": "Pruim, Randall, Maria-Cristiana Gı̂rjău, and Nicholas J. Horton. 2023.\n“Fostering Better Coding Practices for Data Scientists.”\nHarvard Data Science Review 5 (3). https://doi.org/10.1162/99608f92.97c9f60f.\n\n\nRossum, Guido van, Barry Warsaw, and Alyssa Coghlan. 2001. PEP 8 – Style Guide for Python Code. https://peps.python.org/pep-0008/.\n\n\nWickham, Hadley. 2015. The Tidyverse Style Guide. https://style.tidyverse.org/.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>References</span>"
     ]
